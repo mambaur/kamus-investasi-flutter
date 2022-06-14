@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "alphabet": "A",
+            "title": "OJK",
+            "full_title": "Otoritas Jasa Keuangan",
+            "desctiption": "Lorem ipsum dolor sir amet",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        }
+    ]
+}
