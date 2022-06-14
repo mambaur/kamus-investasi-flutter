@@ -1,11 +1,135 @@
 {
     "data": [
         {
-            "id": 1,
             "alphabet": "A",
-            "title": "OJK",
-            "full_title": "Otoritas Jasa Keuangan",
-            "desctiption": "Lorem ipsum dolor sir amet",
+            "title": "Afiliasi",
+            "full_title": null,
+            "description": "Organisasi bisnis yang memiliki sejumlah aspek kepemilikan atau kontrol bersama dengan organisasi bisnis lain.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "A",
+            "title": "AUM",
+            "full_title": "Assets Under Management",
+            "description": "AUM adalah singkatan dari Assets Under Management atau dalam bahasa Indonesia dikenal dengan istilah dana kelolaan. AUM mengacu pada jumlah dana yang dikelola oleh perusahaan Manager Investasi (MI).",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bursa Efek",
+            "full_title": null,
+            "description": "Bursa Efek adalah saat ini dijalankan oleh Bursa Efek Indonesia, merupakan pihak yang menyelenggarakan dan menyediakan sistem atau sarana untuk mempertemukan penawaran jual dan beli efek antar pihak untuk tujuan memperdagangkan efek diantara pihak tersebut. Yang dapat menyelenggarakan kegiatan usaha sebagai bursa efek adalah perseroan yang telah memperoleh izin usaha dari Bapepam LK.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bank Kustodian",
+            "full_title": null,
+            "description": "Bank Kustodian adalah pihak yang memberikan jasa penitipan efek dan harta lain yang berkaitan dengan efek, termasuk reksa dana. Dalam transaksi reksa dana, ketika nasabah atau investor melakukan pembelian, maka uang yang dibayarkan akan masuk ke dalam rekening atas nama reksa dana di bank kustodian, bukan ke rekening manajer investasi.\n\nManajer investasi tidak mempunyai akses langsung ke dana investor, karena uang tersebut tersimpan di bank kustodian. Ketika investor melakukan penjualan, bank kustodian pula yang melakukan transfer dana kepada investor, bukan dari manajer investasi. Dengan adanya peran dari bank kustodian ini, maka investasi dalam bentuk reksa dana menjadi lebih aman dan nyaman serta berpihak pada kepentingan investor.\n\nKegiatan Bank Kustodian dapat dilakukan oleh lembaga penyimpanan dan penyelesaian, perusahaan efek, atau bank umum yang telah mendapat persetujuan dari Otoritas Jasa Keuangan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Compound Interest",
+            "full_title": null,
+            "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Compound Interest",
+            "full_title": null,
+            "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Compound Interest",
+            "full_title": null,
+            "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Compound Interest",
+            "full_title": null,
+            "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Compound Interest",
+            "full_title": null,
+            "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Compound Interest",
+            "full_title": null,
+            "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Compound Interest",
+            "full_title": null,
+            "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },{
+            "alphabet": "C",
+            "title": "Compound Interest",
+            "full_title": null,
+            "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Compound Interest",
+            "full_title": null,
+            "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Compound Interest",
+            "full_title": null,
+            "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Compound Interest",
+            "full_title": null,
+            "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
             "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"

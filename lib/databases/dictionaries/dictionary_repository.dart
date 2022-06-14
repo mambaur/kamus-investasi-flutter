@@ -6,14 +6,16 @@ class DictionaryRepository {
   // reference to our single class that manages the database
   final dbInstance = DatabaseInstance();
 
-  Future<List<DictionaryModel>> all({int? limit, int? page}) async {
-    // Setup pagination
-    limit ??= 10;
-    int offset = (limit * (page ?? 1)) - limit;
+  Future<int> insert(Map<String, dynamic> row) async {
+    Database db = await dbInstance.database;
+    return await db.insert(dbInstance.dictionaryTable, row);
+  }
 
+  Future<List<DictionaryModel>> getDictionaryAlphabets(
+      {String? alphabet, String? q}) async {
     Database db = await dbInstance.database;
     final data = await db.rawQuery(
-        'SELECT * FROM ${dbInstance.dictionaryTable} ORDER BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} DESC LIMIT $limit OFFSET $offset',
+        'SELECT ${dbInstance.dictionaryTable}.* FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryAlphabet}="$alphabet" AND ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} LIKE "%$q%"',
         []);
 
     List<DictionaryModel> listDictionaries = [];
@@ -34,5 +36,47 @@ class DictionaryRepository {
     }
 
     return listDictionaries;
+  }
+
+  Future<List<DictionaryByAlphabets>> all(
+      {int? limit, int? page, String? q}) async {
+    // Setup pagination
+    limit ??= 10;
+    q ??= '';
+    int offset = (limit * ((page ?? 0) + 1)) - limit;
+
+    Database db = await dbInstance.database;
+    final data = await db.rawQuery(
+        'SELECT ${dbInstance.dictionaryTable}.alphabet  FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} LIKE "%$q%" GROUP BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryAlphabet} ORDER BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} ASC LIMIT $limit OFFSET $offset ',
+        []);
+
+    List<DictionaryByAlphabets> listDictionaryAlphabets = [];
+    if (data.isNotEmpty) {
+      for (var i = 0; i < data.length; i++) {
+        List<DictionaryModel>? listTransactions = await getDictionaryAlphabets(
+            alphabet: data[i]['alphabet'].toString(), q: q);
+
+        listDictionaryAlphabets.add(DictionaryByAlphabets(
+            alphabet: data[i]['alphabet'].toString(),
+            listDictionaries: listTransactions));
+      }
+    }
+
+    return listDictionaryAlphabets;
+  }
+
+  Future first() async {
+    Database db = await dbInstance.database;
+    final data = await db.rawQuery(
+        'SELECT * FROM ${dbInstance.dictionaryTable} ORDER BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryCreatedAt} DESC LIMIT 1',
+        []);
+
+    print(data);
+    return data.length;
+  }
+
+  Future<int> deleteAll() async {
+    Database db = await dbInstance.database;
+    return await db.delete(dbInstance.dictionaryTable);
   }
 }

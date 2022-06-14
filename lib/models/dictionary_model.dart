@@ -31,3 +31,10 @@ class DictionaryModel {
     );
   }
 }
+
+class DictionaryByAlphabets {
+  String? alphabet;
+  List<DictionaryModel>? listDictionaries;
+
+  DictionaryByAlphabets({this.alphabet, this.listDictionaries});
+}

@@ -47,7 +47,7 @@ class BookmarkRepository {
         where: '${dbInstance.bookmarkDictionaryId} = ?', whereArgs: [id]);
   }
 
-  Future<int> deleteAll(int id) async {
+  Future<int> deleteAll() async {
     Database db = await dbInstance.database;
     return await db.delete(dbInstance.bookmarkTable);
   }

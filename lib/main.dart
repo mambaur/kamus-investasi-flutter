@@ -4,9 +4,13 @@ import 'package:iconsax/iconsax.dart';
 import 'package:kamus_investasi/pages/bookmark.dart';
 import 'package:kamus_investasi/pages/history.dart';
 import 'package:kamus_investasi/pages/home.dart';
+import 'package:kamus_investasi/utils/datasets.dart';
 // import 'package:upgrader/upgrader.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  DataSets dataSets = DataSets();
+  await dataSets.initDictionaries();
   runApp(const MyApp());
 }
 

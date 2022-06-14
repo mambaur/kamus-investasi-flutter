@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:kamus_investasi/databases/dictionaries/dictionary_repository.dart';
 import 'package:kamus_investasi/pages/text_detail_screen.dart';
 
 class BookmarkScreen extends StatefulWidget {
@@ -10,6 +11,18 @@ class BookmarkScreen extends StatefulWidget {
 }
 
 class _BookmarkScreenState extends State<BookmarkScreen> {
+  final DictionaryRepository _dictionaryRepo = DictionaryRepository();
+
+  Future getFirstDictionary() async {
+    final data = await _dictionaryRepo.first();
+  }
+
+  @override
+  void initState() {
+    getFirstDictionary();
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
