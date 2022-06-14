@@ -27,11 +27,31 @@ class _TextDetailScreenState extends State<TextDetailScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('OJK',
-                style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 40,
-                    color: Colors.grey.shade800)),
+            Row(
+              children: [
+                Expanded(
+                  child: Text('OJK',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 40,
+                          color: Colors.grey.shade800)),
+                ),
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(
+                    Icons.star,
+                    color: Colors.grey.shade400,
+                  ),
+                ),
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(
+                    Icons.share,
+                    color: Colors.grey.shade400,
+                  ),
+                )
+              ],
+            ),
             Text('Otoritas Jasa Keuangan',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
@@ -99,6 +119,15 @@ class _TextDetailScreenState extends State<TextDetailScreen> {
                 style: TextStyle(
                     // fontWeight: FontWeight.bold,
                     // fontSize: 16,
+                    color: Colors.grey.shade800)),
+
+            SizedBox(
+              height: 15,
+            ),
+            Text('Related',
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 16,
                     color: Colors.grey.shade800)),
             SizedBox(
               height: 15,
