@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:infinite_scroll/infinite_scroll.dart';
+import 'package:kamus_investasi/databases/bookmarks/bookmark_repository.dart';
 import 'package:kamus_investasi/databases/dictionaries/dictionary_repository.dart';
-import 'package:kamus_investasi/pages/text_detail_screen.dart';
+import 'package:kamus_investasi/models/dictionary_model.dart';
+import 'package:kamus_investasi/pages/dictionary_detail.dart';
 
 class BookmarkScreen extends StatefulWidget {
   const BookmarkScreen({Key? key}) : super(key: key);
@@ -11,15 +14,59 @@ class BookmarkScreen extends StatefulWidget {
 }
 
 class _BookmarkScreenState extends State<BookmarkScreen> {
+  final BookmarkRepository _bookmarkRepo = BookmarkRepository();
   final DictionaryRepository _dictionaryRepo = DictionaryRepository();
 
-  Future getFirstDictionary() async {
-    final data = await _dictionaryRepo.first();
+  int limit = 6;
+  int pageList = 0;
+
+  Future<List<DictionaryModel>> getNextPageData(int page) async {
+    List<DictionaryModel>? data =
+        await _bookmarkRepo.all(limit: limit, page: page);
+    return data;
+  }
+
+  List<DictionaryModel> data = [];
+  bool everyThingLoaded = false;
+  bool isEmptyDictionary = false;
+  bool isLastPage = false;
+
+  void resetBool() {
+    setState(() {
+      pageList = 0;
+      isEmptyDictionary = false;
+      isLastPage = false;
+      everyThingLoaded = false;
+      data = [];
+    });
+  }
+
+  Future<void> loadInitialData() async {
+    data = await getNextPageData(pageList);
+    if (data.isEmpty) {
+      isEmptyDictionary = true;
+    }
+
+    if (data.length >= 1 && data.length < limit) {
+      isLastPage = true;
+    }
+    setState(() {});
+  }
+
+  Future deleteAllBookmark() async {
+    await _bookmarkRepo.deleteAll();
+    resetBool();
+    loadInitialData();
+  }
+
+  Future<void> _refresh() async {
+    resetBool();
+    loadInitialData();
   }
 
   @override
   void initState() {
-    getFirstDictionary();
+    loadInitialData();
     super.initState();
   }
 
@@ -33,82 +80,127 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
           centerTitle: true,
           elevation: 0,
           backgroundColor: Color.fromRGBO(65, 83, 181, 1),
-          actions: [IconButton(onPressed: () {}, icon: Icon(Iconsax.star_15))],
+          actions: [
+            IconButton(
+                onPressed: () {
+                  _deleteAllDialog();
+                },
+                icon: Icon(Iconsax.star_15))
+          ],
         ),
         backgroundColor: Colors.grey.shade100,
-        body: CustomScrollView(
-            // controller: _scrollController,
-            physics: const AlwaysScrollableScrollPhysics(),
-            slivers: [
-              // SliverAppBar(
-              //   automaticallyImplyLeading: false,
-              //   leading: Icon(
-              //     Iconsax.info_circle,
-              //     color: Colors.grey.shade800,
-              //   ),
-              //   floating: true,
-              //   title: Text(
-              //     'Kamus yang Terakhir Kamu Lihat',
-              //     style: TextStyle(color: Colors.grey.shade800, fontSize: 14),
-              //   ),
-              //   centerTitle: true,
-              //   elevation: 0.5,
-              //   backgroundColor: Colors.white,
-              // ),
-              SliverList(
-                  delegate: SliverChildListDelegate([
-                ListView.builder(
-                  physics: NeverScrollableScrollPhysics(),
+        body: RefreshIndicator(
+          backgroundColor: Colors.white,
+          color: Color.fromRGBO(65, 83, 181, 1),
+          displacement: 20,
+          onRefresh: () => _refresh(),
+          child: !isEmptyDictionary
+              ? InfiniteScrollList(
+                  physics: const AlwaysScrollableScrollPhysics(),
                   padding: EdgeInsets.only(top: 15),
-                  itemCount: 10,
                   shrinkWrap: true,
-                  itemBuilder: (context, index) {
-                    return Container(
-                      width: size.width,
-                      margin: EdgeInsets.only(left: 15, right: 15, bottom: 15),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          // Container(
-                          //   margin: EdgeInsets.only(left: 5),
-                          //   child: Text(
-                          //     '28 Juli 2022',
-                          //     style:
-                          //         TextStyle(color: Colors.grey, fontSize: 12),
-                          //   ),
-                          // ),
-                          Container(
-                            padding: EdgeInsets.symmetric(horizontal: 15),
-                            decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(10)),
+                  loadingWidget: !isLastPage
+                      ? Center(
+                          child: Container(
+                              width: 30,
+                              height: 30,
+                              child: CircularProgressIndicator(
+                                  color: Color.fromRGBO(65, 83, 181, 1))),
+                        )
+                      : Container(),
+                  onLoadingStart: (page) async {
+                    pageList++;
+                    List<DictionaryModel> newData =
+                        await getNextPageData(pageList);
+                    setState(() {
+                      data += newData;
+                      if (newData.isEmpty) {
+                        everyThingLoaded = true;
+                        isLastPage = true;
+                      }
+                    });
+                  },
+                  everythingLoaded: everyThingLoaded,
+                  children: data
+                      .map((item) => Container(
+                            width: size.width,
+                            margin: EdgeInsets.only(
+                                left: 15, right: 15, bottom: 15),
                             child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                ListTile(
-                                  onTap: () {
-                                    Navigator.push(context,
-                                        MaterialPageRoute(builder: (builder) {
-                                      return TextDetailScreen();
-                                    }));
-                                  },
-                                  contentPadding: EdgeInsets.zero,
-                                  leading: Icon(Iconsax.star),
-                                  title: Text(
-                                    'OJK',
-                                    style:
-                                        TextStyle(fontWeight: FontWeight.bold),
+                                Container(
+                                  padding: EdgeInsets.symmetric(
+                                      horizontal: 15, vertical: 10),
+                                  decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.circular(10)),
+                                  child: Column(
+                                    children: [
+                                      ListTile(
+                                        onTap: () {
+                                          Navigator.push(context,
+                                              MaterialPageRoute(
+                                                  builder: (builder) {
+                                            return DictionaryDetailScreen(
+                                              id: item.id,
+                                            );
+                                          }));
+                                        },
+                                        contentPadding: EdgeInsets.zero,
+                                        leading: Icon(Iconsax.star),
+                                        title: Text(
+                                          item.title ?? '',
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                        subtitle: Text(
+                                          item.fullTitle != 'null'
+                                              ? item.fullTitle!
+                                              : item.description!,
+                                          maxLines: 2,
+                                          overflow: TextOverflow.ellipsis,
+                                        ),
+                                      ),
+                                    ],
                                   ),
-                                  subtitle: Text('Otoritas Jasa Keuangan'),
-                                ),
+                                )
                               ],
                             ),
-                          )
-                        ],
-                      ),
-                    );
-                  },
-                )
-              ]))
-            ]));
+                          ))
+                      .toList())
+              : Center(child: Text('Data Not Found.')),
+        ));
+  }
+
+  Future<void> _deleteAllDialog() async {
+    return showDialog<void>(
+      context: context,
+      barrierDismissible: true,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title:
+              const Text('Apakah kamu yakin ingin menghapus semua bookmark?'),
+          actions: <Widget>[
+            TextButton(
+              child: const Text(
+                'Batal',
+                style: TextStyle(color: Colors.grey),
+              ),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+            TextButton(
+              child: const Text('Ya, Hapus'),
+              onPressed: () async {
+                await deleteAllBookmark();
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        );
+      },
+    );
   }
 }

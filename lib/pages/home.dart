@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:infinite_scroll/infinite_scroll.dart';
 import 'package:kamus_investasi/databases/dictionaries/dictionary_repository.dart';
 import 'package:kamus_investasi/models/dictionary_model.dart';
-import 'package:kamus_investasi/pages/text_detail_screen.dart';
+import 'package:kamus_investasi/pages/dictionary_detail.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -127,7 +127,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                                 Navigator.push(context,
                                                     MaterialPageRoute(
                                                         builder: (builder) {
-                                                  return TextDetailScreen();
+                                                  return DictionaryDetailScreen(
+                                                    id: row.id,
+                                                  );
                                                 }));
                                               },
                                               contentPadding: EdgeInsets.zero,
@@ -221,7 +223,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             hintText: 'Cari Keyword Investasimu..'),
                       ),
                     ),
-                    Icon(Icons.close, color: Colors.grey.shade700),
+                    GestureDetector(
+                        onTap: () async {
+                          _searchController.text = '';
+                          resetBool();
+                          await loadInitialData();
+                        },
+                        child: Icon(Icons.close, color: Colors.grey.shade700)),
                   ]),
             ),
 

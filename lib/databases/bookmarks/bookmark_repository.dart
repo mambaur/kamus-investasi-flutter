@@ -1,4 +1,5 @@
 import 'package:kamus_investasi/databases/database_instance.dart';
+import 'package:kamus_investasi/models/bookmark_model.dart';
 import 'package:kamus_investasi/models/dictionary_model.dart';
 import 'package:sqflite/sqflite.dart';
 
@@ -41,6 +42,17 @@ class BookmarkRepository {
     return listDictionaries;
   }
 
+  Future<BookmarkModel?> hasDictionary(int id) async {
+    Database db = await dbInstance.database;
+    final data = await db.rawQuery(
+        'SELECT * FROM ${dbInstance.bookmarkTable} WHERE ${dbInstance.bookmarkTable}.${dbInstance.bookmarkDictionaryId}=$id LIMIT 1');
+    print(data);
+    if (data.isNotEmpty) {
+      return BookmarkModel.fromJson(data[0]);
+    }
+    return null;
+  }
+
   Future<int> delete(int id) async {
     Database db = await dbInstance.database;
     return await db.delete(dbInstance.bookmarkTable,
@@ -50,5 +62,13 @@ class BookmarkRepository {
   Future<int> deleteAll() async {
     Database db = await dbInstance.database;
     return await db.delete(dbInstance.bookmarkTable);
+  }
+
+  Future getAll() async {
+    Database db = await dbInstance.database;
+    final data = await db.rawQuery(
+        'SELECT ${dbInstance.bookmarkTable}.*  FROM ${dbInstance.bookmarkTable}',
+        []);
+    print(data);
   }
 }

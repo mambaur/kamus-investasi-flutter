@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:kamus_investasi/pages/text_detail_screen.dart';
+import 'package:kamus_investasi/pages/dictionary_detail.dart';
 
 class HistoryScreen extends StatefulWidget {
   const HistoryScreen({Key? key}) : super(key: key);
@@ -75,7 +75,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                                   onTap: () {
                                     Navigator.push(context,
                                         MaterialPageRoute(builder: (builder) {
-                                      return TextDetailScreen();
+                                      return DictionaryDetailScreen();
                                     }));
                                   },
                                   contentPadding: EdgeInsets.zero,

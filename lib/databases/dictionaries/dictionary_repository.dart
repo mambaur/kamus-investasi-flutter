@@ -75,6 +75,16 @@ class DictionaryRepository {
     return data.length;
   }
 
+  Future<DictionaryModel?> find(int id) async {
+    Database db = await dbInstance.database;
+    final data = await db.rawQuery(
+        'SELECT * FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryId}=$id ORDER BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryCreatedAt} DESC LIMIT 1',
+        []);
+    if (data.isNotEmpty) {
+      return DictionaryModel.fromJson(data[0]);
+    }
+  }
+
   Future<int> deleteAll() async {
     Database db = await dbInstance.database;
     return await db.delete(dbInstance.dictionaryTable);
