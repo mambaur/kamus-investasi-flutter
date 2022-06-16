@@ -65,6 +65,33 @@ class DictionaryRepository {
     return listDictionaryAlphabets;
   }
 
+  Future<List<DictionaryModel>>? related(String category) async {
+    Database db = await dbInstance.database;
+    final data = await db.rawQuery(
+        'SELECT * FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryCategory} = "$category" order by random() LIMIT 8',
+        []);
+    // print(data);
+
+    List<DictionaryModel> listDictionaries = [];
+    if (data.isNotEmpty) {
+      for (var i = 0; i < data.length; i++) {
+        DictionaryModel dictionaryModel = DictionaryModel(
+          id: int.parse(data[i]['id'].toString()),
+          title: data[i]['title'].toString(),
+          fullTitle: data[i]['full_title'].toString(),
+          description: data[i]['description'].toString(),
+          alphabet: data[i]['alphabet'].toString(),
+          category: data[i]['category'].toString(),
+          createdAt: data[i]['created_at'].toString(),
+          updatedAt: data[i]['updated_at'].toString(),
+        );
+        listDictionaries.add(dictionaryModel);
+      }
+    }
+
+    return listDictionaries;
+  }
+
   Future first() async {
     Database db = await dbInstance.database;
     final data = await db.rawQuery(

@@ -170,7 +170,25 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
                             ),
                           ))
                       .toList())
-              : Center(child: Text('Data Not Found.')),
+              : Center(
+                  child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Container(
+                        width: size.width * 0.5,
+                        child: Image.asset('assets/images/bookmark.png')),
+                    SizedBox(
+                      height: 15,
+                    ),
+                    Text(
+                      'Upps, Sorry!',
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                    ),
+                    Text('Bookmark not found.')
+                  ],
+                )),
         ));
   }
 

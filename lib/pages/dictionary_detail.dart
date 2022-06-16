@@ -7,6 +7,7 @@ import 'package:kamus_investasi/models/bookmark_model.dart';
 import 'package:kamus_investasi/models/dictionary_model.dart';
 import 'package:kamus_investasi/models/history_model.dart';
 import 'package:kamus_investasi/utils/date_instance.dart';
+import 'package:share_plus/share_plus.dart';
 
 class DictionaryDetailScreen extends StatefulWidget {
   final int? id;
@@ -25,6 +26,7 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
 
   DictionaryModel? dictionaryModel;
   bool isBookmark = false;
+  List<DictionaryModel> listRelated = [];
 
   Future getDictionary() async {
     DictionaryModel? data = await _dictionaryRepo.find(widget.id!);
@@ -34,6 +36,7 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
     }
     if (data != null) {
       dictionaryModel = data;
+      getRelated();
     }
     setState(() {});
   }
@@ -46,6 +49,16 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
     });
     isBookmark = true;
     setState(() {});
+  }
+
+  Future<List<DictionaryModel>?> getRelated() async {
+    List<DictionaryModel>? data =
+        await _dictionaryRepo.related(dictionaryModel?.category ?? '');
+    if (data != null) {
+      setState(() {
+        listRelated = data;
+      });
+    }
   }
 
   Future deleteBookmark() async {
@@ -63,7 +76,7 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
       await _historyRepo.insert({
         "dictionary_id": widget.id,
         "created_at": DateInstance.commonDate(),
-        "updated_at": DateInstance.commonDate()
+        "updated_at": DateInstance.timestamp()
       });
     }
     // await _historyRepo.getAll();
@@ -86,7 +99,7 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
         elevation: 0,
         actions: [
           // IconButton(onPressed: () {}, icon: Icon(Iconsax.share)),
-          IconButton(onPressed: () {}, icon: Icon(Iconsax.sound))
+          // IconButton(onPressed: () {}, icon: Icon(Iconsax.sound))
         ],
         backgroundColor: Color.fromRGBO(65, 83, 181, 1),
       ),
@@ -121,7 +134,11 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                   ),
                 ),
                 IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Share.share(
+                        '${dictionaryModel?.title} \n\n ${dictionaryModel?.description}\n\nhttps://bit.ly/kamus-investasi',
+                        subject: dictionaryModel?.title ?? '');
+                  },
                   icon: Icon(
                     Icons.share,
                     color: Colors.grey.shade400,
@@ -203,7 +220,7 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                             color: Colors.grey.shade800)),
                   )
                 : Container(),
-            Text('Related',
+            Text('Kata Terkait',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 16,
@@ -213,46 +230,25 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
             ),
             Wrap(
               children: [
-                Container(
-                  padding: EdgeInsets.symmetric(vertical: 3, horizontal: 8),
-                  margin: EdgeInsets.only(right: 8, bottom: 8),
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(color: Colors.grey.shade200)),
-                  child: Text('ROA'),
-                ),
-                Container(
-                  padding: EdgeInsets.symmetric(vertical: 3, horizontal: 8),
-                  margin: EdgeInsets.only(right: 8, bottom: 8),
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(color: Colors.grey.shade200)),
-                  child: Text('OJK'),
-                ),
-                Container(
-                  padding: EdgeInsets.symmetric(vertical: 3, horizontal: 8),
-                  margin: EdgeInsets.only(right: 8, bottom: 8),
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(color: Colors.grey.shade200)),
-                  child: Text('Robot Trading'),
-                ),
-                Container(
-                  padding: EdgeInsets.symmetric(vertical: 3, horizontal: 8),
-                  margin: EdgeInsets.only(right: 8, bottom: 8),
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(color: Colors.grey.shade200)),
-                  child: Text('Reksadana'),
-                ),
-                Container(
-                  padding: EdgeInsets.symmetric(vertical: 3, horizontal: 8),
-                  margin: EdgeInsets.only(right: 8, bottom: 8),
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(color: Colors.grey.shade200)),
-                  child: Text('Pasar Uang'),
-                ),
+                for (DictionaryModel item in listRelated)
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (builder) {
+                        return DictionaryDetailScreen(
+                          id: item.id,
+                        );
+                      }));
+                    },
+                    child: Container(
+                      padding: EdgeInsets.symmetric(vertical: 3, horizontal: 8),
+                      margin: EdgeInsets.only(right: 8, bottom: 8),
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(color: Colors.grey.shade200)),
+                      child: Text(item.title ?? ''),
+                    ),
+                  ),
               ],
             )
           ],

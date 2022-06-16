@@ -16,7 +16,7 @@ class HistoryRepository {
   Future<List<DictionaryModel>> getDictionaryDates({String? date}) async {
     Database db = await dbInstance.database;
     final data = await db.rawQuery(
-        'SELECT ${dbInstance.dictionaryTable}.* FROM ${dbInstance.dictionaryTable} JOIN ${dbInstance.historyTable} ON ${dbInstance.dictionaryTable}.${dbInstance.dictionaryId}=${dbInstance.historyTable}.${dbInstance.historyDictionaryId} WHERE ${dbInstance.historyTable}.${dbInstance.historyCreatedAt}="$date" ORDER BY ${dbInstance.historyTable}.${dbInstance.historyCreatedAt} DESC',
+        'SELECT ${dbInstance.dictionaryTable}.* FROM ${dbInstance.dictionaryTable} JOIN ${dbInstance.historyTable} ON ${dbInstance.dictionaryTable}.${dbInstance.dictionaryId}=${dbInstance.historyTable}.${dbInstance.historyDictionaryId} WHERE ${dbInstance.historyTable}.${dbInstance.historyCreatedAt}="$date" ORDER BY ${dbInstance.historyTable}.${dbInstance.historyUpdatedAt} DESC',
         []);
 
     List<DictionaryModel> listDictionaries = [];
