@@ -10,7 +10,9 @@ import 'package:kamus_investasi/utils/date_instance.dart';
 
 class DictionaryDetailScreen extends StatefulWidget {
   final int? id;
-  const DictionaryDetailScreen({Key? key, this.id}) : super(key: key);
+  final bool? isSetHistory;
+  const DictionaryDetailScreen({Key? key, this.id, this.isSetHistory})
+      : super(key: key);
 
   @override
   State<DictionaryDetailScreen> createState() => _DictionaryDetailScreenState();
@@ -55,7 +57,9 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
   Future addHistory() async {
     HistoryModel? history =
         await _historyRepo.findByDate(widget.id!, DateInstance.timestamp());
-    if (history == null) {
+    if (history == null &&
+        widget.isSetHistory != null &&
+        widget.isSetHistory == true) {
       await _historyRepo.insert({
         "dictionary_id": widget.id,
         "created_at": DateInstance.commonDate(),

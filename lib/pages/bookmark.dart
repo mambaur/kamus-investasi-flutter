@@ -144,6 +144,7 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
                                                   builder: (builder) {
                                             return DictionaryDetailScreen(
                                               id: item.id,
+                                              isSetHistory: true,
                                             );
                                           }));
                                         },

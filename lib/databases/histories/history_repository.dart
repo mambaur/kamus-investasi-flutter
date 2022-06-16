@@ -13,11 +13,10 @@ class HistoryRepository {
     return await db.insert(dbInstance.historyTable, row);
   }
 
-  Future<List<DictionaryModel>> getDictionaryDates(
-      {String? alphabet, String? q}) async {
+  Future<List<DictionaryModel>> getDictionaryDates({String? date}) async {
     Database db = await dbInstance.database;
     final data = await db.rawQuery(
-        'SELECT ${dbInstance.dictionaryTable}.* FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryAlphabet}="$alphabet" AND ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} LIKE "%$q%"',
+        'SELECT ${dbInstance.dictionaryTable}.* FROM ${dbInstance.dictionaryTable} JOIN ${dbInstance.historyTable} ON ${dbInstance.dictionaryTable}.${dbInstance.dictionaryId}=${dbInstance.historyTable}.${dbInstance.historyDictionaryId} WHERE ${dbInstance.historyTable}.${dbInstance.historyCreatedAt}="$date" ORDER BY ${dbInstance.historyTable}.${dbInstance.historyCreatedAt} DESC',
         []);
 
     List<DictionaryModel> listDictionaries = [];
@@ -52,8 +51,8 @@ class HistoryRepository {
     List<DictionaryByDate> listHistoryDates = [];
     if (data.isNotEmpty) {
       for (var i = 0; i < data.length; i++) {
-        List<DictionaryModel>? listTransactions = await getDictionaryDates(
-            alphabet: data[i]['created_at'].toString());
+        List<DictionaryModel>? listTransactions =
+            await getDictionaryDates(date: data[i]['created_at'].toString());
 
         listHistoryDates.add(DictionaryByDate(
             date: data[i]['created_at'].toString(),
@@ -77,10 +76,12 @@ class HistoryRepository {
     return null;
   }
 
-  Future<int> delete(int id) async {
+  Future<int> delete(int id, String date) async {
     Database db = await dbInstance.database;
     return await db.delete(dbInstance.historyTable,
-        where: '${dbInstance.bookmarkDictionaryId} = ?', whereArgs: [id]);
+        where:
+            '${dbInstance.historyDictionaryId} = ? AND ${dbInstance.historyCreatedAt} = ?',
+        whereArgs: [id, date]);
   }
 
   Future<int> deleteAll() async {

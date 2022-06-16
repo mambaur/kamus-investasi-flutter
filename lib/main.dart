@@ -68,6 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: BottomNavigationBar(
         // showSelectedLabels: false,
         // showUnselectedLabels: false,
+        backgroundColor: Colors.white,
         selectedFontSize: 12,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(

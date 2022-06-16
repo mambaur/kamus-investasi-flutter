@@ -129,6 +129,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                         builder: (builder) {
                                                   return DictionaryDetailScreen(
                                                     id: row.id,
+                                                    isSetHistory: true,
                                                   );
                                                 }));
                                               },
