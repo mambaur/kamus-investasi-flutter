@@ -1,5 +1,7 @@
 import 'package:kamus_investasi/databases/database_instance.dart';
 import 'package:kamus_investasi/models/dictionary_model.dart';
+import 'package:kamus_investasi/models/history_model.dart';
+import 'package:kamus_investasi/utils/date_instance.dart';
 import 'package:sqflite/sqflite.dart';
 
 class HistoryRepository {
@@ -11,14 +13,11 @@ class HistoryRepository {
     return await db.insert(dbInstance.historyTable, row);
   }
 
-  Future<List<DictionaryModel>> all({int? limit, int? page}) async {
-    // Setup pagination
-    limit ??= 10;
-    int offset = (limit * (page ?? 1)) - limit;
-
+  Future<List<DictionaryModel>> getDictionaryDates(
+      {String? alphabet, String? q}) async {
     Database db = await dbInstance.database;
     final data = await db.rawQuery(
-        'SELECT ${dbInstance.dictionaryTable}.*  FROM ${dbInstance.dictionaryTable} JOIN ${dbInstance.historyTable} ON ${dbInstance.dictionaryTable}.${dbInstance.dictionaryId}=${dbInstance.historyTable}.${dbInstance.bookmarkDictionaryId} ORDER BY ${dbInstance.historyTable}.${dbInstance.bookmarkCreatedAt} DESC LIMIT $limit OFFSET $offset',
+        'SELECT ${dbInstance.dictionaryTable}.* FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryAlphabet}="$alphabet" AND ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} LIKE "%$q%"',
         []);
 
     List<DictionaryModel> listDictionaries = [];
@@ -41,6 +40,43 @@ class HistoryRepository {
     return listDictionaries;
   }
 
+  Future<List<DictionaryByDate>> all({int? limit, int? page}) async {
+    // Setup pagination
+    limit ??= 10;
+    int offset = (limit * ((page ?? 0) + 1)) - limit;
+
+    Database db = await dbInstance.database;
+    final data = await db.rawQuery(
+        'SELECT ${dbInstance.historyTable}.${dbInstance.historyCreatedAt}  FROM ${dbInstance.historyTable} GROUP BY ${dbInstance.historyTable}.${dbInstance.historyCreatedAt} ORDER BY ${dbInstance.historyTable}.${dbInstance.historyCreatedAt} DESC LIMIT $limit OFFSET $offset');
+
+    List<DictionaryByDate> listHistoryDates = [];
+    if (data.isNotEmpty) {
+      for (var i = 0; i < data.length; i++) {
+        List<DictionaryModel>? listTransactions = await getDictionaryDates(
+            alphabet: data[i]['created_at'].toString());
+
+        listHistoryDates.add(DictionaryByDate(
+            date: data[i]['created_at'].toString(),
+            listDictionaries: listTransactions));
+      }
+    }
+
+    return listHistoryDates;
+  }
+
+  Future<HistoryModel?> findByDate(int id, String date) async {
+    Database db = await dbInstance.database;
+    String dateNow = DateInstance.commonDate();
+    final data = await db.rawQuery(
+        'SELECT * FROM ${dbInstance.historyTable} WHERE ${dbInstance.historyTable}.${dbInstance.historyDictionaryId}=$id AND ${dbInstance.historyTable}.${dbInstance.historyCreatedAt}="$dateNow" ORDER BY ${dbInstance.historyTable}.${dbInstance.historyCreatedAt} DESC LIMIT 1',
+        []);
+    // print(data);
+    if (data.isNotEmpty) {
+      return HistoryModel.fromJson(data[0]);
+    }
+    return null;
+  }
+
   Future<int> delete(int id) async {
     Database db = await dbInstance.database;
     return await db.delete(dbInstance.historyTable,
@@ -50,5 +86,13 @@ class HistoryRepository {
   Future<int> deleteAll() async {
     Database db = await dbInstance.database;
     return await db.delete(dbInstance.historyTable);
+  }
+
+  Future getAll() async {
+    Database db = await dbInstance.database;
+    final data = await db.rawQuery(
+        'SELECT ${dbInstance.historyTable}.*  FROM ${dbInstance.historyTable}',
+        []);
+    print(data);
   }
 }

@@ -18,7 +18,7 @@ const idMonths = [
 class DateInstance {
   /// DateFormat now in string
   ///
-  /// Output : 2022-05-06
+  /// Output : 2022-05-06 12:30:19
   static String timestamp() {
     DateTime now = DateTime.now();
     String formattedDate = DateFormat('yyyy-MM-dd kk:mm:ss').format(now);

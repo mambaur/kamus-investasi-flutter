@@ -15,7 +15,7 @@ class BookmarkRepository {
   Future<List<DictionaryModel>> all({int? limit, int? page}) async {
     // Setup pagination
     limit ??= 10;
-    int offset = (limit * (page ?? 1)) - limit;
+    int offset = (limit * ((page ?? 0) + 1)) - limit;
 
     Database db = await dbInstance.database;
     final data = await db.rawQuery(
@@ -46,7 +46,7 @@ class BookmarkRepository {
     Database db = await dbInstance.database;
     final data = await db.rawQuery(
         'SELECT * FROM ${dbInstance.bookmarkTable} WHERE ${dbInstance.bookmarkTable}.${dbInstance.bookmarkDictionaryId}=$id LIMIT 1');
-    print(data);
+    // print(data);
     if (data.isNotEmpty) {
       return BookmarkModel.fromJson(data[0]);
     }

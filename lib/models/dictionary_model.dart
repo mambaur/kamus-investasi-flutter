@@ -38,3 +38,10 @@ class DictionaryByAlphabets {
 
   DictionaryByAlphabets({this.alphabet, this.listDictionaries});
 }
+
+class DictionaryByDate {
+  String? date;
+  List<DictionaryModel>? listDictionaries;
+
+  DictionaryByDate({this.date, this.listDictionaries});
+}

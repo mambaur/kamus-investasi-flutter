@@ -47,7 +47,7 @@ class DictionaryRepository {
 
     Database db = await dbInstance.database;
     final data = await db.rawQuery(
-        'SELECT ${dbInstance.dictionaryTable}.alphabet  FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} LIKE "%$q%" GROUP BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryAlphabet} ORDER BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} ASC LIMIT $limit OFFSET $offset ',
+        'SELECT ${dbInstance.dictionaryTable}.alphabet  FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} LIKE "%$q%" GROUP BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryAlphabet} ORDER BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} ASC LIMIT $limit OFFSET $offset',
         []);
 
     List<DictionaryByAlphabets> listDictionaryAlphabets = [];
@@ -83,6 +83,7 @@ class DictionaryRepository {
     if (data.isNotEmpty) {
       return DictionaryModel.fromJson(data[0]);
     }
+    return null;
   }
 
   Future<int> deleteAll() async {

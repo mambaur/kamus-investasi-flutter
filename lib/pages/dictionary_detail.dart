@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:kamus_investasi/databases/bookmarks/bookmark_repository.dart';
 import 'package:kamus_investasi/databases/dictionaries/dictionary_repository.dart';
+import 'package:kamus_investasi/databases/histories/history_repository.dart';
 import 'package:kamus_investasi/models/bookmark_model.dart';
 import 'package:kamus_investasi/models/dictionary_model.dart';
+import 'package:kamus_investasi/models/history_model.dart';
 import 'package:kamus_investasi/utils/date_instance.dart';
 
 class DictionaryDetailScreen extends StatefulWidget {
@@ -17,6 +19,7 @@ class DictionaryDetailScreen extends StatefulWidget {
 class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
   final DictionaryRepository _dictionaryRepo = DictionaryRepository();
   final BookmarkRepository _bookmarkRepo = BookmarkRepository();
+  final HistoryRepository _historyRepo = HistoryRepository();
 
   DictionaryModel? dictionaryModel;
   bool isBookmark = false;
@@ -49,10 +52,24 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
     setState(() {});
   }
 
+  Future addHistory() async {
+    HistoryModel? history =
+        await _historyRepo.findByDate(widget.id!, DateInstance.timestamp());
+    if (history == null) {
+      await _historyRepo.insert({
+        "dictionary_id": widget.id,
+        "created_at": DateInstance.commonDate(),
+        "updated_at": DateInstance.commonDate()
+      });
+    }
+    // await _historyRepo.getAll();
+  }
+
   @override
   void initState() {
     print(widget.id!);
     getDictionary();
+    addHistory();
     super.initState();
   }
 
