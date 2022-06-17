@@ -637,6 +637,312 @@
             "updated_at": "2022-06-14"
         },
         {
+            "alphabet": "C",
+            "title": "Call Option",
+            "full_title": "Opsi Beli",
+            "description": "Call option adalah kontrak yang memberi investor hak untuk membeli sejumlah saham tertentu atau aset lain dengan harga tertentu dengan jangka waktu tertentu. Ini adalah cara bertaruh secara agresif bahwa nilai aset akan naik atau turun seperti yang kamu pikirkan dan dengan cepat.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Callable Bond",
+            "full_title": "Opsi Beli",
+            "description": "Callable bond adalah obligasi yang dapat ditebus oleh pihak penerbit sebelum mencapai tanggal jatuh tempo yang ditentukan. Callable bond yang dapat ditarik memungkinkan perusahaan penerbit untuk melunasi hutangnya lebih awal.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Capex",
+            "full_title": "Capital expenditure",
+            "description": "Capital expenditure atau capex adalah pengeluaran yang dikeluarkan oleh bisnis untuk memperoleh, memelihara, atau meningkatkan aset jangka panjang, seperti bangunan atau peralatan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Capital gain",
+            "full_title": null,
+            "description": "Capital gain adalah jumlah kenaikan harga aset saat kamu membelinya hingga saat kamu menjualnya. Capital gain diwujudkan ketika investor menjual aset, seperti saham, dengan harga lebih tinggi dari harga yang dibayarkan untuk membelinya. Ketika suatu aset tidak dijual, tetapi hanya dipegang pada harga yang lebih tinggi dari apa yang dibayarkan, seorang investor dikatakan memiliki modal yang belum direalisasi, atau keuntungan dari kertas.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Capital Investment",
+            "full_title": null,
+            "description": "Capital Investment adalah sejumlah uang yang harus disediakan untuk pembuatan, konstruksi dan mengoperasikan pabrik untuk beberapa waktu.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Cardano",
+            "full_title": null,
+            "description": "Cardano adalah blockchain berbasis protokol proof-of-stake (PoS) yang dikenal ramah lingkungan. Mata uang kripto dalam jaringan ini adalah ADA, yakni kripto generasi ketiga yang lebih mutakhir dengan pengamanan yang cukup berlapis.\n\nProtokol ini hadir sebagai solusi atas beratnya beban tenaga listrik di jaringan protokol blockchain berbasis proof-of-work. Protokol blockchain jadul ini kerap dituding sebagai emas tak ramah lingkungan berkat penggunaan komputer yang banyak untuk mengamankan jaringannya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Cash Back",
+            "full_title": "Uang Kembali",
+            "description": "Uang kembali atau cash back adalah istilah yang mengacu pada jenis transaksi keuangan dengan pengembalian. Ini umumnya terjadi dalam penggunaan kartu kredit dan debit yang semakin populer dalam dua dekade terakhir.\n\nPemegang kartu debit dan kartu kredit memperoleh manfaat dari pengembalian atau cash back ini, tergantung pada jumlah yang dibelanjakan untuk setiap pembelian.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Centralized Market",
+            "full_title": null,
+            "description": "Centralized market adalah pasar finansial yang terstruktur, di mana semua pesanan (order) pembelian maupun penjualan ditransfer kepada sistem pertukaran yang tersentralisasi.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Chainlink",
+            "full_title": null,
+            "description": "Chainlink mendeklarasikan dirinya sebagai oracle berbasis blockchain yang menawarkan solusi untuk menjembatani teknologi blockchain dengan teknologi off-chain. Sehingga singkatnya, Chainlink adalah penyedia jaringan penyuplai informasi dari dunia luar kepada sistem blockchain.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "CME",
+            "full_title": "Chicago Mercantile Exchange",
+            "description": "Chicago Mercantile Exchange adalah bursa berjangka terbesar kedua di Amerika Serikat. Awalnya dibentuk pada tahun 1874 dengan nama Chicago Produce Exchange.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Churn Rate",
+            "full_title": null,
+            "description": "Churn rate adalah sebagai rate of attrition atau customer churn, tingkat di mana pelanggan berhenti berbisnis dengan suatu entitas. Ini paling sering dinyatakan sebagai persentase pelanggan layanan yang menghentikan langganan mereka dalam jangka waktu tertentu.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Close Position",
+            "full_title": null,
+            "description": "Close position adalah Menutup posisi mengacu pada pelaksanaan transaksi keamanan yang merupakan kebalikan dari posisi terbuka, sehingga membatalkannya dan menghilangkan eksposur awal. Menutup posisi panjang dalam sekuritas akan membutuhkan penjualan. Sementara menutup posisi pendek dalam sekuritas akan melibatkan pembelian kembali. Mengambil posisi offset dalam swap juga sangat umum untuk menghilangkan eksposur sebelum jatuh tempo.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Closed Virtual Currency",
+            "full_title": null,
+            "description": "Closed Virtual Currency adalah mata uang digital tidak diatur yang digunakan sebagai pembayaran hanya dalam komunitas virtual tertentu.  Closed Virtual Currency tidak memiliki hubungan dengan ekonomi riil dan tidak dapat dikonversi menjadi alat pembayaran yang sah.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Coinsurance",
+            "full_title": null,
+            "description": "Coinsurance adalah jumlah, umumnya dinyatakan sebagai persentase tetap, yang diasuransikan harus membayar klaim setelah deductible terpenuhi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Command Economy",
+            "full_title": null,
+            "description": "Command Economy adalah sistem di mana pemerintah, bukan pasar bebas, yang menentukan barang apa yang harus diproduksi. Berapa banyak yang harus diproduksi, dan harga di mana barang tersebut ditawarkan untuk dijual.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Common Stock",
+            "full_title": null,
+            "description": "Saham biasa atau common stock adalah sertifikat yang memberikan pemegangnya bukti kepemilikan di suatu perusahaan, biasanya berisi atas hak dan kewajiban investor, termasuk di antaranya mengenai pembagian dividen dan hak pengambilan suara.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Convertible Bond",
+            "full_title": null,
+            "description": "Convertible bond adalah sekuritas utang perusahaan pendapatan tetap yang menghasilkan pembayaran bunga, tetapi dapat diubah menjadi saham biasa atau saham ekuitas yang telah ditentukan sebelumnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Convexity",
+            "full_title": null,
+            "description": "Convexity adalah ukuran kelengkungan atau derajat kurva, dalam hubungan antara harga obligasi dan imbal hasil obligasi. Umumnya, convexity menunjukkan bagaimana durasi obligasi berubah seiring dengan perubahan suku bunga.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Corporate Citizenship",
+            "full_title": null,
+            "description": "Corporate Citizenship adalah cara perusahaan dalam bersikap atau memperlihatkan perilaku ketika berhadapan dengan para pihak lain. Sebagai salah satu cara untuk memperbaiki reputasi dan meningkatkan keunggulan kompetitif.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Corporate Finance",
+            "full_title": null,
+            "description": "Corporate finance adalah pihak yang mengatur keuangan perusahaan. Divisi keuangan ini mengurus bagaimana perusahaan menangani sumber pendanaan, penataan modal, dan keputusan investasi. Corporate finance terutama berkaitan dengan memaksimalkan nilai pemegang saham melalui perencanaan keuangan jangka panjang dan pendek. Begitu juga menerapkan strategi tersebut.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Correlation Coefficient",
+            "full_title": "Koefisiensi Korelasi",
+            "description": "Correlation coefficient alias koefisiensi korelasi adalah ukuran statistik dari kekuatan hubungan antara pergerakan relatif dua variabel. Rentang nilai antara -1,0 dan 1,0. Jika angka yang dihitung correlation coefficient lebih besar dari 1,0 atau kurang dari -1,0, berarti ada kesalahan dalam pengukuran korelasi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Cost Benefit Analysis",
+            "full_title": "Analisis Biaya-Manfaat",
+            "description": "Correlation coefficient alias koefisiensi korelasi adalah ukuran statistik dari kekuatan hubungan antara pergerakan relatif dua variabel. Rentang nilai antara -1,0 dan 1,0. Jika angka yang dihitung correlation coefficient lebih besar dari 1,0 atau kurang dari -1,0, berarti ada kesalahan dalam pengukuran korelasi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Cost of Debt",
+            "full_title": null,
+            "description": "Cost of debt adalah biaya hutang sebagai tingkat suku bunga efektif yang dibayar perusahaan atas hutangnya. Jadi pengertian Cost of debt adalah adalah tingkat pengembalian yang harus dilunasi oleh perusahaan terhadap hutang-hutangnya. Hutang yang dimaksud dapat berasal dari pinjaman bank atau obligasi perusahaan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "CDS",
+            "full_title": "Credit Default Swap",
+            "description": "Credit default swap (CDS) adalah derivatif atau kontrak keuangan yang memungkinkan investor untuk “menukar” atau mengimbangi risiko kreditnya dengan risiko investor lain.\n\nMisalnya, jika pemberi pinjaman khawatir bahwa peminjam akan gagal membayar pinjaman, pemberi pinjaman dapat menggunakan CDS untuk mengimbangi atau menukar risiko itu.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Credit Union",
+            "full_title": "Koperasi",
+            "description": "Koperasi atau Credit Union adalah lembaga keuangan yang menawarkan berbagai layanan yang dilakukan bank, seperti rekening giro dan tabungan, pinjaman, serta kartu kredit. Yang membedakannya adalah credit union dimiliki oleh pemegang akun (anggota) bukan pemegang saham eksternal.\n\nSetiap orang yang memiliki akun berbagi di credit union dan mendapatkan suara di dalam menjalankannya. Credit union adalah organisasi nirlaba yang diawasi oleh dewan sukarela yang dipilih oleh para anggotanya. Kepemilikan komunitas berarti credit union terkadang dapat menawarkan biaya yang lebih rendah, suku bunga yang lebih tinggi, dan layanan yang lebih personal daripada bank tradisional.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Crowdfunding",
+            "full_title": null,
+            "description": "Berbagai ide kreatif dan inovatif bermunculan seiring bertumbuhnya teknologi. Dalam dunia bisnis, ide-ide inovatif ini tentu tidak cukup jika tidak disertai modal usaha. Seiring dengan pertumbuhan teknologi pula, crowdfunding pun adalah cara yang kini cukup lazim diterapkan untuk memodali berbagai kreativitas tersebut.\n\nSelama ini, mengajukan pinjaman kepada bank memang cara efektif untuk memperoleh modal bisnis. Namun, bunga bank yang tinggi membuat pelaku bisnis kerap mundur teratur.\n\nCrowdfunding pun menjadi pilihan yang kini kian banyak diminati. Dari memodali perusahaan rintisan, menerbitkan buku, hingga merilis film dengan modal sekian miliar rupiah, selalu ada ceruk bagi jalan pemodalan ini.\n\nCrowdfunding berupa pemodalan urun dana untuk suatu kegiatan atau usaha yang dananya dikumpulkan dari sejumlah besar orang yang tertarik atau meminati gagasan dari kegiatan atau usaha itu.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Crowding Out Effect",
+            "full_title": null,
+            "description": "Crowding out effect adalah sebuah teori ekonomi yang menggambarkan bahwa pemerintah sedang getol-getolnya mencari pendanaan demi belanja sektor publik yang jor-joran. Akibatnya, seluruh uang beredar di suatu negara akan terserap ke kantong pemerintah, dan tak ada lagi sisa uang beredar untuk mendanai proyek-proyek bisnis sektor swasta.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Crypto Faucet",
+            "full_title": null,
+            "description": "Crypto faucet adalah aplikasi atau situs yang mendistribusikan kripto dalam jumlah kecil sebagai imbalan. Crypto faucet merupakan metode untuk mendapat kripto dalam jumlah kecil dengan menyelesaikan tugas sederhana. Karena tugasnya sederhana, imbalannya pun sangat kecil seperti tetesan air.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Crypto Staking",
+            "full_title": null,
+            "description": "Crypto staking adalah sebuah aktivitas di mana seorang pengguna aset kripto dapat mendulang cuan hanya dengan memvalidasi transaksi atau segala aktivitas yang terjadi di atas sistem blockchain. Hanya saja, pengguna harus menyimpan atau mengunci dulu aset kriptonya di dalam dompet digital agar dianggap “layak” dan “sah” mendapatkan cuan yang dimaksud.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Cryptocurrency Airdrop",
+            "full_title": null,
+            "description": "Cryptocurrency airdrops adalah metode pemasaran yang sering dilakukan sebagai upaya peningkatan kesadaran pengguna akan mata uang kripto baru. Kadang, pengembang kripto juga melakukan metode sebar duit digital ini untuk mengapresiasi supporternya yang sudah rela HODL.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Currency in Circulation",
+            "full_title": null,
+            "description": "Currency in Circulation adalah mata uang yang beredar mengacu pada jumlah uang tunai – dalam bentuk uang kertas atau koin – di suatu negara yang secara fisik digunakan untuk melakukan transaksi antara konsumen dan bisnis. Mata uang yang beredar adalah semua uang yang dikeluarkan oleh otoritas moneter suatu negara, dikurangi uang tunai yang telah dikeluarkan dari sistem.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Currency War",
+            "full_title": null,
+            "description": "Currency war adalah taktik yang dilancarkan beberapa negara untuk membuat nilai tukar mata uangnya bersaing dalam perdagangan internasional.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Current Ratio",
+            "full_title": "Rasio Lancar",
+            "description": "Rasio lancar (alias “rasio modal kerja”) atau current ratio adalah metrik keuangan yang digunakan untuk mengukur uang tunai jangka pendek perusahaan yang tersedia. Ini juga menguji kemampuan perusahaan untuk melunasi kewajiban jangka pendeknya – yaitu, itu mencerminkan kemampuan perusahaan untuk menghapus semua utangnya yang jatuh tempo dalam setahun.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "C",
+            "title": "Cyclical Stock",
+            "full_title": "Rasio Lancar",
+            "description": "Cyclical Stock adalah saham perusahaan yang pendapatannya terpengaruh oleh kondisi makro ekonomi dan siklus bisnis. Saham cyclical juga dapat dikatakan sebagai saham perusahaan yang menghasilkan produk barang atau jasa yang dibeli ketika ekonomi sedang naik atau booming.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
             "alphabet": "D",
             "title": "Dana Kelolaan",
             "full_title": null,
@@ -650,7 +956,7 @@
             "title": "DOC",
             "full_title": "Deposito On Call",
             "description": "Deposito on call adalah simpanan yang hanya dapat ditarik dengan syarat pemberitahuan sebelumnya.",
-            "category": "trading",
+            "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
         },
@@ -659,7 +965,484 @@
             "title": "Diversifikasi",
             "full_title": null,
             "description": "Diversifikasi adalah strategi investasi dengan meletakkan investasi pada berbagai jenis instrumen investasi untuk tujuan mengurangi risiko. Dengan berinvestasi pada berbagai jenis aset, risiko penurunan harga pada suatu instrumen investasi diharapkan dapat tertahan atau tertutupi oleh kenaikan harga pada instrumen investasi lain. Diversifikasi menjadi langkah untuk mengurangi risiko investasi karena umumnya penurunan harga pada instrumen investasi yang satu dapat disertai dengan kenaikan harga pada instrumen investasi lainnya. Penurunan harga pada suatu instrumen investasi juga dapat lebih kecil dibandingkan dengan penurunan harga pada instrumen investasi lain, sehingga kerugian investor kemudian dapat diminimalisir dibandingkan dengan hanya memegang satu instrumen investasi secara individual.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "DNI",
+            "full_title": "Daftar Negatif Investasi",
+            "description": "Daftar Negatif Investasi (DNI) adalah sebuah aturan yang berisikan larangan bagi investor untuk berinvestasi di beberapa sektor riil tertentu di Indonesia. Daftar ini menjadi landasan informasi bagi para investor, khususnya investor langsung asing (Foreign Direct Investor), sebelum memutuskan berinvestasi di Indonesia.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Day Trader",
+            "full_title": "Trader Harian",
+            "description": "Day trader atau trader harian adalah trader yang mengeksekusi volume besar trading pendek dan panjang untuk memanfaatkan aksi harga pasar hari tersebut. Mengetahui apa itu day trader dapat membantumu memperoleh keuntungan ataupun menghindari risiko dari intraday trading.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Debenture",
+            "full_title": null,
+            "description": "Debenture adalah jenis obligasi atau instrumen utang lain yang tidak dijamin agunan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Debt Securities",
+            "full_title": "Surat Utang",
+            "description": "Surat utang atau debt securities adalah surat yang dapat dibeli atau dijual di antara dua pihak. Surat ini menetapkan beberapa perkara dasar, seperti jumlah nosional (jumlah yang dipinjam), suku bunga, tanggal jatuh tempo dan perpanjangannya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Debt to Equity Ratio",
+            "full_title": "Rasio utang terhadap ekuitas",
+            "description": "Rasio utang terhadap ekuitas atau debt equity ratio adalah pengukuran berapa banyak utang perusahaan dibandingkan dengan ekuitasnya. Dalam pengukuran ini, rasio yang lebih tinggi bisa lebih berisiko dan berpotensi lebih menguntungkan (pengembalian ekuitas lebih tinggi). Sementara, rasio yang lebih rendah bisa kurang berisiko.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "DSCR",
+            "full_title": "Debt-Service Coverage Ratio",
+            "description": "Debt-Service Coverage Ratio (DSCR) adalah pengukuran arus kas perusahaan yang tersedia untuk membayar kewajiban hutang saat ini. DSCR menunjukkan kepada investor apakah perusahaan memiliki pendapatan yang cukup untuk membayar hutangnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "dApps",
+            "full_title": "Decentralized Applications",
+            "description": "Decentralized Applications (DApps) adalah aplikasi yang digunakan oleh pengguna untuk menjalankan sistem blockchain ketika bertransaksi aset kripto. DApps adalah aplikasi yang memiliki jaringan dua arah (peer-to-peer/P2P), sehingga penggunanya bisa melakukan transaksi aset kripto secara langsung.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "DAO",
+            "full_title": "Decentralized Autonomous Organization",
+            "description": "Decentralized Autonomous Organization (DAO), atau Organisasi Otonomi Terdesentralisasi, adalah sebuah organisasi di dalam dunia aset kripto yang dibentuk oleh para developer dunia pada 2016. Namun, berbeda dengan organisasi pada umumnya yang dikelola oleh orang “beneran”, seluruh keputusan di dalam DAO ditentukan oleh algoritma-algoritma komputer.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "DeFi",
+            "full_title": "Decentralized Finance",
+            "description": "Decentralized Finance, atau biasa disingkat DeFi, adalah istilah bagi ragam aplikasi jasa keuangan aset kripto. Teknologi ini dianggap sebagai disrupsi sektor keuangan konvensional mengingat penggunaannya benar-benar mirip kegiatan jasa keuangan pada umumnya, seperti pinjam meminjam. Hanya saja, transaksi dilakukan dengan aset kripto, bukan uang fiat.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Deep In The Money",
+            "full_title": null,
+            "description": "Deep In The Money adalah sebuah opsi bagi seseorang untuk memasang harga jual asetnya jauh di bawah, atau di atas, harga sesungguhnya dari aset dasar (underlying asset) yang dimilikinya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Deferred Tax Liability",
+            "full_title": "Kewajiban pajak tangguhan",
+            "description": "Deferred tax liability, atau kewajiban pajak tangguhan, merupakan jumlah pajak penghasilan yang belum dibayarkan perusahaan di tahun berjalan meski jatuh tempo di periode yang sama. Sehingga, pajak penghasilan tersebut akan terutang di periode berikutnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Defisit Anggaran",
+            "full_title": null,
+            "description": "Defisit anggaran adalah perbedaan antara pendapatan dan pengeluaran yang diharapkan, baik oleh individu maupun suatu perusahaan atau pemerintah dalam suatu periode. Di mana, perbedaan tersebut menunjukkan pengeluaran lebih besar daripada pendapatan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Deflasi",
+            "full_title": null,
+            "description": "Deflasi adalah ketika tingkat inflasi menjadi negatif. Ini terjadi ketika harga konsumen turun secara menyeluruh. Penurunan harga dan deflasi yang terjadi biasanya merupakan akibat dari penurunan belanja konsumen dan penurunan permintaan akan produk dan jasa.\n\nDeflasi menyebabkan peningkatan daya beli uang. Sementara banyak konsumen mungkin melihat ini sebagai hal yang baik, deflasi dapat menjadi indikasi resesi atau ketidakstabilan ekonomi. Resesi biasanya berarti upah yang lebih rendah, lebih sedikit pekerjaan, dan penurunan pasar saham. Indeks Harga Konsumen (CPI) bertanggung jawab untuk mengukur tingkat inflasi dan deflasi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Demografi",
+            "full_title": null,
+            "description": "Demografi adalah data statistik tentang suatu populasi – seperti usia, jenis kelamin, dan ras – serta studi tentang data ini.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Demonetisasi",
+            "full_title": null,
+            "description": "Demonetisasi adalah tindakan mencabut unit mata uang dari statusnya sebagai alat pembayaran sah.\n\nHal ini terjadi setiap kali ada perubahan mata uang nasional. Bentuk uang yang berlaku saat ini ditarik dari peredaran dan tidak lagi dipergunakan. Setelahnya, maka akan ada penggantian atau uang kertas atau koin baru. Terkadang, suatu negara mengganti sepenuhnya mata uang lama dengan mata uang baru.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Demonetization",
+            "full_title": null,
+            "description": "Demonetization atau demonetisasi adalah tindakan melepaskan unit mata uang dari statusnya sebagai alat pembayaran yang sah. Hal ini terjadi setiap kali ada perubahan pada mata uang nasional: Bentuk atau bentuk uang yang sedang beredar ditarik dari peredaran dan dihentikan, dan juga seringkali diganti dengan uang kertas atau koin baru.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Deposit",
+            "full_title": null,
+            "description": "Deposit adalah transfer uang ke bank atau vendor untuk diamankan, untuk mendapatkan bunga, atau sebagai cara untuk menunjukkan kamu dapat membayar sesuatu yang ingin kamu beli.\n\nDeposit bukan pembayaran. Ini hanyalah uang yang ditransfer ke bank, lembaga keuangan atau pihak lain untuk digunakan atau ditarik kemudian (artinya kamu mendapatkan uang kembali). Kamu dapat melakukan deposit untuk diamankan, kenyamanan, atau untuk mendapatkan uang dalam bentuk bunga.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Derivative",
+            "full_title": null,
+            "description": "Derivative adalah sekuritas keuangan dengan nilai yang diandalkan atau diturunkan dari aset dasar atau kelompok aset. Pada pengelolaannya, derivative adalah kontrak antara dua pihak atau lebih, dan memperoleh harganya dari fluktuasi aset yang mendasarinya. Aset dasar yang paling umum untuk derivative adalah saham, obligasi, komoditas, mata uang, suku bunga, dan indeks pasar. Umumnya aset-aset ini dibeli melalui perantara.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "DPO",
+            "full_title": "Direct Public Offering",
+            "description": "Direct Public Offering (DPO) adalah jenis penawaran di mana perusahaan menawarkan sekuritasnya secara langsung kepada publik untuk menambah modal. Perusahaan penerbit yang menggunakan DPO mengeliminasi perantara, seperti bank investasi, pialang perantara, dan penjamin emisi yang biasanya digunakan dalam penawaran umum perdana (IPO), dan menjamin sendiri sekuritasnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Discount Bond",
+            "full_title": "Obligasi diskonto",
+            "description": "Obligasi diskonto atau discount bond adalah obligasi yang diterbitkan kurang dari nilai nominalnya. Pengertian discount bond ini juga diterapkan pada obligasi yang saat ini diperdagangkan dengan harga kurang dari nilai nominalnya di pasar sekunder.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Distributed Ledger Technology",
+            "full_title": null,
+            "description": "Blockchain adalah salah satu bentuk implementasi dari Distributed Ledger Technology. Teknologi yang mendasari blockchain ini adalah teknologi database yang menggagas jaringan terdesentralisasi. Database ini secara konsensual tersebar dan tersinkronisasi diantara jutaan situs, institusi, dan wilayah geografis. Banyak orang bisa mengaksesnya dan menyaksikan transaksi yang berlangsung di dalamnya.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Dividen",
+            "full_title": null,
+            "description": "Dividen adalah pembayaran triwulanan dari laba perusahaan yang dibagikan kepada para pemegang sahamnya. Investor dalam saham memperoleh pengembalian terutama dalam dua cara: dividen dan kenaikan harga saham. Dividen adalah ketika perusahaan mengembalikan sebagian keuntungannya kepada pemegang saham, biasanya setiap triwulan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "D",
+            "title": "Dotcom Bubble",
+            "full_title": null,
+            "description": "Dotcom Bubble adalah gelembung teknologi informasi yang artinya gelembung spekulasi yang terjadi antara tahun 1998–2000 ketika bursa saham di negara-negara industri mengalami kenaikan nilai ekuitas secara tajam berkat pertumbuhan industri sektor Internet dan bidang-bidang yang terkait.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "Earnest Money",
+            "full_title": null,
+            "description": "Earnest Money adalah setoran yang dilakukan kepada penjual yang mewakili niat baik pembeli untuk membeli rumah. Uang tersebut memberi pembeli waktu ekstra untuk mendapatkan pembiayaan dan melakukan pencarian hak milik, penilaian properti, dan inspeksi sebelum penutupan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "EBITDA",
+            "full_title": null,
+            "description": "EBITDA adalah ukuran kinerja keuangan perusahaan secara keseluruhan dan sering digunakan sama seperti profitabilitas – dan itu merupakan akronim kunci dalam bisnis.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "Economic Forecasting",
+            "full_title": "Perkiraan ekonomi",
+            "description": "Perkiraan ekonomi atau economic forecasting adalah proses memprediksi kondisi ekonomi masa depan, utamanya pertumbuhan Produk Domestik Bruto (PDB) antar tahun yang kerap disebut pertumbuhan ekonomi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "Economic Moat",
+            "full_title": null,
+            "description": "Economic moat adalah keunggulan berbeda yang dimiliki perusahaan atas pesaingnya yang memungkinkannya melindungi pangsa pasar dan profitabilitasnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "Efek Beragun Aset",
+            "full_title": null,
+            "description": "Efek beragun aset adalah sekuritas investasi yang dijamin dengan kumpulan aset, seperti pinjaman, sewa guna, utang kartu kredit, royalti, atau piutang. EBA mirip dengan sekuritas yang didukung hipotek (mortgage-backed security). Bedanya, sekuritas yang mendasari EBA tidak berbasis hipotek.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "Ekuitas Merek",
+            "full_title": null,
+            "description": "Ekuitas Merek adalah sesuatu yang mengacu pada nilai premium yang dihasilkan perusahaan dari produk dengan nama yang dapat dikenali jika dibandingkan dengan padanan generik.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "Elastisitas Harga",
+            "full_title": null,
+            "description": "Elastisitas harga adalah ukuran seberapa sensitif pembeli atau penjual terhadap perubahan harga — Semakin elastis, semakin sensitif mereka.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "Endowment Fund",
+            "full_title": null,
+            "description": "Endowment Fund adalah merupakan suatu sarana investasi berkesinambungan yang hasilnya digunakan untuk tujuan-tujuan nirlaba, endowment fund juga diatikan sebagai dana abadi. Contohnya seperti bantuan korban bencana alam, pelestarian lingkungan hidup, keagamaan, budaya, pendidikan, serta tujuan nirlaba lainnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "EPS (Laba per Saham)",
+            "full_title": null,
+            "description": "Laba per Saham atau Earnings per share atau EPS adalah salah satu cara untuk membantu mengukur profitabilitas perusahaan, dengan cara membagi berapa banyak uang yang dihasilkan perusahaan dengan jumlah total saham.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "Escrow",
+            "full_title": null,
+            "description": "Escrow adalah dokumen sah berisi perjanjian legal dimana suatu aset. Umumnya berupa uang yang dikirimkan oleh pihak grantor ke tangan pihak ketiga. Untuk disimpan hingga waktu tertentu sampai timbulnya suatu kondisi yang telah disepakati dan selanjutnya diserahkan kepada pihak grantee.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "ESOP",
+            "full_title": "Employee stock ownership plan",
+            "description": "Employee stock ownership plan atau ESOP adalah sebuah bentuk tunjangan pegawai yang memberikan mereka kepemilikan saham dalam perusahaan. ESOP memberikan beragam insentif pajak kepada perusahaan sponsor, para pemegang saham dan peserta.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "ETF",
+            "full_title": "Exchange Traded Fund",
+            "description": "Exchange Traded Fund – ETF adalah melacak banyak saham atau sekuritas lain untuk memudahkan kamu berinvestasi di sektor, industri, atau bahkan wilayah, jadi kamu tidak perlu memilih saham individu.",
             "category": "saham",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "Externality",
+            "full_title": null,
+            "description": "Externality adalah biaya atau manfaat dari kegiatan ekonomi yang dialami oleh pihak ketiga yang tidak terkait dengan aktivitas tersebut. Biaya atau manfaat eksternal tidak tercermin dalam biaya akhir atau manfaat barang atau jasa yang dihasilkan.",
+            "category": "saham",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "E",
+            "title": "Extrinsic Value",
+            "full_title": "Nilai Ekstrinsik",
+            "description": "Extrinsic Value, atau nilai ekstrinsik, adalah sebuah nilai yang menggambarkan selisih antara harga pasar suatu aset, yang biasanya disebut premium, dengan nilai intrinsiknya. Adapun, intrinsic value (nilai intrinsik) adalah selisih antara nilai aset sesungguhnya dengan harga penawaran sebuah aset ketika ia akan dijual atau dibeli.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "FAANG Stocks",
+            "full_title": null,
+            "description": "FAANG adalah akronim yang mengacu pada saham lima perusahaan teknologi terkemuka Amerika, yaitu Facebook (FB), Amazon (AMZN), Apple (AAPL), Netflix (NFLX); dan Alphabet (GOOG) (sebelumnya dikenal sebagai Google).",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Faktor Produksi",
+            "full_title": null,
+            "description": "Faktor produksi adalah semua hal yang digunakan perusahaan untuk menciptakan produk dan layanan untuk keuntungan: tanah, tenaga kerja, modal, dan perusahaan. Tanah digabungkan dengan tenaga kerja dan modal (alat dan mesin, seperti traktor) untuk menanam tanaman dan bahan tambang.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Feasibility Study",
+            "full_title": null,
+            "description": "Feasibility Study adalah studi kelayakan sebuah pesanan yang didasarkan pada rencana atau proyek yang diusulkan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Fiat Money",
+            "full_title": null,
+            "description": "Fiat money atau uang fiat adalah mata uang keluaran-pemerintah yang tidak didukung oleh komoditas fisik, seperti emas atau perak. Namun tetap pemerintah yang menerbitkannya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Fiduciary",
+            "full_title": null,
+            "description": "Fiduciary adalah seseorang atau organisasi yang bertindak atas nama pihak lain untuk menjaga itikad baik dan kepercayaan. Untuk bisa melakukan pekerjaan ini harus terikat secara hukum dan etika karena mereka menjaga kepentingan pihak lain.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Fixed Exchange Rate",
+            "full_title": "Nilai Tukar Tetap",
+            "description": "Nilai tukar tetap atau fixed exchange rate adalah standar yang ditetapkan oleh pemerintah atau bank sentral yang mengikat nilai tukar mata uang resmi suatu negara dengan mata uang negara lain atau harga emas.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Fixed Income Security",
+            "full_title": null,
+            "description": "Fixed income security adalah investasi yang memberikan pengembalian tetap secara berkala. Pengembalian atau imbal hasil diberikan dalam bentuk pembayaran bunga berkala tetap dan pengembalian pokok pada saat jatuh tempo. Fixed income security memberi investor aliran pembayaran bunga periodik tetap. Hal ini termasuk juga obligasi, deposito, pasar uang, dan saham preferen.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Forex",
+            "full_title": null,
+            "description": "Pertukaran mata uang asing atau valas atau forex adalah ketika satu mata uang (seperti dolar AS) dikonversi ke mata uang negara lain (seperti euro). Turis, perusahaan / bisnis, dan pemerintah memiliki kebutuhan yang berbeda untuk valuta asing, sehingga mereka pergi ke pasar valuta asing, ke bank, atau ke loket FX di bandara untuk mengubah mata uang lokal mereka menjadi jenis mata uang yang mereka butuhkan.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Forex Trading",
+            "full_title": null,
+            "description": "Forex trading adalah pasar tempat berbagai mata uang nasional diperdagangkan. Mengetahui apa itu trading forex artinya menelusuri juga mata uang yang diperdagangkan di pasar tersebut. Pasar forex adalah pasar terbesar dan paling likuid di dunia, dengan triliunan dolar berpindah tangan setiap hari. Tidak ada lokasi terpusat, tetapi pasar ini memanfaatkan jaringan elektronik bank, pialang, institusi, dan trader individu. Banyak pihak, dari lembaga keuangan hingga investor individu, yang terlibat di forex trading. Ini lantaran mereka melihat apa itu trading forex sebagai tempat untuk bertransaksi terkait spekulasi nilai mata uang.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Franchise",
+            "full_title": "Waralaba",
+            "description": "Waralaba atau franchise adalah lisensi yang memberikan akses kepada penerima franchise untuk memperoleh pengetahuan seputar bisnis, proses produksi hingga distribusi, serta akses pada merek dagang dari pemilik waralaba. Memegang franchise memungkinkan seorang pengusaha untuk menjual produk atau layanan di bawah nama bisnis pemilik waralaba. Biasanya, penerima waralaba membayar biaya awal dan biaya lisensi tahunan kepada pemilik waralaba tersebut.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "FCA",
+            "full_title": "Free Carrier",
+            "description": "Free Carrier (FCA) adalah istilah perdagangan yang menyatakan bahwa penjual bertanggung jawab atas pengiriman barang ke tujuan tertentu. Tujuan tersebut biasanya adalah bandara, terminal, atau lokasi lain tempat carrier beroperasi. Mungkin juga tujuannya adalah lokasi bisnis penjual.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Free Cash Flow",
+            "full_title": null,
+            "description": "Arus kas bebas atau free cash flow adalah metrik kesehatan keuangan penting yang melacak kas yang mengalir masuk atau keluar dari perusahaan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Free Trade",
+            "full_title": null,
+            "description": "Free trade agreement, atau perjanjian perdagangan bebas, adalah pakta antara dua atau lebih negara untuk mengurangi hambatan impor dan ekspor di antara mereka. Dalam perjanjian kebijakan perdagangan bebas, barang dan jasa dapat dibeli dan dijual melintasi perbatasan internasional dengan sedikit atau tanpa tarif, kuota, subsidi, atau larangan pemerintah untuk menghambat pertukaran mereka.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Fringe Benefits",
+            "full_title": null,
+            "description": "Fringe Benefits adalah tambahan kompensasi yang diberikan perusahaan kepada karyawan mereka. Pada umumnya fringe benefit diberikan berupa asuransi kesehatan, asuransi jiwa, bantuan biaya kuliah, penggantian biaya penitipan anak, subsidi kafetaria, pinjaman below-market, diskon karyawan, opsi saham karyawan, dan penggunaan pribadi kendaraan milik perusahaan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Fungibility",
+            "full_title": null,
+            "description": "Fungibility adalah salah satu aspek kualitas dari suatu barang atau aset untuk bisa ditukarkan dengan aset lain yang bernilai sepadan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "F",
+            "title": "Futures Spread",
+            "full_title": null,
+            "description": "Futures Spread adalah penyebaran berjangka teknik arbitrase di mana pedagang mengambil dua posisi pada komoditas untuk memanfaatkan perbedaan harga. Dalam future spread, pedagang menyelesaikan perdagangan unit dengan posisi panjang dan pendek.",
+            "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
         }
