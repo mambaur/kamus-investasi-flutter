@@ -2,6 +2,32 @@
     "data": [
         {
             "alphabet": "A",
+            "title": "Annualized Return",
+            "full_title": null,
+            "description": "Annualized return adalah imbal hasil atau keuntungan rata-rata yang diciptakan oleh instrumen investasi dalam 1 tahun.\n\nSuatu Reksa dana dapat memiliki return antara 2%-9% per bulan antara tahun 2011-2012. Annualized return Reksa dana tersebut dapat sebesar 5%, yang diartikan rata-rata return yang diberikan Reksa dana per tahun selama 2011-2012 adalah sebesar 5%.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Annualized st dev",
+            "full_title": "Annualized standard deviation",
+            "description": "Annualized standard deviation – standar deviasi yang disetahunkan adalah risiko rata-rata yang dimiliki oleh instrumen investasi selama periode waktu tertentu yang disetahunkan. Perhitungan risiko dalam annualized standard deviation adalah menggunakan standar deviasi return instrumen investasi.",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Aset Bebas Risiko",
+            "full_title": null,
+            "description": "Aset bebas risiko adalah instrumen investasi yang secara teori tidak memiliki risiko, atau dalam kenyataannya dapat dikategorikan sebagai instrumen investasi yang memiliki risiko yang sangat kecil sekali/bebas risiko.\n\nContoh aset bebas risiko, misalnya surat utang yang diterbitkan oleh Pemerintah, seperti Surat Utang Negara. Disebut bebas risiko karena kemungkinan gagal bayar bunga dan nilai pokok surat utang oleh pemerintah adalah sangat kecil. Contoh lain aset bebas risiko adalah surat utang yang diterbitkan oleh bank sentral suatu negara. Di Indonesia, aset ini misalnya Sertifikat Bank Indonesia.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
             "title": "Afiliasi",
             "full_title": null,
             "description": "Organisasi bisnis yang memiliki sejumlah aspek kepemilikan atau kontrol bersama dengan organisasi bisnis lain.",
@@ -42,15 +68,6 @@
             "full_title": null,
             "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
             "category": "investasi",
-            "created_at": "2022-06-14",
-            "updated_at": "2022-06-14"
-        },
-        {
-            "alphabet": "C",
-            "title": "Compound Interest",
-            "full_title": null,
-            "description": "Compound interest atau bunga berbunga adalah sistem perhitungan bunga terhadap nilai pokok pada suatu tingkat bunga tertentu yang mana pada perhitungan berikutnya, nilai pokok akan ditambahkan dengan bunga yang diperoleh/dikenakan sebagai basis perhitungan besaran bunga untuk periode waktu berikutnya pada tingkat bunga yang sama.",
-            "category": "kripto",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
         },
