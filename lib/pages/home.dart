@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final DictionaryRepository _dictionaryRepo = DictionaryRepository();
   final TextEditingController _searchController = TextEditingController();
 
-  int limit = 2;
+  int limit = 10;
   int pageList = 0;
 
   Future<List<DictionaryByAlphabets>> getNextPageData(int page) async {
@@ -145,12 +145,14 @@ class _HomeScreenState extends State<HomeScreen> {
                                                 ),
                                               ),
                                               subtitle: Text(
-                                                row.fullTitle != 'null'
-                                                    ? row.fullTitle!
-                                                    : row.description!,
-                                                maxLines: 2,
-                                                overflow: TextOverflow.ellipsis,
-                                              ),
+                                                  row.fullTitle != 'null'
+                                                      ? row.fullTitle!
+                                                      : row.description!,
+                                                  maxLines: 2,
+                                                  overflow:
+                                                      TextOverflow.ellipsis,
+                                                  style:
+                                                      TextStyle(height: 1.5)),
                                             ),
                                           ),
                                       ],
@@ -177,8 +179,8 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             Container(
-              margin:
-                  EdgeInsets.only(top: size.height * 0.16, left: 15, right: 15),
+              margin: EdgeInsets.only(
+                  top: (size.height * 0.2) - 25, left: 15, right: 15),
               padding: const EdgeInsets.symmetric(horizontal: 10),
               width: size.width,
               height: 50,

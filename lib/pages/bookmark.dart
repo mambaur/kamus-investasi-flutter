@@ -17,7 +17,7 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
   final BookmarkRepository _bookmarkRepo = BookmarkRepository();
   final DictionaryRepository _dictionaryRepo = DictionaryRepository();
 
-  int limit = 6;
+  int limit = 14;
   int pageList = 0;
 
   Future<List<DictionaryModel>> getNextPageData(int page) async {
@@ -156,12 +156,12 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
                                               fontWeight: FontWeight.bold),
                                         ),
                                         subtitle: Text(
-                                          item.fullTitle != 'null'
-                                              ? item.fullTitle!
-                                              : item.description!,
-                                          maxLines: 2,
-                                          overflow: TextOverflow.ellipsis,
-                                        ),
+                                            item.fullTitle != 'null'
+                                                ? item.fullTitle!
+                                                : item.description!,
+                                            maxLines: 2,
+                                            overflow: TextOverflow.ellipsis,
+                                            style: TextStyle(height: 1.5)),
                                       ),
                                     ],
                                   ),
@@ -182,11 +182,17 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
                       height: 15,
                     ),
                     Text(
-                      'Upps, Sorry!',
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                      'Upps, maaf!',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                          color: Colors.grey),
                     ),
-                    Text('Bookmark not found.')
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text('Bookmark masih kosong.',
+                        style: TextStyle(color: Colors.grey.shade400))
                   ],
                 )),
         ));

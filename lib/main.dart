@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:kamus_investasi/pages/bookmark.dart';
 import 'package:kamus_investasi/pages/history.dart';
@@ -9,6 +10,7 @@ import 'package:kamus_investasi/utils/datasets.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  MobileAds.instance.initialize();
   DataSets dataSets = DataSets();
   await dataSets.initDictionaries();
   runApp(const MyApp());

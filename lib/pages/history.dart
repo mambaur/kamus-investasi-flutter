@@ -17,7 +17,7 @@ class HistoryScreen extends StatefulWidget {
 class _HistoryScreenState extends State<HistoryScreen> {
   final HistoryRepository _historyRepo = HistoryRepository();
 
-  int limit = 6;
+  int limit = 14;
   int pageList = 0;
 
   Future<List<DictionaryByDate>> getNextPageData(int page) async {
@@ -201,6 +201,8 @@ class _HistoryScreenState extends State<HistoryScreen> {
                                                         ? row.fullTitle!
                                                         : row.description!,
                                                     maxLines: 2,
+                                                    style:
+                                                        TextStyle(height: 1.5),
                                                     overflow:
                                                         TextOverflow.ellipsis),
                                                 trailing: GestureDetector(
@@ -228,17 +230,23 @@ class _HistoryScreenState extends State<HistoryScreen> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
-                            width: size.width * 0.5,
+                            width: size.width * 0.43,
                             child: Image.asset('assets/images/history.png')),
                         SizedBox(
-                          height: 15,
+                          height: 20,
                         ),
                         Text(
-                          'Upps, Sorry!',
+                          'Upps, maaf!',
                           style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 18),
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18,
+                              color: Colors.grey),
                         ),
-                        Text('History not found.')
+                        SizedBox(
+                          height: 5,
+                        ),
+                        Text('Riwayat masih kosong.',
+                            style: TextStyle(color: Colors.grey.shade400))
                       ],
                     )),
             ),

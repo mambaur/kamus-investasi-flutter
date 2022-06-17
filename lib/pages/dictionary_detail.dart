@@ -1,4 +1,8 @@
+import 'package:clipboard/clipboard.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:kamus_investasi/databases/bookmarks/bookmark_repository.dart';
 import 'package:kamus_investasi/databases/dictionaries/dictionary_repository.dart';
@@ -8,6 +12,8 @@ import 'package:kamus_investasi/models/dictionary_model.dart';
 import 'package:kamus_investasi/models/history_model.dart';
 import 'package:kamus_investasi/utils/date_instance.dart';
 import 'package:share_plus/share_plus.dart';
+
+enum StatusAd { initial, loaded }
 
 class DictionaryDetailScreen extends StatefulWidget {
   final int? id;
@@ -23,6 +29,22 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
   final DictionaryRepository _dictionaryRepo = DictionaryRepository();
   final BookmarkRepository _bookmarkRepo = BookmarkRepository();
   final HistoryRepository _historyRepo = HistoryRepository();
+
+  BannerAd? myBanner;
+
+  StatusAd statusAd = StatusAd.initial;
+
+  BannerAdListener listener() => BannerAdListener(
+        // Called when an ad is successfully received.
+        onAdLoaded: (Ad ad) {
+          if (kDebugMode) {
+            print('Ad Loaded.');
+          }
+          setState(() {
+            statusAd = StatusAd.loaded;
+          });
+        },
+      );
 
   DictionaryModel? dictionaryModel;
   bool isBookmark = false;
@@ -84,10 +106,27 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
 
   @override
   void initState() {
-    print(widget.id!);
     getDictionary();
     addHistory();
+
+    myBanner = BannerAd(
+      // test banner
+      // adUnitId: 'ca-app-pub-3940256099942544/6300978111',
+      //
+      adUnitId: 'ca-app-pub-2465007971338713/1073462187',
+      size: AdSize.banner,
+      request: const AdRequest(),
+      listener: listener(),
+    );
+    myBanner!.load();
+
     super.initState();
+  }
+
+  @override
+  void dispose() {
+    myBanner!.dispose();
+    super.dispose();
   }
 
   @override
@@ -136,7 +175,7 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                 IconButton(
                   onPressed: () {
                     Share.share(
-                        '${dictionaryModel?.title} \n\n ${dictionaryModel?.description}\n\nhttps://bit.ly/kamus-investasi',
+                        '${dictionaryModel?.title} \n\n${dictionaryModel?.description}\n\nDownload aplikasi Kamus Investasi Sekarang!\nhttps://bit.ly/kamus-investasi',
                         subject: dictionaryModel?.title ?? '');
                   },
                   icon: Icon(
@@ -160,7 +199,9 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                   Container(
                     padding: EdgeInsets.symmetric(vertical: 3, horizontal: 5),
                     decoration: BoxDecoration(
-                        color: Color.fromRGBO(65, 83, 181, 1),
+                        color: dictionaryModel?.category == 'investasi'
+                            ? Color.fromRGBO(65, 83, 181, 1)
+                            : Colors.white,
                         borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(10),
                           bottomLeft: Radius.circular(10),
@@ -174,8 +215,11 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                   Container(
                     padding: EdgeInsets.symmetric(vertical: 3, horizontal: 5),
                     decoration: BoxDecoration(
+                        color: dictionaryModel?.category == 'trading'
+                            ? Color.fromRGBO(65, 83, 181, 1)
+                            : Colors.white,
                         border: Border.all(color: Colors.grey.shade200)),
-                    child: Text('Saham',
+                    child: Text('Trading',
                         style: TextStyle(
                           color: Colors.grey.shade800,
                         )),
@@ -183,12 +227,27 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                   Container(
                     padding: EdgeInsets.symmetric(vertical: 3, horizontal: 5),
                     decoration: BoxDecoration(
+                        color: dictionaryModel?.category == 'kripto'
+                            ? Color.fromRGBO(65, 83, 181, 1)
+                            : Colors.white,
+                        border: Border.all(color: Colors.grey.shade200)),
+                    child: Text('Kripto',
+                        style: TextStyle(
+                          color: Colors.grey.shade800,
+                        )),
+                  ),
+                  Container(
+                    padding: EdgeInsets.symmetric(vertical: 3, horizontal: 5),
+                    decoration: BoxDecoration(
+                        color: dictionaryModel?.category == 'saham'
+                            ? Color.fromRGBO(65, 83, 181, 1)
+                            : Colors.white,
                         borderRadius: BorderRadius.only(
                           topRight: Radius.circular(10),
                           bottomRight: Radius.circular(10),
                         ),
                         border: Border.all(color: Colors.grey.shade200)),
-                    child: Text('Trading',
+                    child: Text('Saham',
                         style: TextStyle(
                           color: Colors.grey.shade800,
                         )),
@@ -199,14 +258,38 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
             // Divider(
             //   color: Color.fromRGBO(65, 83, 181, 1),
             // ),
+            statusAd == StatusAd.loaded
+                ? Container(
+                    margin: EdgeInsets.only(top: 15, left: 15, right: 15),
+                    alignment: Alignment.center,
+                    child: AdWidget(ad: myBanner!),
+                    width: myBanner!.size.width.toDouble(),
+                    height: myBanner!.size.height.toDouble(),
+                  )
+                : Container(),
             SizedBox(
               height: 15,
             ),
-            Text('Deskripsi',
-                style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 16,
-                    color: Colors.grey.shade800)),
+            Row(
+              children: [
+                Text('Deskripsi',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                        color: Colors.grey.shade800)),
+                SizedBox(
+                  width: 8,
+                ),
+                GestureDetector(
+                    onTap: () {
+                      FlutterClipboard.copy(dictionaryModel?.description ?? '')
+                          .then((value) {
+                        Fluttertoast.showToast(msg: 'Deskripsi telah disalin');
+                      });
+                    },
+                    child: Icon(Iconsax.copy, color: Colors.grey))
+              ],
+            ),
             SizedBox(
               height: 15,
             ),
@@ -217,6 +300,7 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                         style: TextStyle(
                             // fontWeight: FontWeight.bold,
                             // fontSize: 16,
+                            height: 1.5,
                             color: Colors.grey.shade800)),
                   )
                 : Container(),
