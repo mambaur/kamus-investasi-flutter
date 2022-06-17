@@ -209,7 +209,9 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                         border: Border.all(color: Colors.grey.shade200)),
                     child: Text('Investasi',
                         style: TextStyle(
-                          color: Colors.white,
+                          color: dictionaryModel?.category == 'investasi'
+                              ? Colors.white
+                              : Colors.grey.shade800,
                         )),
                   ),
                   Container(
@@ -221,7 +223,9 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                         border: Border.all(color: Colors.grey.shade200)),
                     child: Text('Trading',
                         style: TextStyle(
-                          color: Colors.grey.shade800,
+                          color: dictionaryModel?.category == 'trading'
+                              ? Colors.white
+                              : Colors.grey.shade800,
                         )),
                   ),
                   Container(
@@ -233,7 +237,9 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                         border: Border.all(color: Colors.grey.shade200)),
                     child: Text('Kripto',
                         style: TextStyle(
-                          color: Colors.grey.shade800,
+                          color: dictionaryModel?.category == 'kripto'
+                              ? Colors.white
+                              : Colors.grey.shade800,
                         )),
                   ),
                   Container(
@@ -249,7 +255,9 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                         border: Border.all(color: Colors.grey.shade200)),
                     child: Text('Saham',
                         style: TextStyle(
-                          color: Colors.grey.shade800,
+                          color: dictionaryModel?.category == 'saham'
+                              ? Colors.white
+                              : Colors.grey.shade800,
                         )),
                   ),
                 ],

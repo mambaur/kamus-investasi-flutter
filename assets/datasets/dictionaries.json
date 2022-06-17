@@ -2,6 +2,231 @@
     "data": [
         {
             "alphabet": "A",
+            "title": "ATR",
+            "full_title": "Average True Range",
+            "description": "Average True Range (ATR) adalah merupakan nilai rata-rata exponensial dari True Range. ATR pertama dikenal dalam buku New Concepts in Trading Systems yang ditulis oleh Welles Wilder. Tujuan perhitungan ATR adalah untuk mengetahui tingkat volatilitas instrumen yang sedang kita analisa.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Audit",
+            "full_title": null,
+            "description": "Audit adalah investigasi resmi atas laporan keuangan seseorang atau perusahaan untuk memastikan kebenarannya.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Auditor",
+            "full_title": null,
+            "description": "Auditor adalah sosok yang penting karena ia berkaitan dengan masalah hukum seperti perkara perundang-undangan.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Asuransi",
+            "full_title": null,
+            "description": "Asuransi adalah kontrak di mana satu pihak melindungi pihak lainnya dari kerugian finansial. Berbagai jenis polis asuransi melindungi orang dalam berbagai aspek kehidupan mereka. Jenis asuransi umum termasuk asuransi kesehatan, jiwa, mobil, dan kepemilikan rumah.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Asset Valuation",
+            "full_title": null,
+            "description": "Asset Valuation adalah proses menentukan nilai saat ini dari aset perusahaan, seperti saham, aset tetap dan aset tidak berwujud.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "AI",
+            "full_title": "Artificial Intelligence",
+            "description": "Artificial intelligence adalah teknologi yang kini menunjukkan perkembangan pesat dalam skala global. Artificial intelligence di indonesia pun tak ketinggalan.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Accrued Interest",
+            "full_title": null,
+            "description": "Dalam akuntansi, definisi dari accrued interest atau bunga yang masih harus dibayar adalah bunga yang dibebankan pada waktu tertentu untuk pinjaman yang belum terbayar. \n\nSelain pinjaman, bisa juga untuk kewajiban keuangan yang lain. Bunga akrual bisa berbentuk pendapatan bunga yang masih harus dibayar bagi yang meminjamkan atau biaya bunga yang masih harus dibayar bagi yang meminjam.\n\nIstilah apa itu accrued interest ini juga bisa mengacu pada jumlah bunga obligasi yang terkumpul sejak pembayaran bunga obligasi terakhir dilakukan.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Accrued Interest Adjustment",
+            "full_title": null,
+            "description": "Pengertian Accrued Interest Adjustment adalah menampilkan bunga yang masih harus terdengar. Dengan menurunkan pendapatan bunga kena pajak pembeli sekuritas pendapatan tetap dengan mengurangi jumlah bunga ekstra yang nunjuk pada mereka.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Actual Total Loss",
+            "full_title": null,
+            "description": "Total kerugian yang sebenarnya adalah kerugian ketika properti yang diasuransikan hancur atau rusak hingga tidak dapat lagi digunakan kembali untuk digunakan kembali. Seringkali terjadi kerugian total yang terjadi ganti rugi maksimal mungkin sesuai dengan polis asuransi.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Adjustable Life Insurance",
+            "full_title": null,
+            "description": "Pengertian Adjustable Life Insurance adalah kontrak asuransi jiwa yang dirancang khusus, dimana pemegang polis dapat minta perubahan uang pertanggungan.\n\nDan premi sesuai dengan kebutuhannya yang berubah-ubah dalam masa asuransi. Misalnya, pemegang polis minta uang pertanggungan dinaikkan atau diturunkan sesuai dengan kebutuhannya sehingga premi pun jumlahnya berubah.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Adjusted Net Worth",
+            "full_title": null,
+            "description": "Pengertian adjusted net worth adalah kekayaan bersih yang dihitung dengan menghitung nilai perusahaan asuransi. Dengan menggunakan nilai modal, nilai surplus, dan perkiraan nilai bisnis di pembukuan perusahaan. Ini dimulai dengan perkiraan nilai bisnis dan menambahkan keuntungan yang belum direalisasi, modal surplus, dan kesiapan.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Afiliasi",
+            "full_title": null,
+            "description": "Organisasi bisnis yang memiliki sejumlah aspek kepemilikan atau kontrol bersama dengan organisasi bisnis lain.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "A",
+            "title": "After Hours Trading",
+            "full_title": null,
+            "description": "After hours trading adalah proses perdagangan di pasar saham yang dilakukan setelah jam kerja atau jam perdagangan saham atau jam bursa saham normal (di luar waktu day trading).\n\nPeriode waktu perdagangan alias day trading dikenal sebagai waktu berlangsungnya sesi perdagangan. Pada sebagian besar pasar saham, sesi perdagangan utama berlangsung pada siang hari, ketika satu sesi perdagangan mewakili satu hari bisnis.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Aggregate Supply",
+            "full_title": null,
+            "description": "Aggregate supply, juga dikenal sebagai output total, adalah total penawaran barang dan jasa yang diproduksi dalam suatu perekonomian pada harga keseluruhan tertentu dalam periode tertentu. Ini diwakili oleh kurva, yang menggambarkan hubungan antara tingkat harga dan jumlah output yang bersedia disediakan perusahaan. Biasanya, ada hubungan positif antara aggregate supply dan tingkat harga.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Agunan (Collateral)",
+            "full_title": null,
+            "description": "Jaminan atau agunan adalah aset yang dimiliki oleh peminjam yang telah mereka setujui untuk diberikan kepada lembaga pemberi pinjaman jika peminjam gagal membayar pinjamannya.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "AGM",
+            "full_title": "Annual General Meeting",
+            "description": "Pengertian Annual General Meeting (AGM) adalah rapat umum pemegang saham tahunan (RUPST) yang merupakan pertemuan tahunan wajib dari pemegang saham perusahaan yang berkepentingan.\n\nDalam RUPS, direksi perseroan mempresentasikan laporan tahunan yang memuat informasi bagi pemegang saham tentang kinerja dan strategi perseroan.\n\nPemegang saham dengan hak suara memberikan suara pada masalah saat ini, seperti pengangkatan ke dewan direksi perusahaan, kompensasi eksekutif, pembayaran dividen, dan pemilihan auditor.",
+            "category": "saham",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Akuntansi Akrual",
+            "full_title": null,
+            "description": "Akuntansi akrual berarti melacak pendapatan dan beban dalam periode akuntansi yang sama dengan aktivitas bisnis yang menghasilkannya—terlepas dari apakah kas telah ditukar.\n\nKetika ada transaksi bisnis, maka akuntansi akrual mencatat transaksi bisnis dengan entri jurnal di buku besar perusahaan, bahkan jika kas terkait mungkin tidak mengalir masuk atau keluar dari bisnis sampai nanti.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Alokasi Aset",
+            "full_title": null,
+            "description": "Alokasi aset (asset allocation) adalah strategi investasi dengan menentukan porsi atau memberi bobot tertentu masing-masing instrumen investasi/aset terhadap portofolio untuk tujuan menyeimbangkan risiko dan return.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Altcoin",
+            "full_title": null,
+            "description": "Pengertian Altcoin adalah adalah cryptocurrency lain yang diluncurkan setelah kesuksesan Bitcoin. Umumnya sebagai alternatif yang lebih baik dari Bitcoin.\n\nIstilah ini mengacu pada semua cryptocurrency selain dari Bitcoin. Pada awal 2020 ada lebih dari 5.000 cryptocurrency dengan beberapa perkiraan. Menurut CoinMarketCap, altcoin menyumbang lebih dari 34% dari total pasar cryptocurrency pada Februari 2020.",
+            "category": "kripto",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Altcoin Index",
+            "full_title": null,
+            "description": "Altcoin index adalah indeks yang berisi cerminan fluktuasi pasar mata uang kripto terhadap mata uang fiat. Tujuannya, tentu untuk membantu trader atau investor kripto dalam memprediksi arah harga aset kripto ke depan.",
+            "category": "kripto",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Altcoin Season",
+            "full_title": null,
+            "description": "Altcoin season adalah masa yang sangat dinanti oleh para trader kripto. Terutama, para investor retail dan pemula dengan modal yang masih terbatas.",
+            "category": "kripto",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Analisis Fundamental Saham",
+            "full_title": null,
+            "description": "Mau jadi investor ataupun trader, analisis fundamental merupakan keharusan sebelum Sobat Cuan terjun di dunia investasi. Metode analisis fundamental adalah metode untuk melihat performa atau kelaikan suatu instrumen investasi yang kamu incar secara intrinsik.",
+            "category": "investasi",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Analisis SWOT",
+            "full_title": null,
+            "description": "Analisis SWOT adalah kerangka kerja yang digunakan untuk mengevaluasi keunggulan kompetitif sebuah perusahaan serta pengembangan rencana strategis korporasi ke depan. Sesuai singkatannya, seluruh kerangka kerja tersebut didasarkan pada Strengths (kekuatan), Weaknesses (kelemahan), Opportunities (kesempatan), dan Threats (ancaman).",
+            "category": "saham",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Angel Investor",
+            "full_title": null,
+            "description": "Angel investor adalah mereka yang menyediakan pembiayaan untuk startup (perusahaan pemula), biasanya pada tahap awal, dengan imbalan kepemilikan saham.\n\nAngel investor adalah salah satu cara untuk membiayai sebuah startup, biasanya ketika perusahaan baru saja dimulai. Alih-alih meminjamkan uang, angel investor menerima kepemilikan saham di perusahaan dengan imbalan dana yang mereka kontribusikan.",
+            "category": "saham",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Annual Report",
+            "full_title": null,
+            "description": "Annual Report adalah makalah yang diterbitkan yang dirilis oleh perusahaan publik untuk memastikan pemegang saham mereka mutakhir tentang keadaan keuangan mereka.\n\nAnnual report membandingkan kinerja tahun ini dengan laporan tahunan sebelumnya untuk mendokumentasikan pertumbuhan. Karena apa yang diinginkan oleh bisnis lebih dari itu? Terakhir, laporan tahunan mencantumkan pejabat kepala perusahaan, tim eksekutif, dan anggota staf utama sehingga pembaca tahu siapa yang membuat keputusan paling penting perusahaan.",
+            "category": "saham",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
             "title": "Annualized Return",
             "full_title": null,
             "description": "Annualized return adalah imbal hasil atau keuntungan rata-rata yang diciptakan oleh instrumen investasi dalam 1 tahun.\n\nSuatu Reksa dana dapat memiliki return antara 2%-9% per bulan antara tahun 2011-2012. Annualized return Reksa dana tersebut dapat sebesar 5%, yang diartikan rata-rata return yang diberikan Reksa dana per tahun selama 2011-2012 adalah sebesar 5%.",
@@ -19,6 +244,22 @@
         },
         {
             "alphabet": "A",
+            "title": "Anuitas",
+            "full_title": null,
+            "description": "Anuitas adalah produk keuangan yang membayarkan aliran pembayaran tetap kepada individu, dan produk keuangan ini terutama digunakan sebagai aliran pendapatan bagi pensiunan.\n\nAnuitas adalah kontrak yang diterbitkan dan didistribusikan (atau dijual) oleh lembaga keuangan, yang menginvestasikan dana dari individu. Mereka membantu individu mengatasi risiko atau hidup lebih lama dari tabungan mereka. Setelah anuitisasi, lembaga induk akan mengeluarkan aliran pembayaran di lain waktu.",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
+            "title": "Applied Economics",
+            "full_title": null,
+            "description": "Applied Economics adalah disebut juga ekonomi terapan yang menerapkan kesimpulan yang diambil dari teori ekonomi dan studi empiris ke situasi dunia nyata. Dengan tujuan yang diinginkan untuk menginformasikan keputusan ekonomi dan memprediksi kemungkinan hasil.",
+            "created_at": "2022-06-17",
+            "updated_at": "2022-06-17"
+        },
+        {
+            "alphabet": "A",
             "title": "Aset Bebas Risiko",
             "full_title": null,
             "description": "Aset bebas risiko adalah instrumen investasi yang secara teori tidak memiliki risiko, atau dalam kenyataannya dapat dikategorikan sebagai instrumen investasi yang memiliki risiko yang sangat kecil sekali/bebas risiko.\n\nContoh aset bebas risiko, misalnya surat utang yang diterbitkan oleh Pemerintah, seperti Surat Utang Negara. Disebut bebas risiko karena kemungkinan gagal bayar bunga dan nilai pokok surat utang oleh pemerintah adalah sangat kecil. Contoh lain aset bebas risiko adalah surat utang yang diterbitkan oleh bank sentral suatu negara. Di Indonesia, aset ini misalnya Sertifikat Bank Indonesia.",
@@ -28,18 +269,45 @@
         },
         {
             "alphabet": "A",
-            "title": "Afiliasi",
-            "full_title": null,
-            "description": "Organisasi bisnis yang memiliki sejumlah aspek kepemilikan atau kontrol bersama dengan organisasi bisnis lain.",
+            "title": "AUM",
+            "full_title": "Assets Under Management",
+            "description": "AUM adalah singkatan dari Assets Under Management atau dalam bahasa Indonesia dikenal dengan istilah dana kelolaan. AUM mengacu pada jumlah dana yang dikelola oleh perusahaan Manager Investasi (MI).",
             "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
         },
         {
             "alphabet": "A",
-            "title": "AUM",
-            "full_title": "Assets Under Management",
-            "description": "AUM adalah singkatan dari Assets Under Management atau dalam bahasa Indonesia dikenal dengan istilah dana kelolaan. AUM mengacu pada jumlah dana yang dikelola oleh perusahaan Manager Investasi (MI).",
+            "title": "Arbitrase",
+            "full_title": null,
+            "description": "Arbitrase adalah salah satu dari berbagai metode yang bisa digunakan dalam penyelesaian sengketa. Arbitrase pada dasarnya dirancang untuk menjadi opsi yang bisa dipilih untuk menangani masalah hukum.\n\nUntuk bisa melakukan arbitrase, diperkukan kesepakatan antara kedua pihak yang bersengketa. Arbitrase hanya terjadi ketika dua pihak menyetujuinya, baik sebelum atau setelah sengketa hukum muncul. Untuk alasan ini, perjanjian secara tertulis harus dilakukan oleh kedua pihak sebelum arbitrase.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "A",
+            "title": "Arus Kas",
+            "full_title": null,
+            "description": "Arus Kas adalah bagian dari laporan keuangan yang berisi perincian arus kas masuk dan arus kas keluar. Keluar masuk arus kas dibagi menjadi 3 bagian, yakni arus kas yang dihasilkan dari aktivitas operasi, arus kas yang dihasilkan dari aktivitas investasi, dan arus kas yang dihasilkan aktivitas pendanaan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Balance Sheet (Neraca)",
+            "full_title": null,
+            "description": "Neraca atau balance sheet adalah laporan posisi keuangan yang berfungsi menaksir kesehatan keuangan perusahaan. Ini termasuk juga meramalkan keadaan arus kas di masa depan dan bahan analisis likuiditas serta fleksibilitas keuangan perusahaan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Balanced Investment Strategy",
+            "full_title": null,
+            "description": "Balanced investment strategy adalah cara menggabungkan investasi dalam portfolio yang bertujuan untuk menyeimbangkan risiko dan pengembalian. Biasanya, portfolio yang seimbang dibagi rata antara saham dan obligasi.",
             "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
@@ -59,6 +327,294 @@
             "full_title": null,
             "description": "Bank Kustodian adalah pihak yang memberikan jasa penitipan efek dan harta lain yang berkaitan dengan efek, termasuk reksa dana. Dalam transaksi reksa dana, ketika nasabah atau investor melakukan pembelian, maka uang yang dibayarkan akan masuk ke dalam rekening atas nama reksa dana di bank kustodian, bukan ke rekening manajer investasi.\n\nManajer investasi tidak mempunyai akses langsung ke dana investor, karena uang tersebut tersimpan di bank kustodian. Ketika investor melakukan penjualan, bank kustodian pula yang melakukan transfer dana kepada investor, bukan dari manajer investasi. Dengan adanya peran dari bank kustodian ini, maka investasi dalam bentuk reksa dana menjadi lebih aman dan nyaman serta berpihak pada kepentingan investor.\n\nKegiatan Bank Kustodian dapat dilakukan oleh lembaga penyimpanan dan penyelesaian, perusahaan efek, atau bank umum yang telah mendapat persetujuan dari Otoritas Jasa Keuangan.",
             "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "BSC",
+            "full_title": "Balanced Scorecard",
+            "description": "Balanced scorecard adalah metrik kinerja manajemen strategis untuk mengidentifikasi dan meningkatkan berbagai fungsi bisnis internal dan hasil eksternal yang dihasilkannya. Contoh balanced score digunakan untuk mengukur dan memberikan umpan balik kepada organisasi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Baseline",
+            "full_title": null,
+            "description": "Baseline adalah titik referensi yang digunakan untuk menganalisis perbandingan. Mulai dari kinerja proyek, perusahaan, atau anggaran untuk melihat perkembangannya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Basic Risk",
+            "full_title": "Risiko Dasar",
+            "description": "Risiko dasar atau basis risk adalah risiko yang timbul karena terjadinya kegagalan pengelolaan antara sumber dana dan penanamannya. Ukuran basis risk ini di antaranya diperhitungkan dari segi jangka waktu, sumber dana jangka pendek yang digunakan membiayai kredit jangka panjang, dst.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Basket Trade",
+            "full_title": null,
+            "description": "Basket Trade adalah perintah untuk membeli atau menjual sekelompok sekuritas secara bersamaan.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "BAT Stocks",
+            "full_title": "Saham BAT",
+            "description": "BAT stock alias saham BAT merupakan kelompok saham yang terdiri dari saham Baidu Inc. (BIDU), Alibaba Group Holding Ltd. (BABA), dan Tencent Holdings Ltd. (0700. Hong Kong, TCEHY).\n\nKetiganya merupakan tiga saham internet besar Tiongkok yang sering disetarakan dengan anak perusahaan Alphabet Inc. Google (GOOG), Amazon.com Inc. (AMZN), dan Facebook Inc (FB).",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bear Trap",
+            "full_title": null,
+            "description": "Bear trap adalah salah satu sinyal palsu dalam analisis teknikal. Ini merupakan kondisi di mana harga aset menunjukkan tren menurun secara dadakan. Namun, kondisi itu sebenarnya adalah jebakan sesaat sebelum harga aset menuju titik yang lebih tinggi lagi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Behavioral Finance",
+            "full_title": null,
+            "description": "Behavioral Finance adalah suatu kajian yang meyakini bahwa ada pengaruh psikologis yang mempengaruhi investor dalam pengambilan keputusan investasi.Faktor psikologis tersebut bahkan dinilai dapat menyebabkan para investor melakukan hal yang tidak rasional dan tidak dapat diprediksi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bermuda Option",
+            "full_title": null,
+            "description": "Bermuda option alias opsi bermuda adalah kontrak exotic options (berjenis eksotis) yang hanya dapat dilakukan pada tanggal yang telah ditentukan. Kerapkali, waktu yang ditentukan adalah satu hari setiap bulan.\n\nExotic option melayani berbagai kebutuhan yang spesifik untuk kebutuhan tertentu (niche). Sementara kontrak opsi adalah derivatif keuangan yang menunjukkan bahwa mereka memperoleh biaya dari aset dasar lain, seperti saham.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bilateral Contract",
+            "full_title": null,
+            "description": "Bilateral contract atau kontrak bilateral adalah kesepakatan antara dua pihak di mana masing-masing pihak setuju untuk memenuhi tawar-menawar. Dalam situasi yang lebih kompleks, seperti negosiasi perdagangan multinasional, kontrak bilateral dapat disebut sebagai “kesepakatan sampingan”.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "BNB",
+            "full_title": "Binance Coin",
+            "description": "Binance coin adalah mata uang crypto yang diterbitkan oleh platform exchange kripto, Binance Exchange, dengan merek dagang BNB.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Birokrasi",
+            "full_title": null,
+            "description": "Birokrasi adalah sebuah tatanan kerja organisasi – umumnya besar dan kompleks – dengan banyak lapisan hierarki, aturan formal, dan peran khusus dengan tujuan menjalankan fungsi administrasi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bitcoin",
+            "full_title": null,
+            "description": "Bitcoin adalah sebuah mata uang baru atau uang elektronik yang diciptakan tahun 2009 lalu oleh seseorang yang menggunakan nama samaran Satoshi Nakamoto.\n\nUtamanya digunakan dalam transaksi di internet tanpa menggunakan perantara alias tidak menggunakan jasa bank dan menggunakan sistem peer to peer (P2P).\n\nHanya saja, sistemnya bekerja tanpa penyimpanan atau administrator tunggal di mana Departemen Keuangan Amerika Serikat menyebut bitcoin sebagai sebuah mata uang yang terdesentralisasi.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bitcoin Halving",
+            "full_title": null,
+            "description": "Bitcoin halving adalah kondisi ketika imbalan bagi penambang Bitcoin (block reward) berkurang setengah setelah selesai menambang 210.000 blok, atau terjadi empat tahun sekali. Halving menjadi indikator penting dalam menyusun proyeksi harga Bitcoin mengingat aktivitas ini memberi sinyal utama mengenai pasokan raja aset kripto tersebut saat ini.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Black Monday",
+            "full_title": null,
+            "description": "Black Monday adalah sebuah kejadian yang terjadi pada 19 Oktober 1987, ketika Dow Jones Industrial Average (DJIA) kehilangan hampir 22% dalam satu hari. Peristiwa tersebut menandai awal dari penurunan pasar saham global, dan Black Monday menjadi salah satu hari paling terkenal dalam sejarah keuangan.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Blockchain",
+            "full_title": null,
+            "description": "Jika kamu mengikuti dunia bisnis perbankan, investasi, atau cryptocurrency selama sepuluh tahun terakhir, kamu mungkin akrab dengan istilah “blockchain”. Blockchain adalah teknologi pencatatan di balik jaringan Bitcoin. Dalam mencoba mempelajari lebih lanjut tentang istilah ini, mungkin menemukan definisi seperti ini: “blockchain adalah sebuah buku besar publik yang terdistribusi dan tersentralisasi.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bond Valuation",
+            "full_title": null,
+            "description": "Bond Valuation adalah sebuah penilaian obligasi merupakan teknik untuk menentukan nilai wajar teoritis dari obligasi tertentu. Penilaian obligasi termasuk menghitung nilai sekarang dari pembayaran bunga obligasi di masa depan, juga dikenal sebagai arus kasnya. Dan nilai obligasi pada saat jatuh tempo, juga dikenal sebagai nilai nominal atau nilai par.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bond Yield (Yield Obligasi)",
+            "full_title": null,
+            "description": "Yield obligasi adalah rasio pembayaran periodik (kupon) dibagi dengan nilai pasar saat ini dan dinyatakan sebagai persentase.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Break Even Analysis",
+            "full_title": "Analisis Titik Impas",
+            "description": "Break even analysis atau analisis titik impas adalah penghitungan dan pemeriksaan margin yang menunjukkan usaha balik modal (safety margin). Ini umumnya dihitung untuk suatu entitas berdasarkan pendapatan yang dikumpulkan dan biaya terkait.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Break Even Price",
+            "full_title": "Harga Impas",
+            "description": "Break even price atau harga impas adalah jumlah uang di mana aset harus dijual untuk menutupi biaya perolehan dan kepemilikannya. Ini juga dapat merujuk pada jumlah uang yang produk atau layanannya harus dijual untuk menutupi biaya pembuatan atau penyediaannya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bretton Woods Agreement",
+            "full_title": null,
+            "description": "Bretton Woods Agreement adalah momentum yang monumental dalam dunia moneter dan perdagangan internasional. Perjanjian itu menghasilkan Bretton Woods System, sebuah sistem di mana mata uang dolar AS akan menggunakan standar emas sementara nilai mata uang lainnya akan ditautkan ke nilai dolar AS.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bridge Loan",
+            "full_title": null,
+            "description": "Bridge Loan adalah jenis pinjaman jangka pendek yang mungkin digunakan peminjam untuk membantu mendanai pembelian baru sebelum mereka melepaskan pinjaman yang ada.\n\nPada dasarnya, pengertian Bridge Loan adalah ketika seseorang bersiap untuk melakukan pembelian dalam jumlah besar sementara mereka masih memiliki kewajiban keuangan yang signifikan. Mereka mungkin menggunakan pinjaman jembatan untuk menutupi waktu di antaranya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Broker",
+            "full_title": null,
+            "description": "Broker adalah orang atau perusahaan broker yang biasanya membebankan komisi (biaya) untuk investor yang cocok yang ingin membeli atau menjual sekuritas (seperti saham atau obligasi) dengan sisi lain dari transaksi. (Robinhood Financial LLC adalah perusahaan broker, dan tidak mengenakan biaya komisi kepada pembeli atau penjual untuk melaksanakan pesanan).",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Budget Deficit",
+            "full_title": null,
+            "description": "Budget Deficit adalah situasi ketika anggaran belanja negara melebihi pendapatannya. Penyebab defisit anggaran bervariasi mulai dari pengurangan biaya pada arus modal untuk pengembangan segmen tertentu hingga sistem keuangan yang tidak efektif dan kebijakan pajak suatu negara.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bull dan Bear Market",
+            "full_title": null,
+            "description": "Pasar naik (bull) menggambarkan periode pertumbuhan untuk saham, industri, seluruh pasar, sementara pasar turun atau bearish market adalah mencerminkan penurunan.\n\nPasar banteng (bull) dan beruang (bear) adalah istilah kunci investasi dan simbol, menangkap perasaan positif (bull) atau yang negatif (bear). Tidak ada aturan resmi, tetapi pasar bull cenderung merujuk pada kenaikan 20% di pasar dari waktu ke waktu, sementara bear mewakili penurunan 20% dari atasnya.\n\nSecara umum, kepositifan “bull” atau negatif “bear” dapat merujuk pada gerakan naik atau turun dari hampir semua hal, seperti saham individu. Dan kamu bahkan akan melihat investor mengatakan mereka “bullish” pada industri dengan potensi pertumbuhan atau “bearish” pada saham yang mereka pikir akan turun.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bull Spread",
+            "full_title": null,
+            "description": "Bull spread adalah sebuah strategi trading dengan opsi optimistis. Hal ini dirancang untuk mendapat keuntungan dari kenaikan sedang harga sekuritas atau aset.\n\nBull spread adalah variasi dari spread (selisihi harga jual beli) vertikal. Spread ini melibatkan pembelian dan penjualan secara bersamaan dari opsi jual atau opsi beli dengan kesepakatan yang berbeda.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bull Trap",
+            "full_title": null,
+            "description": "Bull trap adalah sebuah sinyal palsu, yang merujuk pada penurunan sebuah tren pada saham, indeks, atau efek lain yang berbalik arah setelah pada awalnya terlihat meyakinkan dan berhenti sebelum mencapai level support.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bundle of Rights",
+            "full_title": null,
+            "description": "Bundle of Rights  adalah hak-hak atas tanah menjadi landasan bagi pelaksanaan pengusahaan lahan. Hak tersebut adalah hak milik, hak guna usaha, hak guna bangunan, hak pakai, hak sewa, hak pengelolaan, hak membuka tanah, hak memungut hasil hutan, dan hak-hak lain (hak tanggungan).",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Business Ethics",
+            "full_title": null,
+            "description": "Business ethics atau etika bisnis adalah studi tentang kebijakan dan praktik bisnis yang sesuai mengenai subjek tata kelola perusahaan. Urusan etika bisnis terkait subjek yang berpotensi kontroversial, seperti penyuapan, diskriminasi, tanggung jawab sosial perusahaan, hingga tanggung jawab fidusia.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Business Model",
+            "full_title": null,
+            "description": "Business Model adalah merujuk pada rencana perusahaan untuk menghasilkan keuntungan. Ini mengidentifikasi produk atau layanan yang rencana bisnis untuk dijual, target pasarnya yang teridentifikasi, dan biaya yang diantisipasi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Business-to-Consumer (B2C)",
+            "full_title": null,
+            "description": "Business-to-Consumer (B2C) adalah proses penjualan produk dan layanan secara langsung antara pelaku bisnis dan konsumen yang merupakan pengguna akhir dari produk atau layanannya. Sebagian besar perusahaan yang melakukan penjualn secara langsung ke konsumen dapat disebut sebagai perusahaan B2C.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Butterfly Spread",
+            "full_title": null,
+            "description": "Butterfly spread adalah sebuah strategi opsi yang menggabungkan bull dan bear spread, dengan risiko tetap dan terbatas. Spread seperti ini melibatkan antara empat kali beli atau empat kali jual, diniatkan sebagai strategi yang netral terhadap pasar dan bisa memenuhi hampir semua kebutuhan jika underlyingnya tidak bergerak sebelum opsinya kadaluwarsa.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "B",
+            "title": "Buy the Dip",
+            "full_title": null,
+            "description": "Buy the dip adalah sebuah istilah dalam investasi yang mengacu pada sikap investor yang memborong suatu aset ketika harganya turun. Selama ini, istilah buy the dip marak dipergunakan di investasi pasar modal. Namun belakangan, istilah ini sudah mulai merambah ke kancah investasi aset kripto.",
+            "category": "kripto",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
         },
