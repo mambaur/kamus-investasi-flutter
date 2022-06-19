@@ -11,8 +11,6 @@ import 'package:kamus_investasi/utils/datasets.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
-  DataSets dataSets = DataSets();
-  await dataSets.initDictionaries();
   runApp(const MyApp());
 }
 
@@ -48,12 +46,21 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
+  bool isInitializeDatasets = true;
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
 
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
+    });
+  }
+
+  Future setupDatasets() async {
+    DataSets dataSets = DataSets();
+    bool result = await dataSets.initDictionaries();
+    setState(() {
+      isInitializeDatasets = result;
     });
   }
 
@@ -64,37 +71,68 @@ class _MyHomePageState extends State<MyHomePage> {
   ];
 
   @override
+  void initState() {
+    setupDatasets();
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: _widgetOptions.elementAt(_selectedIndex),
-      bottomNavigationBar: BottomNavigationBar(
-        // showSelectedLabels: false,
-        // showUnselectedLabels: false,
-        backgroundColor: Colors.white,
-        selectedFontSize: 12,
-        items: <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Container(
-                margin: EdgeInsets.only(bottom: 3), child: Icon(Iconsax.home)),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Container(
-                margin: EdgeInsets.only(bottom: 3),
-                child: Icon(Iconsax.bookmark)),
-            label: 'Bookmark',
-          ),
-          BottomNavigationBarItem(
-            icon: Container(
-                margin: EdgeInsets.only(bottom: 3),
-                child: Icon(Iconsax.repeat_circle)),
-            label: 'Riwayat',
-          ),
-        ],
-        currentIndex: _selectedIndex,
-        selectedItemColor: Color.fromRGBO(65, 83, 181, 1),
-        onTap: _onItemTapped,
-      ),
-    );
+    return !isInitializeDatasets
+        ? Scaffold(
+            body: _widgetOptions.elementAt(_selectedIndex),
+            bottomNavigationBar: BottomNavigationBar(
+              // showSelectedLabels: false,
+              // showUnselectedLabels: false,
+              backgroundColor: Colors.white,
+              selectedFontSize: 12,
+              items: <BottomNavigationBarItem>[
+                BottomNavigationBarItem(
+                  icon: Container(
+                      margin: EdgeInsets.only(bottom: 3),
+                      child: Icon(Iconsax.home)),
+                  label: 'Home',
+                ),
+                BottomNavigationBarItem(
+                  icon: Container(
+                      margin: EdgeInsets.only(bottom: 3),
+                      child: Icon(Iconsax.bookmark)),
+                  label: 'Bookmark',
+                ),
+                BottomNavigationBarItem(
+                  icon: Container(
+                      margin: EdgeInsets.only(bottom: 3),
+                      child: Icon(Iconsax.repeat_circle)),
+                  label: 'Riwayat',
+                ),
+              ],
+              currentIndex: _selectedIndex,
+              selectedItemColor: Color.fromRGBO(65, 83, 181, 1),
+              onTap: _onItemTapped,
+            ),
+          )
+        : Scaffold(
+            body: Center(
+                child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                CircularProgressIndicator(
+                  color: Color.fromRGBO(65, 83, 181, 1),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Text('Loading 👾',
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.grey.shade800)),
+                SizedBox(
+                  height: 5,
+                ),
+                Text('Mohon tunggu...', style: TextStyle(color: Colors.grey)),
+              ],
+            )),
+          );
   }
 }

@@ -11,11 +11,38 @@ class DictionaryRepository {
     return await db.insert(dbInstance.dictionaryTable, row);
   }
 
+  Future<List<DictionaryModel>> getAllDictionaryAlphabets(
+      {String? alphabet}) async {
+    Database db = await dbInstance.database;
+    final data = await db.rawQuery(
+        'SELECT ${dbInstance.dictionaryTable}.* FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryAlphabet}="$alphabet" ORDER BY upper(${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle}) ASC',
+        []);
+
+    List<DictionaryModel> listDictionaries = [];
+    if (data.isNotEmpty) {
+      for (var i = 0; i < data.length; i++) {
+        DictionaryModel dictionaryModel = DictionaryModel(
+          id: int.parse(data[i]['id'].toString()),
+          title: data[i]['title'].toString(),
+          fullTitle: data[i]['full_title'].toString(),
+          description: data[i]['description'].toString(),
+          alphabet: data[i]['alphabet'].toString(),
+          category: data[i]['category'].toString(),
+          createdAt: data[i]['created_at'].toString(),
+          updatedAt: data[i]['updated_at'].toString(),
+        );
+        listDictionaries.add(dictionaryModel);
+      }
+    }
+
+    return listDictionaries;
+  }
+
   Future<List<DictionaryModel>> getDictionaryAlphabets(
       {String? alphabet, String? q}) async {
     Database db = await dbInstance.database;
     final data = await db.rawQuery(
-        'SELECT ${dbInstance.dictionaryTable}.* FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryAlphabet}="$alphabet" AND (${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} LIKE "%$q%" OR ${dbInstance.dictionaryTable}.${dbInstance.dictionaryFullTitle} LIKE "%$q%") ORDER BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} ASC',
+        'SELECT ${dbInstance.dictionaryTable}.* FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryAlphabet}="$alphabet" AND (${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} LIKE "%$q%" OR ${dbInstance.dictionaryTable}.${dbInstance.dictionaryFullTitle} LIKE "%$q%") ORDER BY upper(${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle}) ASC LIMIT 5',
         []);
 
     List<DictionaryModel> listDictionaries = [];
@@ -47,7 +74,7 @@ class DictionaryRepository {
 
     Database db = await dbInstance.database;
     final data = await db.rawQuery(
-        'SELECT ${dbInstance.dictionaryTable}.alphabet  FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} LIKE "%$q%" GROUP BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryAlphabet} ORDER BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} ASC LIMIT $limit OFFSET $offset',
+        'SELECT ${dbInstance.dictionaryTable}.alphabet  FROM ${dbInstance.dictionaryTable} WHERE ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} LIKE "%$q%" OR ${dbInstance.dictionaryTable}.${dbInstance.dictionaryFullTitle} LIKE "%$q%" GROUP BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryAlphabet} ORDER BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryTitle} ASC LIMIT $limit OFFSET $offset',
         []);
 
     List<DictionaryByAlphabets> listDictionaryAlphabets = [];
@@ -100,6 +127,13 @@ class DictionaryRepository {
 
     print(data);
     return data.length;
+  }
+
+  Future<int> count() async {
+    Database db = await dbInstance.database;
+    final data = await db.rawQuery(
+        'SELECT COUNT(*) as total FROM ${dbInstance.dictionaryTable}', []);
+    return int.parse(data[0]['total'].toString());
   }
 
   Future<DictionaryModel?> find(int id) async {

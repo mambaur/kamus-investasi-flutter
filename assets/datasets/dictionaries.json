@@ -49,7 +49,7 @@
             "alphabet": "A",
             "title": "AI",
             "full_title": "Artificial Intelligence",
-            "description": "Artificial intelligence adalah teknologi yang kini menunjukkan perkembangan pesat dalam skala global. Artificial intelligence di indonesia pun tak ketinggalan.",
+            "description": "Artificial intelligence adalah sistem yang mengacu pada simulasi kecerdasan manusia dalam mesin yang diprogram berpikir. Mereka seperti manusia dan meniru tindakan manusia. Wajar jika kemudian artificial intelligence di indonesia riuh dibicarakan.",
             "category": "investasi",
             "created_at": "2022-06-17",
             "updated_at": "2022-06-17"
@@ -1574,8 +1574,8 @@
         },
         {
             "alphabet": "G",
-            "title": null,
-            "full_title": "Pasar abu-abu",
+            "title": "Gross Domestic Product",
+            "full_title": null,
             "description": "Gross Domestic Product adalah nilai total semua barang dan jasa yang diproduksi suatu negara dalam periode waktu tertentu.",
             "category": "investasi",
             "created_at": "2022-06-14",
@@ -1629,7 +1629,7 @@
         {
             "alphabet": "H",
             "title": "Hedge Fund",
-            "full_title": "Lindung Nilali",
+            "full_title": "Lindung Nilai",
             "description": "Dana lindung nilai atau hedge fund beroperasi seperti reksadana, menyatukan uang investor ke dalam investasi strategis – kecuali hedge fund fokus pada peluang yang lebih intens, alternatif, dan sering berpeluang berisiko yang tidak dapat diakses oleh investor reguler",
             "category": "investasi",
             "created_at": "2022-06-14",
@@ -1925,7 +1925,7 @@
         },
         {
             "alphabet": "J",
-            "title": "Iron Butterfly",
+            "title": "Jakarta Futures Exchange",
             "full_title": null,
             "description": "Jakarta Futures Exchange atau Bursa Berjangka Jakarta adalah sebuah bursa berjangka di Indonesia yang menjadi tempat perdagangan berbagai komoditas, mulai dari emas, timah, batubara, kelapa sawit hingga kopi.",
             "category": "investasi",
@@ -2648,7 +2648,7 @@
             "title": "Online Banking",
             "full_title": null,
             "description": "Online Banking adalah layanan melakukan transaksi perbankan melalui jaringan internet. Ini merupakan kegiatan perbankan yang memanfaatkan teknologi internet sebagai media. Untuk melakukan transaksi dan mendapatkan informasi lainnya melalui website milik bank.",
-            "category": "ivestasi",
+            "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
         },
@@ -2657,7 +2657,7 @@
             "title": "Open Outcry",
             "full_title": null,
             "description": "Open Outcry adalah metode komunikasi populer antara pialang dan investor di bursa saham. Di dalam open outcry, pialang memberikan gestur tangan atau berteriak dengan keras kepada investor dalam memberikan info perdagangan atau konfirmasi aksi beli dan jual saham.",
-            "category": "ivestasi",
+            "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
         },
@@ -2666,7 +2666,7 @@
             "title": "Operations Management",
             "full_title": null,
             "description": "Operations Management adalah serangkaian aktivitas untuk menciptakan nilai dalam bentuk barang dan jasa melalui transformasi input menjadi output.\n\nAktifitas ini merupakan proses atau sekumpulan kegiatan yang memerlukan satu atau lebih dari input merubah dan menambah nilai input tersebut sehingga dapat memberikan putput bagi pelanggan.",
-            "category": "ivestasi",
+            "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
         },
@@ -2675,7 +2675,7 @@
             "title": "Opsi Saham",
             "full_title": null,
             "description": "Opsi saham adalah perjanjian yang memungkinkan investor untuk membeli (dalam hal ini disebut 'call') atau menjual (dalam hal ini disebut 'put') saham dengan harga yang telah ditentukan pada atau sebelum tanggal tertentu.",
-            "category": "ivestasi",
+            "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
         },
@@ -2684,7 +2684,7 @@
             "title": "Order",
             "full_title": null,
             "description": "Order adalah wewenang yang diberikan investor kepada broker untuk membeli atau menjual instrumen dengan mengatasnamakan investor. Hal ini merupakan unit fundamental trading terpenting dalam pasar instrumen, baik itu sekuritas hingga aset kripto.",
-            "category": "ivestasi",
+            "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
         },
@@ -2693,7 +2693,7 @@
             "title": "Outright Forward",
             "full_title": null,
             "description": "Outright forward adalah kontrak valuta asing yang berlaku dalam jangka waktu tertentu. Kedua pihak yang terikat kontrak ini sepakat menggunakan satu acuan nilai kurs dalam bertransaksi, meski pergerakan nilai tukar mata uangnya fluktuatif.",
-            "category": "ivestasi",
+            "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
         },
@@ -2702,7 +2702,1240 @@
             "title": "Overnight Index Swap",
             "full_title": null,
             "description": "Overnight index swap alias OIS merupakan pertukaran index semalam, dan overnight index swap adalah penerapan indeks suku bunga semalam seperti dana federal atau suku bunga Libor di AS. Pertukaran indeks alias swap index mengacu pada kontrak lindung nilai di mana salah satu pihak menukar arus kas yang telah ditentukan dengan pihak lawan pada tanggal tertentu.",
-            "category": "ivestasi",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Pajak Progresif",
+            "full_title": null,
+            "description": "Pajak progresif adalah sistem pemungutan pajak di mana nilai pajak yang perlu dibayarkan akan meningkat seiring kenaikan nilai dasar pengenaan pajaknya. Pemungutan pajak ini dianggap sebagai sistem ideal demi menciptakan kesetaraan dan menambah sumbangan pajak di dalam Anggaran Pendapatan dan Belanja Negara (APBN).",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Paper Gold",
+            "full_title": null,
+            "description": "Paper gold adalah aset yang mencerminkan harga emas, namun bentuk aset tersebut tidaklah berbentuk logam emas fisik. Nilai aset ini pun tidak didukung oleh emas asli, sehingga nilai aset ini benar-benar secara harfiah hanya “senilai emas di atas kertas”.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Parity Price",
+            "full_title": null,
+            "description": "Parity price atau harga paritas adalah konsep harga yang digunakan untuk membandingkan harga sekuritas dan komoditas. Istilah ini mengacu ketika dua aset atau komoditas tersebut bernilai sama.\n\nJika dua aset diperdagangkan dengan harga paritas, dapat disimpulkan bahwa keduanya memiliki harga atau nilai yang sama. Parity price dapat digunakan dalam berbagai konteks berbeda.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Pasar Bebas",
+            "full_title": null,
+            "description": "Pasar Bebas adalah sistem ekonomi yang didasarkan pada penawaran dan permintaan dengan sedikit atau tanpa kendali pemerintah. Ini adalah deskripsi ringkasan dari semua pertukaran sukarela yang terjadi di lingkungan ekonomi tertentu.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Pasar Persaingan Monopolistik",
+            "full_title": null,
+            "description": "Monopolistic Competition, atau pasar persaingan monopolistik, adalah sebuah bentuk pasar di mana produsen saling berkompetisi dengan produsen lain yang memiliki produk hampir serupa, namun terdapat perbedaan di antara masing-masing mereka.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Pasar Saham",
+            "full_title": null,
+            "description": "Pasar saham adalah platform yang menyediakan transaksi jual-beli saham, termasuk opsi saham, perdagangan dan prakiraan indeks. Pasar di mana terjadinya kegiatan jual-beli saham, serta merupakan tempat pernerbitan saham oleh perusahaan publik.\n\nPasar Saham juga dikenal sebagai Bursa Saham, dan di Indonesia kita memiliki Bursa Efek Indonesia (BEI). Bursa efek di seluruh dunia tidak hanya memperdagangkan saham, tetapi juga sekuritas lainnya seperti obligasi, ETF dan derivatif.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Pasar Spot",
+            "full_title": null,
+            "description": "Pasar Spot adalah lokasi di mana instrumen finansial seperti komoditas, mata uang, hingga sekuritas diperdagangkan saat itu juga. Dengan kata lain, trader dapat langsung memperoleh instrumen finansial tersebut setelah menyelesaikan proses transaksinya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Pasar Uang",
+            "full_title": null,
+            "description": "Pasar uang adalah di mana bank, bisnis, dan pemerintah dapat mengumpulkan uang dengan menjual utang jangka pendek, yang dapat dibeli investor melalui rekening pasar uang dan investasi lainnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "PCE",
+            "full_title": "Personal Consumption Expenditure",
+            "description": "PCE atau Personal Consumption Expenditure adalah hal yang kerap disebut-sebut dalam laporan resmi bank sentral AS, The Fed tiap kali mengumumkan hasil rapat komite pasar federal terbuka (FOMC).",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "PDB Per Kapita",
+            "full_title": null,
+            "description": "Produk domestik bruto (PDB) per kapita alias PDB per kapita merupakan besaran pendapatan rata-rata penduduk di suatu negara. PDB adalah hasil dari pembagian pendapatan nasional suatu negara dengan jumlah penduduk negara tersebut.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Pendapatan",
+            "full_title": null,
+            "description": "Pendapatan adalah total penerimaan yang dihasilkan oleh bisnis melalui penjualan produk atau layanan. Ini juga disebut sebagai penjualan dan merupakan ukuran kesehatan perusahaan.\n\nPendapatan adalah indikator utama kesehatan perusahaan yang berorientasi laba. Biasanya, apa itu pendapatan merupakan indikasi bisnis yang kuat dan berkembang. Pendapatan yang lemah menunjukkan bisnis mungkin tidak berkelanjutan dan tumbuh. Orang biasanya dapat menemukan seberapa baik bisnis berjalan dengan memeriksa laporan pendapatan perusahaan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Pendapatan Bersih",
+            "full_title": null,
+            "description": "Pendapatan bersih adalah jenis laba. Juga dikenal sebagai laba bersih (net profit) atau saham bersih (net earnings), kamu dapat menghitungnya dengan mengurangi semua pengeluaran perusahaan dari semua pendapatannya. Pengeluaran-pengeluaran itu mencakup semuanya, mulai dari biaya operasional, biaya lain-lain (overhead), hingga pajak.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Pendapatan tetap",
+            "full_title": null,
+            "description": "Pendapatan tetap adalah jenis investasi (alias aset yang dibeli untuk disimpan sebagai investasi) yang membayar investor sejumlah bunga tetap hingga jatuh tempo. Ketika jatuh tempo, jumlah pokok awal yang diinvestasikan harus dilunasi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Penerima Manfaat (Beneficiary)",
+            "full_title": null,
+            "description": "Penerima manfaat atau beneficiary adalah orang yang mendapat manfaat, untung, atau mendapat keuntungan dari sesuatu – di bidang keuangan, biasanya polis asuransi, surat wasiat, atau dana perwalian yang didirikan oleh pemberi hibah.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Perilaku Ekonomi",
+            "full_title": null,
+            "description": "Perilaku ekonomi melingkupi studi tentang psikologi yang berkaitan dengan proses pengambilan keputusan ekonomi individu dan institusi. Dengan demikian, pengertian perilaku ekonomi kerap dikaitkan dengan ekonomi normatif. Para analis perilaku ekonomi akan melihat bagaimana psikologi individu/institusi mempengaruhi pengambilan keputusan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "PT",
+            "full_title": "Perseroan Terbatas",
+            "description": "Sebuah perseroan terbatas adalah badan usaha yang memberikan manfaat bagi pemilik usaha dengan pajak dari kemitraan atau kepemilikan perseorangan, dan kewajiban terbatas sebuah perusahaan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Personal Finance",
+            "full_title": null,
+            "description": "Personal Finance adalah keuangan pribadi. Secara umum personal finance dapat diartikan sebagai ilmu yang isinya tentang cara mengatur atau mengelola keuangan secara pribadi. Kegiatan ini meliputi banyak hal mulai dari pendapatan, pengeluaran, tabungan hingga cara berinvestasi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Pertumbuhan Ekonomi",
+            "full_title": null,
+            "description": "Pertumbuhan ekonomi adalah peningkatan produksi barang dan jasa di sebuah wilayah yang dibandingkan dalam suatu rentang periode waktu.\n\nLazimnya, pertumbuhan ekonomi dapat diukur dalam istilah nominal atau riil (disesuaikan dengan inflasi). Secara konvensional, pertumbuhan ekonomi keseluruhan diukur dalam produksi nasional bruto (PNB) atau produk domestik bruto (PDB). Meskipun, metrik alternatif di luar itu kadang-kadang juga digunakan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Phillips Curve",
+            "full_title": null,
+            "description": "Phillips Curve adalah sebuah konsep ekonomi yang dikembangkan oleh A. W. Phillips. Konsep ini menyatakan bahwa tingkat inflasi memiliki hubungan yang konsisten dan terbalik dengan tingkat pengangguran. Teori tersebut mengklaim bahwa pertumbuhan ekonomi selalu diiringi dengan kenaikan inflasi. Pada gilirannya, hal itu akan mengarah pada lebih banyak pekerjaan dan lebih sedikit pengangguran. Namun konsep aslinya telah dibantah secara empiris karena inflasi dan tingkat pengangguran yang tinggi sama-sama pernah terjadi di Amerika Serkat pada dekade 1970-an.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Polkadot",
+            "full_title": null,
+            "description": "Polkadot adalah jaringan 'multi-chain' mata uang kripto yang menghubungkan antar blockchain. Tokennya, yakni DOT kini menjadi kuda hitam yang bertengger di jajaran 10 besar mata uang kripto. Polkadot adalah sistem yang awalnya beroperasi dengan menghubungkan 'dot' dalam satu jaringan. Maksudnya, platform ini menyediakan wadah bernama relay chain yang memudahkan komunikasi parachains.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Portofolio",
+            "full_title": null,
+            "description": "Dalam investasi, istilah portofolio adalah semacam kolam dana atau keranjang untuk sekumpulan investasi keuangan. Berbagai jenis investasi yang dapat masuk ke kolam dana ini di antaranya saham, obligasi, komoditas, atau uang tunai. Investasi dapat juga setara dengan uang tunai seperti dana tertutup (closed-end funds) dan yang diperdagangkan di bursa (exchange traded funds, ETFs).",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Preference Shares",
+            "full_title": null,
+            "description": "Pengertian Preference Shares atau saham preferensi adalah saham perusahaan dengan dividen yang dibayarkan kepada pemegang saham sebelum dividen saham biasa diterbitkan.\n\nJika perusahaan pailit, pemegang saham preferen berhak dibayar dari aset perusahaan sebelum pemegang saham biasa. Sebagian besar saham preferen memiliki dividen tetap, sedangkan saham biasa umumnya tidak.\n\nPemegang saham preferen juga biasanya tidak memiliki hak suara, tetapi pemegang saham biasa biasanya memilikinya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Preferred Stock",
+            "full_title": null,
+            "description": "Saham preferen atau preferred stock adalah bagian saham yang memiliki tambahan hak melebihi saham biasa. Jenis saham ini dikenal pula dengan sebutan lain, yaitu preferred stock atau saham pilihan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Premi Asuransi",
+            "full_title": null,
+            "description": "Insurance premium, atau premi asuransi, adalah jumlah uang yang harus dibayarkan secara reguler oleh seseorang atau institusi untuk menikmati polis asuransi. Premi tersebut dibayar agar perusahaan asuransi bisa memberikan klaim terkait kesehatan, otomotif, rumah, dan jiwa kepada pemegang polis.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Prepaid Expense",
+            "full_title": null,
+            "description": "Prepaid Expense adalah istilah akuntansi yang biasa dikenal sebagai beban dibayar di muka. Prepaid expense adalah bagian dari aset yang tertera di neraca saldo yang timbul karena perusahaan sudah membayar biaya barang dan jasa saat ini, meski baru bisa dimanfaatkan di masa depan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Present Value",
+            "full_title": null,
+            "description": "Present value adalah sebuah konsep yang menerangkan bahwa uang saat ini bernilai lebih dari jumlah uang yang sama di masa depan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Pro Rata",
+            "full_title": null,
+            "description": "Pro rata adalah istilah Latin yang berarti “dalam proporsi,” mengacu pada alokasi proporsional atau distribusi atas sesuatu.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "PDB",
+            "full_title": "Produk Domestik Bruto",
+            "description": "Produk domestik bruto (PDB) atau gross domestic product  adalah total nilai moneter atau pasar dari semua barang jadi dan jasa yang diproduksi suatu negara dalam periode waktu tertentu.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Profit",
+            "full_title": null,
+            "description": "Laba atau profit adalah cara untuk membantu mengukur seberapa baik (atau buruk) perusahaan dalam menghasilkan uang – total pendapatan, dikurangi total biaya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Proof of Activity",
+            "full_title": null,
+            "description": "Proof of Activity adalah satu dari sekian banyak algoritma konsensus di dalam sistem blockchain. Sistem Proof of Activity dirancang untuk memastikan bahwa seluruh transaksi yang tercatat di sistem blockchain adalah asli.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Proof of Assignment",
+            "full_title": null,
+            "description": "Proof of Assignment adalah sistem algoritma konsensus di dalam investasi aset kripto yang digunakan untuk menyetujui transaksi di jaringan yang terdesentralisasi. Sistem ini bisa dijalankan di piranti kasar yang tidak canggih dan tidak membutuhkan daya listrik yang besar. Sehingga, Proof of Assignment ini dianggap lebih bersahabat dibanding sistem algoritma lain, yakni Proof of Work dan Proof of Stake.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Proof of Capacity",
+            "full_title": null,
+            "description": "Proof of capacity adalah salah satu istilah yang kerap digunakan dalam investasi aset kripto. Istilah ini memiliki arti bahwa seluruh algoritma sistem pertambangan aset kripto harus mencapai kata sepakat sebelum memvalidasi transaksi yang akan dimasukkan ke dalam sistem blockchain.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "PoS",
+            "full_title": "Proof of Stake",
+            "description": "Proof of Stake (PoS) adalah konsep di dalam investasi aset kripto yang menyatakan bahwa seseorang dapat menambang atau memvalidasi transaksi aset kripto sesuai dengan jumlah koin yang ia pegang. Artinya, semakin banyak Bitcoin atau Altcoin yang dimiliki penambang, maka mereka punya daya tawar yang tinggi dalam menambang aset kripto.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Proof of Work",
+            "full_title": null,
+            "description": "Proof of work adalah protokol yang memiliki tujuan utama mencegah serangan cyber seperti serangan distributed denial-of-service (DDoS). Yang bertujuan menghabiskan tenaga sumber daya sistem komputer dengan mengirim beberapa permintaan palsu.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Prospectus",
+            "full_title": null,
+            "description": "Pengertian prospectus adalah dokumen berisi data penting yang biasanya disajikan kepada calon investor dalam IPO (Initial Public Offerings) baik saham maupun obligasi.\n\nProspectus adalah dokumen yang diberikan kepada calon investor agar mereka mau membeli efek atau saham dari perusahaan pemilik prospectus.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "P",
+            "title": "Psikologi Pasar",
+            "full_title": null,
+            "description": "Psikologi pasar adalah sentimen yang berlaku dari pembeli dan penjual di pasar keuangan setiap titik waktu tertentu. Istilah ini sering mengacu pada psikologi pasar saham. Namun, sebenarnya istilah ini dapat berlaku lebih umum lagi. Karena acuannya kerap digunakan pula oleh media keuangan dan analis untuk menjelaskan pergerakan naik-turun pasar keuangan secara umum.\n\nDalam psikologi pasar saham, analis menggunakan data tentang psikologi pasar untuk melacak respons investor atas peristiwa tertentu.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "Q",
+            "title": "Quantitative Easing",
+            "full_title": null,
+            "description": "Quantitative easing adalah salah satu kebijakan yang tidak konvensional namun dilakukan oleh bank sentral Amerika Serikat, The Fed, guna mempertahankan bunga acuannya tetap rendah.\n\nQuantitative easing adalah satu kebijakan di mana The Fed akan membeli surat utang jangka panjang yang dimiliki perusahaan maupun perbankan. Hal itu dilakukan agar dunia usaha punya dana segar untuk diputarkan sebagai investasi maupun pinjaman.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Racketeering",
+            "full_title": null,
+            "description": "Racketeering adalah pemerasan mengacu pada kejahatan yang dilakukan di tingkat negara bagian atau federal. Racketeering dapat merujuk pada tindakan memperoleh operasi bisnis melalui aktivitas ilegal.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Dividend Payout Ratio",
+            "full_title": "Rasio Pembayaran Dividen",
+            "description": "Rasio pembayaran dividen adalah hubungan antara dividen perusahaan dan laba bersihnya. Rasio pembayaran dividen perusahaan membandingkan jumlah yang dibayarkan perusahaan dalam dividen dengan laba bersihnya. Semakin banyak ia membayar dibandingkan dengan pendapatannya, semakin tinggi rasionya.\n\nPerusahaan dengan rasio pembayaran dividen yang lebih tinggi mengembalikan lebih banyak kepada pemegang saham mereka. Perusahaan dengan rasio yang lebih rendah menyimpan lebih banyak uang tunai untuk investasi, sebagai jaring pengaman, atau untuk tujuan lain.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Rasio Utang Terhadap Ekuitas",
+            "full_title": null,
+            "description": "Rasio utang terhadap ekuitas mengukur berapa banyak utang yang telah dibandingkan perusahaan dengan ekuitasnya – rasio yang lebih tinggi bisa lebih berisiko dan berpotensi lebih menguntungkan (laba atas ekuitas yang lebih tinggi), sedangkan rasio yang lebih rendah bisa jadi kurang berisiko, tetapi dengan biaya pengembalian yang lebih rendah.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "RoR",
+            "full_title": "Rate of Return",
+            "description": "Rate of Return adalah salah satu metode keuangan yang dapat diterapkan pada sarana investasi apa pun. Mulai dari real estate hingga obligasi, saham, dan seni rupa.\n\nRoR bekerja dengan aset apa pun asalkan aset tersebut dibeli pada satu waktu waktu tertentu dan menghasilkan arus kas di beberapa titik di masa depan.\n\nInvestasi dinilai berdasarkan, sebagian, pada tingkat pengembalian masa lalu, yang dapat dibandingkan dengan aset dari jenis yang sama untuk menentukan investasi mana yang paling menarik. Banyak investor suka memilih tingkat pengembalian yang diperlukan sebelum membuat pilihan investasi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Realized Yield",
+            "full_title": null,
+            "description": "Imbal hasil yang terealisasi, atau realized yield, adalah pengembalian aktual yang diperoleh investor selama satu periode investasi. Imbal hasil ini dapat berupa dividen, pembayaran bunga, dan berbagai bentuk kelipatan uang tunai lainnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Redlining",
+            "full_title": null,
+            "description": "Redlining adalah praktik diskriminatif dalam jasa keuangan, di mana ras, etnis, atau golongan masyarakat tertentu tidak bisa mengakses jasa keuangan seperti Kredit Pemilikan Rumah (KPR) dan pinjam-meminjam.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Regresi",
+            "full_title": null,
+            "description": "Regresi adalah metode statistik yang digunakan dalam keuangan, investasi, dan disiplin ilmu lain. Gunanya untuk mencoba menentukan kekuatan dan karakter hubungan antara satu variabel dependen (biasanya dilambangkan dengan Y) dan serangkaian variabel lain (dikenal sebagai variabel independen).",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Rekonsiliasi",
+            "full_title": null,
+            "description": "Rekonsiliasi adalah Suatu laporan tentang perbedaan saldo antara pencatatan perusahaan dengan laporan bank. Laporan yang dibuat oleh perusahaan ini harus disertai dengan keterangan-keterangan penyebab dari perbedaan-perbedaan tersebut.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Reksadana Indeks",
+            "full_title": "Index Fund",
+            "description": "Reksa Dana indeks atau index fund adalah memungkinkanmu dengan mudah dan murah berinvestasi di semua saham yang membentuk indeks saham.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "RDPU",
+            "full_title": "Reksadana Pasar Uang",
+            "description": "Reksadana pasar uang adalah salah satu jenis reksadana yang beredar di pasar produk jasa keuangan. Adapun dana himpunan dari reksadana jenis ini dialokasikan di produk-produk pasar uang seperti deposito perbankan, surat utang bertenor pendek, atau surat berharga negara dengan tenor di bawah satu tahun. Reksadana ini dikenal memiliki likuiditas tinggi dan memiliki tingkat risiko yang rendah. Biasanya, investor menggunakan instrumen reksadana pasar uang sebagai “parkir” dana sementara sebelum menginvestasikan uangnya ke aset lain.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "RDPT",
+            "full_title": "Reksadana Pendapatan Tetap",
+            "description": "Reksadana pendapatan tetap adalah salah satu jenis investasi reksadana, di mana sebagian besar dana kelolaannya ditempatkan di obligasi atau efek utang lainnya seperti Efek Beragun Aset (EBA).\n\nSama seperti reksadana pada umumnya, reksadana pendapatan tetap memberikan akses luas kepada investor untuk mengakses diversifikasi aset.\n\nHanya saja, imbal hasil yang diterima investor bernilai sama setiap periodenya, alias “berpendapatan tetap”. Kondisi tersebut didasarkan pada imbal hasil obligasi dan efek utang dalam bentuk kupon yang biasanya dibayar secara periodik hingga tenggat waktu jatuh temponya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "RSI",
+            "full_title": "Relative Strength Index",
+            "description": "Relative Strength Index (RSI) merupakan salah satu indikator analisis teknikal yang bisanya digunakan trader dalam mengukur besarnya volatilitas harga sebuah aset. Indikator ini dilakukan untuk mengevaluasi apakah aset tersebut terbilang dalam posisi jenuh beli (overbought) atau jenuh jual (oversold).",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Repurchase Agreement",
+            "full_title": null,
+            "description": "Repurchase agreement adalah sesuatu yang digunakan unruk mengumpulkan modal jangka pendek. Pengertian repurchase agreement: ini merupakan alat umum dari bank sentral operasi pasar terbuka.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Resesi",
+            "full_title": null,
+            "description": "Pengertian Resesi berarti kondisi perekonomian menurun dan dipahami secara luas sebagai periode ketika ekonomi nasional mengalami setidaknya enam bulan perlambatan pertumbuhan ekonomi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Resident Alien",
+            "full_title": null,
+            "description": "Warga asing residen atau resident alien adalah warga negara Amerika Serikat kelahiran asing yang bukan warga negara AS. Resident alien juga dikenal sebagai penduduk tetap atau penduduk tetap yang sah, yang berarti mereka dianggap sebagai imigran yang telah tercatat secara sah. Para resident alien atau warga asing yang menetap harus memiliki kartu hijau atau lulus tes yang substansial.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Retained Earnings",
+            "full_title": null,
+            "description": "Retained Earnings adalah laba yang ditahan atau bisa dikatakan adalah dari laba bersih perusahaan yang tidak dibagikan kepada para pemegang saham dalam bentuk dividen. Dengan begitu, laba ditahan dapat dikatakan sebagai sisa laba bersih yang telah dikurangi dividen.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "RoI",
+            "full_title": "Return of Investment",
+            "description": "Pengembalian investasi atau Return of Investment adalah memberi tahu KAMU seberapa baik investasi yang dilakukan dengan membandingkan laba KAMU dengan jumlah uang yang KAMU masukkan – dan membantu KAMU membandingkan berbagai peluang.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "RoA",
+            "full_title": "Return on Asset",
+            "description": "Return on Asset adalah rasio profitabilitas yang mengukur kemampuan perusahaan menghasilkan laba dari penggunaan seluruh sumber daya atau asetnya. Return on asset digunakan untuk menilai kualitas dan kinerja perusahaan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Revolusi Industri",
+            "full_title": null,
+            "description": "Revolusi industri adalah periode industrialisasi dan inovasi besar yang terjadi pada akhir 1700-an dan awal 1800-an. Kamu tentu telah mempelajari di bangku sekolah mengenai apa itu revolusi industri, dan bagaimana ia bermula di Inggris Raya dan dengan cepat menyebar ke seluruh dunia.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Revolusi Industri 4.0",
+            "full_title": null,
+            "description": "Revolusi Industri 4.0 adalah siklus proses produksi barang dan jasa, di mana teknologi dan koneksi menjadi kunci utamanya. Di dalam revolusi industri ini, peran sumber daya manusia dalam proses produksi mulai digantikan oleh teknologi antar mesin (machine-to-machine) dan juga Internet of Things (IoT).",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Ripple",
+            "full_title": null,
+            "description": "Ripple adalah platform penyedia jasa pembayaran digital yang melayani transaksi lintas batas lewat jaringan blockchain. Baik transaksi antar negara maupun pertukaran mata uang, semuanya dapat dieksekusi dengan jejaring Ripple yang unik.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "R",
+            "title": "Risk Averse",
+            "full_title": null,
+            "description": "Investor Konservatif atau Risk Averse adalah investor yang menghindari resiko dan biasanya lebih memilih opsi investasi konservatif untuk meminimalkan potensi kerugian.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Saham Blue Chip",
+            "full_title": null,
+            "description": "Saham blue chip (blue chip stocks) adalah saham-saham yang diterbitkan oleh perusahaan yang dikenal publik, bonafit, dan memiliki tingkat kesehatan keuangan yang baik. Biasanya, saham blue chip memiliki nilai kapitalisasi pasar yang besar dan berkinerja lebih baik dibanding saham-saham yang memiliki sektor serupa.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Satoshi Unit",
+            "full_title": null,
+            "description": "Satoshi unit adalah sebutan bagi unit terkecil Bitcoin saat ini, yakni bernilai 1:100.000.000 atau 0,00000001 BTC. Satuan ini diambil dari nama pseudonym penemu koin kripto tertua itu, Satoshi Nakamoto.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Scalping Trading",
+            "full_title": null,
+            "description": "Scalping trading adalah gaya trading aset yang berfokus mencari cuan dari aksi jual menjual aset secara cepat. Dalam scalping, trader biasanya selalu membeli aset dalam harga rendah dan langsung menjualnya kembali ketika harganya sedikit mengalami peningkatan. Di dalam konsep trading jangka pendek, scalping adalah strategi mendulang profit dari jual-menjual aset dengan volume perdagangan yang besar.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Seed Capital",
+            "full_title": null,
+            "description": "Sebagian besar modal awal atau seed funding mungkin berasal dari sumber yang dekat dengan pendirinya. Seed capital adalah modal yang umumnya diperoleh termasuk dari keluarga, teman, dan kenalan lainnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Sell in May and Go Away",
+            "full_title": null,
+            "description": "Sell in May and Go Away adalah istilah yang cukup populer di dunia investasi. Istilah ini menggambarkan sikap investor yang menjual saham besar-besaran di bulan Mei mengingat kinerja pasar saham biasanya memburuk antara Mei hingga Oktober.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Sertifikat Asuransi",
+            "full_title": null,
+            "description": "Sertifikat asuransi adalah sertifikat yang mencantumkan keterangan tentang asuransi. Dokumen ini mencantumkan nama pemegang polis, jenis pertanggungan, nama perusahaan asuransi, batas pertanggungan, tanggal efektif, dan informasi lainnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Sertifikat Deposito",
+            "full_title": null,
+            "description": "Sertifikat Deposito adalah produk yang ditawarkan oleh bank yang memberikan premi suku bunga sebagai imbalan bagi pelanggan dengan membiarkan deposit tersimpan dalam jangka waktu tertentu.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Sharpe Ratio",
+            "full_title": null,
+            "description": "Sharpe ratio adalah metode yang dikembangkan oleh peraih nobel William F. Sharpe dan digunakan untuk membantu investor memahami pengembalian investasi dibandingkan dengan risikonya.\n\nRasio adalah pengembalian rata-rata yang diperoleh melebihi tingkat bebas risiko per unit volatilitas atau risiko total. Volatilitas adalah ukuran fluktuasi harga suatu aset atau portfolio.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Short Position",
+            "full_title": null,
+            "description": "Posisi short adalah salah satu fenomena yang ada dalam investasi saham. Ketika berbicara tentang saham dan opsi, analis dan pembuat pasar sering merujuk pada long maupun short positions.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Simple Random Sample",
+            "full_title": null,
+            "description": "Simple Random Sample adalah teknik pengambilan sampel dari anggota populasi yang dilakukan secara acak tanpa memperhatikan strata yang ada dalam populasi itu.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Sistem Ekonomi Campuran",
+            "full_title": null,
+            "description": "Sistem ekonomi campuran menggabungkan aspek-aspek dari beberapa teori atau sistem ekonomi, paling umum sosialisme dan kapitalisme, untuk mengambil keuntungan dari manfaat keduanya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Skala Ekonomis",
+            "full_title": null,
+            "description": "Skala ekonomis adalah merupakan suatu teori yang menggambarkan fenomena menurunnya biaya produksi per unit pada suatu perusahaan dibarengi dengan meningkatnya volume produksi (output). Semakin besar perusahaan, semakin rendah biaya produksi per unit produk yang dihasilkan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Skema Ponzi",
+            "full_title": null,
+            "description": "Skema Ponzi adalah jenis penipuan investasi yang menjanjikan investor tingkat pengembalian yang tinggi tanpa benar-benar mengumpulkan pendapatan yang sah.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Smart Contract",
+            "full_title": null,
+            "description": "Smart kontrak adalah bahasa pemrograman di mana antara kedua belah pihak melakukan kontrak secara otomatis di atas sistem blockchain. Sebagai sebuah kontrak, smart contract bersifat deterministik, transparan, otonom, terdistribusi dan abadi. Sifat-sifat ini menjadikannya ideal untuk dipakai sebagai nilai tukar pengganti kepercayaan antar dua pihak yang tidak saling mengenal di jaringan DeFi.",
+            "category": "kripto",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Smart Money",
+            "full_title": null,
+            "description": "Smart money adalah modal yang dikendalikan oleh investor institusional, para pakar pasar, bank sentral, pengelola reksadana, dan profesional keuangan lainnya. Istilah smart money sebenarnya berakar dari istilah dalam perjudian, yang merujuk pada taruhan yang dibuat oleh penjudi dengan rekam jejak yang sukses.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Solvency Ratio",
+            "full_title": null,
+            "description": "Rasio solvabilitas alias solvency ratio adalah salah satu dari banyak metrik yang digunakan untuk menentukan apakah suatu perusahaan dapat tetap solvent. Penggunaan rasio lainnya untuk menjamin pinjaman di antaranya termasuk utang terhadap ekuitas, total utang terhadap total aset, dan rasio cakupan bunga.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Spillover Effect",
+            "full_title": null,
+            "description": "Spillover effect adalah jenis efek yang meningkat sejak globalisasi dalam perdagangan dan pasar saham memperdalam hubungan keuangan antar-ekonomi. Hubungan perdagangan antara Kanada dan Amerika Serikat adalah contoh spillover effect.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Standar Deviasi",
+            "full_title": null,
+            "description": "Standar deviasi adalah statistik yang mengukur penyebaran kumpulan data relatif terhadap rata-rata dan dihitung sebagai akar kuadrat dari varians. Simpangan baku dihitung sebagai akar kuadrat dari varian dengan menentukan simpangan setiap titik data relatif terhadap rata-rata.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Standar Hidup Layak",
+            "full_title": null,
+            "description": "Standard of living atau standar hidup layak adalah acuan jumlah kualitas barang dan jasa material yang tersedia untuk populasi tertentu. Standar hidup adalah mencakup faktor material dasar seperti pendapatan, produksi domestik bruto (PDB), harapan hidup, dan peluang ekonomi.\n\nRingkasnya, standar hidup adalah kesejahteraan materi bagi populasi tertentu. Standar hidup layak biasanya diukur menggunakan PDB per kapita.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Startup",
+            "full_title": null,
+            "description": "Startup adalah perusahaan atau usaha yang berfokus pada satu produk atau layanan yang ingin dibawa oleh pendirinya ke pasar publik.\n\nPerusahaan-perusahaan ini biasanya tidak memiliki model bisnis yang berkembang sepenuhnya. Umumnya, kekurangan modal pun dapat terjadi untuk melanjutkan ke fase bisnis berikutnya. Bagaimanapun, sebagian besar perusahaan ini awalnya didanai oleh pendirinya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Stock Market Crash",
+            "full_title": null,
+            "description": "Jatuhnya pasar saham atau stock market crash adalah penurunan harga saham yang cepat dan kerap tidak terduga. Kejatuhan ini bisa jadi disebabkan oleh peristiwa bencana besar, krisis ekonomi, atau runtuhnya gelembung spekulatif jangka panjang.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Stock Split",
+            "full_title": null,
+            "description": "Stock Split adalah pemecahan jumlah lembar saham menjadi jumlah lembar yang lebih banyak dengan menggunakan nilai nominal yang lebih rendah per lembar sahamnya secara proporsional.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Stop Order",
+            "full_title": null,
+            "description": "Stop order adalah pesanan yang dipicu saat saham bergerak melewati titik harga tertentu. Di luar titik harga tersebut, stop order diubah menjadi order pasar yang dieksekusi dengan harga terbaik yang tersedia.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Strategi Investasi Agresif",
+            "full_title": null,
+            "description": "Strategi investasi agresif melibatkan alokasi aset dengan bobot substansial dalam saham dan mungkin sedikit atau tidak alokasi untuk obligasi atau uang tunai. Karena itu, strategi agresif adalah strategi yang dianggap cocok untuk kalangan investor muda dengan ukuran portofolio kecil.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Strike Price",
+            "full_title": null,
+            "description": "Opsi adalah kontrak yang menjamin pembeli dari opsi hak untuk membeli (dalam kasus opsi panggilan) atau menjual (dalam kasus opsi put) aset dengan harga yang telah ditentukan – dan bahwa harga yang telah ditentukan disebut strike price.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Subsidi",
+            "full_title": null,
+            "description": "Subsidi adalah bantuan keuangan, biasanya diberikan oleh pemerintah federal dan negara bagian, kepada organisasi, perusahaan, atau individu untuk mendukung kegiatan ekonomi tertentu, atau mempromosikan tujuan social.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Suku Bunga",
+            "full_title": null,
+            "description": "Suku Bunga adalah harga dari meminjam uang – Apa yang kamu bayar karena telah meminjam uang orang lain atau apa yang kamu bebankan kepada orang lain yang telah kamu pinjami uang.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Sukuk Syariah",
+            "full_title": null,
+            "description": "Sukuk adalah sertifikat surat utang dalam keuangan Syariah, mirip dengan surat utang obligasi di bidang keuangan peradaban Barat. Penerapan sukuk syariah dipatuhi sesuai hukum agama Islam.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Superannuation",
+            "full_title": null,
+            "description": "Superannuation adalah program pensiun organisasi yang dibuat oleh perusahaan untuk kepentingan karyawannya. Pengertian superannuation ini juga dipahami sebagai program pensiun perusahaan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Supply Chain",
+            "full_title": null,
+            "description": "Supply Chain adalah rantai pasokan. Rantai pasokan atau supply chain adalah jaringan antara perusahaan dan pemasoknya untuk memproduksi dan mendistribusikan produk tertentu ke pembeli akhir. Jaringan ini mencakup berbagai aktivitas, orang, entitas, informasi, dan sumber daya. Rantai pasokan juga mewakili langkah-langkah yang diperlukan untuk mendapatkan produk atau layanan dari keadaan aslinya ke pelanggan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Sustainable Growth Rate",
+            "full_title": null,
+            "description": "Sustainable growth rate (tingkat pertumbuhan berkelanjutan) adalah tingkat pertumbuhan maksimum yang dapat dipertahankan perusahaan. Umumnya, sustainable growth adalah pertumbuhan yang terjadi tanpa harus membiayai pertumbuhan dengan ekuitas atau utang tambahan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "S",
+            "title": "Swing Trading",
+            "full_title": null,
+            "description": "Swing trading adalah gaya trading yang bertujuan untuk menangkap cuan dari pergerakan harga sebuah aset dalam jangka waktu beberapa hari, atau beberapa minggu. Mereka yang menganut swing trading biasanya cenderung memanfaatkan analisis teknikal untuk melihat kesempatan jual atau beli aset.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Tahun Fiskal",
+            "full_title": null,
+            "description": "Fiscal Year sering disingkat “FY” atau Tahun fiskal adalah periode 12 bulan yang digunakan oleh perusahaan dan pemerintah untuk pelaporan dan penganggaran keuangan yang kadang-kadang mengikuti tahun kalender Januari – Desember dan kadang-kadang tidak.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Tapering",
+            "full_title": null,
+            "description": "Tapering adalah salah satu upaya yang dilakukan The Fed, sebagai bank sentral Amerika Serikat, guna meredam laju inflasi. Hal ini akan dilakukan The Fed jika perekonomian negara Paman Sam tersebut sudah menunjukkan tanda-tanda perbaikan, setelah diberikan stimulus moneter dalam jumlah jumbo.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Teori Keynesian dalam Ekonomi",
+            "full_title": null,
+            "description": "Keynesian economy adalah teori ekonomi tentang pengeluaran total dalam perekonomian dan pengaruhnya terhadap output dan inflasi.\n\nTeori ini dikembangkan oleh ekonom Inggris John Maynard Keynes di tahun 1930-an dalam upaya untuk memahami Depresi Besar. Keynes menganjurkan untuk meningkatkan pengeluaran pemerintah dan menurunkan pajak untuk merangsang permintaan dan menarik ekonomi global keluar dari depresi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "the Great Depression",
+            "full_title": null,
+            "description": "the Great Depression adalah sebuah kondisi perlambatan ekonomi yang tajam dan mempengaruhi berbagai bidang. Selain itu banyak pengangguran, terjadi krisis perbankan, krisis kredit, maka sektor ekonomi nyaris lumpuh. Kelumpuhan ekonomi yang panjang dan lama ini akan menyebabkan depresi ekonomi semakin parah. Depresi ekonomi yang parah inilah yang disebut the Great Depression.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Tokenomics",
+            "full_title": null,
+            "description": "Tokenomics adalah ilmu atau topik yang mempelajari secara dalam mengenai karakteristik permintaan dan suplai aset kripto. Namun, ilmu ini juga mempelajari tentang analisis ekonomi dari aset kripto, seperti bagaimana caranya aset kripto dapat memicu sesuatu yang positif di jaringannya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "TIV",
+            "full_title": "Total Insurable Value",
+            "description": "Total Insurable Value (TIV) adalah nilai properti, inventaris, peralatan, dan pendapatan bisnis yang tercakup dalam polis asuransi. Ini adalah jumlah maksimum yang akan peringkat oleh perusahaan yang diasuransikan dalam asuransi asuransi jika kerugian total konstruktif atau aktual.\n\nTotal nilai yang dapat diasuransikan (TIV) dapat mencakup biaya properti fisik yang diasuransikan, serta isi di dalamnya, seperti mesin dan peralatan lainnya. Jika polis asuransi asuransi properti komersial, kesalahan kerusakan properti juga dapat dimasukkan ke dalam nilai total yang dapat diasuransikan (TIV).",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Trade Deficit",
+            "full_title": null,
+            "description": "Trade deficit, atau defisit neraca perdagangan, adalah sebuah kondisi di mana nilai impor suatu negara melebihi ekspornya selama periode waktu tertentu. Kondisi ini disebut juga sebagai neraca perdagangan negatif.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Trade Secret",
+            "full_title": null,
+            "description": "Trade Secret adalah informasi perusahaan terkait teknologi dan bisnis yang tidak bisa diketahui secara umum. Sebuah informasi dikategorikan sebagai rahasia jika menyimpan “resep-resep” yang membuat satu perusahaan lebih unggul dibanding lainnya, biasanya berupa hasil dari riset dan pengembangan (R&D) perusahaan.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Trading Options",
+            "full_title": null,
+            "description": "Ketika melakukan trading options, maka investor terlibat dengan opsi. Opsi adalah derivatif finansial. Jadi, pengelolaan apa itu trading options akan berkaitan dengan sekuritas atau saham yang mendasarinya. Ini karena opsi memperoleh nilainya dari aset finansial tersebut.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Trading Platform",
+            "full_title": null,
+            "description": "Trading platform adalah perangkat lunak yang digunakan untuk berdagang. Wadah ini, dengan beberapa platform trading terbaik, menjadi tempat membuka, menutup, dan mengelola posisi pasar melalui perantara keuangan seperti pialang online.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Trading Psychology",
+            "full_title": null,
+            "description": "Aspek trading psychology adalah komponen emosional dari proses pengambilan keputusan investor yang dapat membantu menjelaskan mengapa beberapa keputusan tampak lebih rasional daripada yang lain.",
+            "category": "trading",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Tranches",
+            "full_title": null,
+            "description": "Tranches adalah segmen yang dibuat dari kumpulan sekuritas yang biasanya instrumen utang seperti obligasi atau hipotek yang dibagi berdasarkan risiko, waktu hingga jatuh tempo. Atau bahkan karakteristik lain agar dapat dipasarkan ke investor yang berbeda.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Transaksi Short Selling",
+            "full_title": null,
+            "description": "Short selling saham adalah strategi perdagangan tingkat lanjut di mana kamu meminjam saham, menjualnya dengan harga saat ini, dan berharap harganya jatuh sehingga kamu dapat membayar kembali saham yang dipinjam dengan harga lebih rendah.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Treasury Yield Curve",
+            "full_title": null,
+            "description": "Treasury yield curve adalah kurva yang menunjukkan imbal hasil obligasi Amerika Serikat berdasarkan waktu jatuh temponya. Meski hanya menunjukkan hubungan antara imbal hasil dan maturity surat utang negara adikuasa itu, namun kurva ini kerap jadi pusat perhatian.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Trust Fund (Dana Amanah)",
+            "full_title": null,
+            "description": "Dana amanah atau trust fund adalah pengaturan hukum yang memungkinkan seseorang untuk menyerahkan aset kepada wali amanat, yang memegangnya atas nama penerima manfaat.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "T",
+            "title": "Turnover",
+            "full_title": null,
+            "description": "Turnover atau omzet adalah konsep akuntansi yang menghitung seberapa cepat bisnis melakukan operasinya. Paling sering, omzet digunakan untuk memahami seberapa cepat perusahaan mengumpulkan uang tunai dari piutang atau seberapa cepat perusahaan menjual inventarisnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "U",
+            "title": "Unbanked",
+            "full_title": null,
+            "description": "Unbanked atau tidak memiliki rekening bank adalah istilah informal bagi orang dewasa yang tidak menggunakan bank atau jasa lembaga perbankan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "U",
+            "title": "Underlying Asset",
+            "full_title": null,
+            "description": "Underlying Asset adalah aset keuangan yang menjadi dasar harga derivatif. Derivatif adalah instrumen keuangan dengan harga yang didasarkan pada aset yang berbeda. Dalam prinsip keuangan syariah mengharuskan adanya underlying asset adalah untuk menghindari terjadinya transaksi ‘money for money’ yang dapat dikategorikan sebagai riba.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "U",
+            "title": "Unearned Income",
+            "full_title": null,
+            "description": "Unearned income adalah pendapatan diterima di muka alias pemasukan yang diterima perusahaan dari jasa ataupun hasil penjualan barang, tetapi belum menjadi hak perusahaan sepenuhnya pada periode akuntansi tersebut.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "U",
+            "title": "Unlevered Beta",
+            "full_title": null,
+            "description": "Beta adalah ukuran risiko pasar. Dalam kategori ini, unlevered beta mengukur risiko pasar perusahaan tanpa dampak utang. Melepas beta menghilangkan efek finansial dari leverage sehingga mengisolasi risiko hanya karena aset perusahaan. Dengan kata lain, ini terkait seberapa besar kontribusi ekuitas perusahaan terhadap profil risikonya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "U",
+            "title": "Utility",
+            "full_title": null,
+            "description": "Utility atau utilitas adalah kemampuan suatu barang atau jasa dalam memberikan manfaat atau kegunaan atau kepuasan kepada orang yang mengkonsumsinya. Semakin tinggi utility suatu barang atau jasa, semakin diinginkan barang atau jasa itu oleh seseorang.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "V",
+            "title": "Valuasi Bisnis",
+            "full_title": null,
+            "description": "Valuasi bisnis adalah proses umum untuk menentukan nilai ekonomi dari keseluruhan bisnis atau unit perusahaan.\n\nValuasi bisnis dapat digunakan untuk menentukan nilai wajar bisnis karena berbagai alasan, termasuk nilai jual, kepemilikan mitra, perpajakan, dan bahkan proses perceraian. Pemilik sering kali beralih ke evaluator bisnis profesional untuk mendapatkan estimasi objektif dari nilai bisnis.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "V",
+            "title": "Velocity of Money",
+            "full_title": null,
+            "description": "Velocity of Money adalah seberapa cepat uang berpindah dari tangan ke tangan. Hal ini merujuk kepada frekuensi suatu unit mata uang digunakan dalam transaksi apapun sehingga uang tersebut mengalami perpindahan pemilik. Definisi ini selain mencakup pembelian barang dan jasa juga meliputi pembelian aset finansial dan investasi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "V",
+            "title": "Velocity of money",
+            "full_title": null,
+            "description": "Perputaran uang atau velocity of money adalah ukuran tingkat pertukaran uang dalam suatu perekonomian. Istilah ini mengacu pada berapa kali uang berpindah, berdasarkan rumus velocity of money. Ini juga mengacu pada seberapa banyak satu unit mata uang digunakan dalam periode waktu tertentu.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "V",
+            "title": "Venture Capital",
+            "full_title": "Modal ventura",
+            "description": "Modal ventura adalah salah satu sumber pendanaan yang dapat membantu memungkinkan para pengusaha untuk membiayai usaha bisnis baru. Startup pada tahap awal (kurang dari 2 tahun) biasanya beralih ke modal ventura untuk memulai karena bank, pasar modal, dan sumber pinjaman lainnya cenderung tidak mempertimbangkannya karena terbatasnya (atau tidak ada) sejarah operasinya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "V",
+            "title": "VC",
+            "full_title": "Venture Capitalist",
+            "description": "Seorang pemodal ventura (VC) adalah penyedia venture capital. Mereka merupakan investor ekuitas swasta yang memberikan modal kepada perusahaan yang menunjukkan potensi pertumbuhan tinggi dengan imbalan saham ekuitas.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "V",
+            "title": "Virtual Currency",
+            "full_title": null,
+            "description": "Virtual currency adalah sebuah jenis mata uang digital yang belum teregulasi dan hanya tersedia dalam bentuk digital. Virtual currency disimpan dan diperdagangkan dalam piranti lunak khusus di ponsel maupun komputer, maupun melalui dompet digital.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "V",
+            "title": "Volatilitas",
+            "full_title": null,
+            "description": "Volatilitas adalah ukuran statistik penyebaran pengembalian untuk sekuritas atau indeks pasar tertentu. Dalam kebanyakan kasus, semakin tinggi volatilitas, semakin berisiko keamanannya. Volatilitas sering diukur sebagai deviasi standar atau varians antara pengembalian dari sekuritas atau indeks pasar yang sama.\n\nDi pasar sekuritas, volatilitas sering dikaitkan dengan perubahan besar di kedua arah. Misalnya, ketika pasar saham naik dan turun lebih dari satu persen selama periode waktu yang berkelanjutan, itu disebut pasar yang “tidak stabil”. Ketidakstabilan aset adalah faktor kunci saat kontrak opsi harga.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "W",
+            "title": "Wall Street",
+            "full_title": null,
+            "description": "Wall Street adalah sebuah jalan yang terletak di bagian bawah Manhattan dari New York City dan merupakan rumah dari New York Stock Exchange atau NYSE. Wall Street juga menjadi markas besar bersejarah dari beberapa pialang dan bank investasi AS terbesar.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "W",
+            "title": "Warisan",
+            "full_title": null,
+            "description": "Warisan adalah properti atau aset yang ditinggalkan seseorang kepada ahli warisnya ketika mereka meninggal – mungkin termasuk real estat, uang, saham atau obligasi, perhiasan, atau harta benda lainnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "W",
+            "title": "Wash Sale",
+            "full_title": null,
+            "description": "Wash sale adalah transaksi saat investor berusaha untuk mendapatkan insentif pajak dengan menjual sekuritas yang merugi di penghujung tahun. Ini dilakukan agar mereka bisa mengajukan kerugian modal pajak tahun tersebut.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "W",
+            "title": "Weighted Average",
+            "full_title": null,
+            "description": "Weighted average adalah rata-rata yang memperhitungkan pentingnya setiap angka dalam pembuatan rata-rata.\n\nRumus menghitung rata-rata adalah membagi hasil penjumlahan semua angka dengan jumlah nilai yang ada. Weighted average melihat hasil rata-rata tersebut lebih jauh. Yakni, menetapkan kepentingan atau bobot untuk setiap angka.\n\nWeighted average bisa sangat berguna dari hasil rata-rata biasanya. Alasannya, dia menawarkan lebih banyak nuansa. Kalian bisa mengeliminasi data-data yang tidak terlalu signifikan dan memperingan bobot data yang ada.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "W",
+            "title": "White Paper",
+            "full_title": null,
+            "description": "White Paper adalah sebuah dokumen yang berisi penjelasan akan sebuah masalah yang ingin diselesaikan suatu projek, solusi akan masalah tersebut, serta penjelasan detil project, pembuatannya, dan interaksinya dengan pengguna.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "W",
+            "title": "White-Collar Crime",
+            "full_title": null,
+            "description": "White-Collar Crime adalah tindak kecurangan seseorang yang memiliki posisi dan wewenang cukup tinggi pada sektor pemerintahan maupun sektor swasta. Sehingga dapat mempengaruhi suatu kebijakan dan keputusan.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "W",
+            "title": "Wire Fraud",
+            "full_title": null,
+            "description": "Wire fraud adalah salah satu jenis kecurangan yang melibatkan penggunaan suatu bentuk telekomunikasi atau internet. Kecurangan ini bisa menggunakan telepon, faksimili, surel, teks atau obrolan melalui media sosial. Melakukan wire fraud bisa berakibat pada hukuman penjara dan/atau denda.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "W",
+            "title": "Wire Transfer",
+            "full_title": null,
+            "description": "Wire Transfer adalah kiriman uang atau transfer uang antar bank untuk negara yang berbeda. Semisal dari kita di Indonesia, ingin mengirim ke rekan bisnis kita dengan rekening bank di AS, Singapura, Mesir, atau lainnya. Wire transfer adalah metode pembayaran yang diterima sebagai cara deposit dan penarikan oleh semua broker forex.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "W",
+            "title": "World Gold Council",
+            "full_title": null,
+            "description": "World Gold Council adalah asosiasi nirlaba beranggotakan 33 perusahaan penambang emas kelas dunia. Asosiasi ini jugalah yang pertama kali menginisiasi gold exchange-traded fund atau ETF berbasis emas.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "X",
+            "title": "XCAD Network",
+            "full_title": null,
+            "description": "XCAD Netwrok adalah solusi dari masa depan untuk kamu yang bercita-cita jadi influencer tapi bermodaln pas-pasan.\n\nKini, menjadi YouTuber adalah impian sebagian dari generasi muda. Hanya saja, YouTuber awam mungkin belum paham bagaimana algoritma bekerja demi mendapatkan monetisasi dari adsense.\n\nPendatang baru ini mungkin masih kesulitan meraup audience atau membiayai video baru mereka. Idola baru yang belum tahu cara membuat basis penonton dan membangun aliran dana. Nah, untungnya, mereka bisa menggunakan XCAD untuk mengembangkan kanal YouTube mereka.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "X",
+            "title": "Xenocurrency",
+            "full_title": null,
+            "description": "Xenocurrency adalah mata uang yang beredar atau diperdagangkan di pasar di luar perbatasan domestiknya. Nama ini berasal dari prefiks Yunani “xeno”, yang berarti asing.\n\nSaat ini, istilah ini jarang digunakan. Barangkali karena ada konotasi negatif dari kata “Xeno”. Misalnya, xenophobia, yang berarti ketakutan atau kebencian yang tidak rasional terhadap orang asing. Karena itu, mata uang asing menjadi istilah yang disukai saat mengacu pada mata uang non-domestik.\n\nContoh xenocurrency mencakup rupee India yang diperdagangkan di Amerika Serikat atau yen Jepang (JPY) yang disimpan di bank Eropa. Dolar AS (USD) kerap digunakan sebagai xenocurrency di Meksiko, terutama untuk transaksi besar di urusan properti dan kegiatan bisnis lainnya.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "Y",
+            "title": "Yellow Knight",
+            "full_title": null,
+            "description": "Yellow knight adalah perusahaan yang tadinya berencana untuk mengakuisisi perusahaan lain melalui pengambilalihan saham mayoritas, namun tidak jadi melakukannya dan memilih bergabung (merger) dengan perusahaan targetnya tersebut",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "Y",
+            "title": "Yield",
+            "full_title": null,
+            "description": "Yield adalah imbal hasil atau keuntungan. Jika saat melakukan investasi kamu mendengar seseorang berkata “yield besar”,  artinya sama dengan “keuntungan besar”. Ada pula yang mendefinisikan yield adalah imbalan atau hasil dari aktivitas investasi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "Y",
+            "title": "Yield Curve Risk",
+            "full_title": null,
+            "description": "Yield curve risk (kurva imbal hasil) adalah berubahnya risiko investasi yang dihadapi investor karena perubahan suku bunga yang terjadi di pasar. Hal ini biasanya terjadi pada investasi di aset berpendapatan tetap (fixed income instrument) seperti obligasi.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "Y",
+            "title": "Yield Farming",
+            "full_title": null,
+            "description": "Yield farming adalah opsi untukmu supaya aset kriptomu makin bernilai meski harganya sedang anjlok. Aktivitas ini bisa dilakukan dalam berbagai platform blockchain dengan menggunakan smart contract.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "Y",
+            "title": "Yield to Maturity",
+            "full_title": null,
+            "description": "Yield to maturity atau imbal hasil sampai jatuh tempo adalah pengembalian total (total return) obligasi, dengan bunga (interest) ditambah keuntungan modal (capital gain) yang diperoleh ketika obligasi jatuh tempo. Berikut ini penjelasan lebih lanjut mengenai apa itu yield to maturity.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "Z",
+            "title": "Zero Cost Dollar",
+            "full_title": null,
+            "description": "Zero cost collar adalah strategi opsi collar untuk melindungi kerugian trader dengan membeli opsi beli dan jual yang saling membatalkan, Kelemahan dari strategi ini adalah keuntungannya dibatasi jika harga aset dasarnya naik.",
+            "category": "investasi",
+            "created_at": "2022-06-14",
+            "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "Z",
+            "title": "Zero-Beta Portfolio",
+            "full_title": null,
+            "description": "Zero-Beta Portfolio adalah portofolio yang dibangun untuk memiliki risiko sistematis nol, atau dengan kata lain, beta nol.\n\nZero-Beta Portfolio akan memiliki hasil yang diharapkan sama dengan tingkat bebas risiko. Portofolio seperti itu tidak akan memiliki korelasi dengan pergerakan pasar. Mengingat bahwa pengembalian yang diharapkan sama dengan tingkat bebas risiko atau tingkat pengembalian yang relatif rendah. Dibandingkan dengan portofolio beta yang lebih tinggi.",
+            "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
         }

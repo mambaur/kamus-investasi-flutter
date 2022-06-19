@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:infinite_scroll/infinite_scroll.dart';
 import 'package:kamus_investasi/databases/dictionaries/dictionary_repository.dart';
 import 'package:kamus_investasi/models/dictionary_model.dart';
+import 'package:kamus_investasi/pages/dictionary_alphabets.dart';
 import 'package:kamus_investasi/pages/dictionary_detail.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -155,6 +156,26 @@ class _HomeScreenState extends State<HomeScreen> {
                                                       TextStyle(height: 1.5)),
                                             ),
                                           ),
+                                        GestureDetector(
+                                          onTap: () {
+                                            Navigator.push(context,
+                                                MaterialPageRoute(
+                                                    builder: (builder) {
+                                              return DictionaryAlphabetsScreen(
+                                                alphabet: item.alphabet,
+                                              );
+                                            }));
+                                          },
+                                          child: Container(
+                                              alignment: Alignment.centerRight,
+                                              margin: EdgeInsets.symmetric(
+                                                  vertical: 10),
+                                              child: Text(
+                                                'Selengkapnya...',
+                                                style: TextStyle(
+                                                    color: Colors.grey),
+                                              )),
+                                        )
                                       ],
                                     ),
                                   )

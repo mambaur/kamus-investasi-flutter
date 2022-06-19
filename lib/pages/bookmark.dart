@@ -17,7 +17,7 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
   final BookmarkRepository _bookmarkRepo = BookmarkRepository();
   final DictionaryRepository _dictionaryRepo = DictionaryRepository();
 
-  int limit = 14;
+  int limit = 10;
   int pageList = 0;
 
   Future<List<DictionaryModel>> getNextPageData(int page) async {

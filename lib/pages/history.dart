@@ -17,7 +17,7 @@ class HistoryScreen extends StatefulWidget {
 class _HistoryScreenState extends State<HistoryScreen> {
   final HistoryRepository _historyRepo = HistoryRepository();
 
-  int limit = 14;
+  int limit = 10;
   int pageList = 0;
 
   Future<List<DictionaryByDate>> getNextPageData(int page) async {
