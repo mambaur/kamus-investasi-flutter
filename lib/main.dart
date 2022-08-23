@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:kamus_investasi/pages/bookmark.dart';
+import 'package:kamus_investasi/pages/feedback.dart';
 import 'package:kamus_investasi/pages/history.dart';
 import 'package:kamus_investasi/pages/home.dart';
 import 'package:kamus_investasi/utils/datasets.dart';
@@ -68,6 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
     HomeScreen(),
     BookmarkScreen(),
     HistoryScreen(),
+    FeedbackScreen(),
   ];
 
   @override
@@ -86,6 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
               // showUnselectedLabels: false,
               backgroundColor: Colors.white,
               selectedFontSize: 12,
+              type: BottomNavigationBarType.fixed,
               items: <BottomNavigationBarItem>[
                 BottomNavigationBarItem(
                   icon: Container(
@@ -104,6 +107,12 @@ class _MyHomePageState extends State<MyHomePage> {
                       margin: EdgeInsets.only(bottom: 3),
                       child: Icon(Iconsax.repeat_circle)),
                   label: 'Riwayat',
+                ),
+                BottomNavigationBarItem(
+                  icon: Container(
+                      margin: EdgeInsets.only(bottom: 3),
+                      child: Icon(Iconsax.message)),
+                  label: 'Feedback',
                 ),
               ],
               currentIndex: _selectedIndex,
