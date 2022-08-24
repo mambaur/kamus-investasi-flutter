@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.caraguna.kamus.investasi">
    <application
-        android:label="kamus_investasi"
+        android:label="Kamus Investasi"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <meta-data
