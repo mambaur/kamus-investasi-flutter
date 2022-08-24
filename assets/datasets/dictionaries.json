@@ -1188,8 +1188,8 @@
         {
             "alphabet": "E",
             "title": "EBITDA",
-            "full_title": null,
-            "description": "EBITDA adalah ukuran kinerja keuangan perusahaan secara keseluruhan dan sering digunakan sama seperti profitabilitas – dan itu merupakan akronim kunci dalam bisnis.",
+            "full_title": "Earning Before Interest Tax, Depreciation, and Amortization",
+            "description": "EBITDA adalah ukuran kinerja keuangan perusahaan secara keseluruhan dan sering digunakan sama seperti profitabilitas – dan itu merupakan akronim kunci dalam bisnis.\n\nEBITDA adalah singkatan dari earning before interest tax, depreciation, and amortization. EBITDA mencerminkan arus kas dari aktivitas operasi perusahaan. Untuk mengukur kinerja laba perusahaan, EBITDA sering digunakan untuk menggantikan laba bersih karena EBITDA menambahkan kembali faktor depresiasi dan amortisasi – beban non kas – yang mengurangi laba bersih perusahaan.\n\nEBITDA sering digunakan pada perusahaan-perusahaan yang jenis bisnisnya adalah capital intensive – bisnis yang membutuhkan investasi/belanja modal yang besar, sehingga nilai depresiasi signifikan mempengaruhi kinerja laba bersih.",
             "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
@@ -1279,7 +1279,7 @@
             "alphabet": "E",
             "title": "ETF",
             "full_title": "Exchange Traded Fund",
-            "description": "Exchange Traded Fund – ETF adalah melacak banyak saham atau sekuritas lain untuk memudahkan kamu berinvestasi di sektor, industri, atau bahkan wilayah, jadi kamu tidak perlu memilih saham individu.",
+            "description": "ETF atau exchange traded fund adalah Reksa dana yang unit penyertaannya dapat diperdagangkan di bursa. Biasanya ETF adalah Reksa dana yang portofolionya menggunakan indeks tertentu sebagai acuan dalam pembentukannya. Imbal hasil/return dan risiko ETF umumnya mengikuti indeks yang dijadikan acuan.",
             "category": "saham",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
@@ -4260,6 +4260,321 @@
             "full_title": "Daftar Efek Syariah",
             "description": "Daftar Efek Syariah (DES) adalah kumpulan efek yang tidak bertentangan dengan prinsip syariah di Pasar Modal, yang ditetapkan oleh Bapepam-LK atau pihak yang disetujui Bapepam-LK.\n\nDES merupakan panduan investasi bagi reksa dana syariah dalam menempatkan dana kelolaannya serta juga dapat dipergunakan oleh investor yang mempunyai keinginan untuk berinvestasi pada portofolio efek syariah. DES diterbitkan secara berkala yaitu pada akhir Mei dan November setiap tahunnya.",
             "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Expense Ratio",
+            "full_title": null,
+            "description": "Expense ratio adalah rasio biaya operasional tahunan Reksa dana terhadap nilai aset bersih rata-rata.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Efek",
+            "full_title": null,
+            "description": "Efek adalah aset yang dibeli untuk tujuan investasi. Aset dapat berupa s/urat utang, seperti obligasi; dapat berupa saham; dapat berupa derivatif, seperti kontrak forward, future, option, atau swap; dapat juga berupa aset tetap, seperti tanah, properti, dan lainnya.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Effecient Frontier",
+            "full_title": null,
+            "description": "Efficient frontier adalah sekumpulan portofolio/aset yang menawarkan return tertinggi untuk suatu level risiko terendah yang tersedia. Portofolio/aset yang berada dibawah garis efficient frontier adalah portofolio/aset yang memberikan return yang belum optimal untuk suatu level risiko. Portofolio/aset yang berada di sebalah kanan garis efficient frontier adalah portofolio/aset yang memiliki level risiko yang lebih tinggi untuk return yang terbatas besarannya.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Emiten",
+            "full_title": null,
+            "description": "Emiten adalah perusahaan publik yang sahamnya tercatat di Bursa Efek, setelah melakukan penawaran umum. Emiten memiliki kode saham.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Ex Date",
+            "full_title": null,
+            "description": "Ex date adalah tanggal ketika saham diperdagangkan tanpa hak memperoleh dividen, hak memesan efek terlebih dahulu atau HMETD, dan waran. Pada tanggal ex-date biasanya harga pasar saham turun untuk merefleksikan jumlah dividen, HMETD, dan waran yang dibagikan",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "EV",
+            "full_title": "Enterprise Value",
+            "description": "Enterprise value (EV) adalah nilai sebuah perusahaan. Enterprise value dapat dibayangkan sebagai nilai suatu perusahaan ketika akan diambilalih perusahaan lainnya atau perusahaan akan dilikuidasi. Perhitungan enterprise value adalah = nilai pasar saham atau kapitalisasi pasar saham ditambah dengan nilai pasar dari utang, kemudian dikurangi dengan hak minoritas, dikurang lagi dengan kas dan setara kas yang dimiliki oleh perusahaan. Enterprise value berbeda dengan kapitalisasi pasar saham suatu emiten.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Exchangeable Bond",
+            "full_title": null,
+            "description": "Obligasi yang dapat dipertukarkan (exchangeable bond) adalah obligasi yang memberikan hak kepada pemegang obligasi untuk menukar saham perusahaan ke dalam sejumlah saham perusahaan afiliasi milik penerbitnya",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Excess Return",
+            "full_title": "Extra Imbal Hasil",
+            "description": "Tingkat imbal hasil yang melebihi tingkat imbal hasil bebas resiko.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Exchange Rate",
+            "full_title": "Nilai Tukar",
+            "description": "Harga mata uang dari satu negara terhadap mata uang negara lain.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Expected Returns",
+            "full_title": "Imbal Hasil yang Diharapkan",
+            "description": "Rata-rata tertimbang dari kemungkinan hasil yang diharapkan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "F",
+            "title": "Forward Per",
+            "full_title": null,
+            "description": "Forward price earning ratio adalah price earning ratio yang dihitung menggunakan laba bersih per saham proyeksi untuk periode waktu tertentu di masa mendatang, misalnya periode 12 bulan kedepan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "F",
+            "title": "Free Float",
+            "full_title": null,
+            "description": "Free float adalah jumlah saham yang dimiliki oleh masyarakat/publik. Free float tidak termasuk jumlah saham yang dipegang oleh pemegang saham pengendali, pemegang saham mayoritas, komisaris, direksi, ataupun pegawai. Free float adalah saham yang benar-benar dipegang oleh investor publik. Biasanya dalam kategori free float adalah saham yang dmiliki oleh masyarakat dengan persentase dibawah 5%.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "F",
+            "title": "Forced Sell",
+            "full_title": null,
+            "description": "Forced sell adalah pelaksanaan penjualan efek secara paksa oleh perantara pedagang efek ketika nasabah memiliki saldo negatif dan tidak menyelesaikan kewajibannya kepada perantara pedagang efek pada hari bursa ke-6 sejak transaksi dilakukan atau 2 hari setelah tanggal penyelesaian disepakati untuk transaksi di luar bursa.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "F",
+            "title": "Future Value",
+            "full_title": null,
+            "description": "Future value adalah nilai masa depan dari kas/uang yang diterima saat ini. Nilai masa depan kas/uang dimasa depan dihitung dengan memfaktorkan kas/uang menggunakan tingkat return tertentu yang bisa dihasilkan oleh kas/uang, bisa juga menggunakan laju inflasi. Semakin besar tingkat return atau laju inflasi, maka semakin besar nilai masa depan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "F",
+            "title": "FASBI",
+            "full_title": "Fasilitas Simpanan Bank Indonesia Syariah",
+            "description": "Fasilitas Simpanan Bank Indonesia Syariah (FASBI) adalah fasilitas simpanan bank umum syariah dan unit usaha syariah di Bank Indonesia dalam rangka operasi moneter syariah dengan jangka waktu 1 hari kerja.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "F",
+            "title": "Face Value",
+            "full_title": null,
+            "description": "Nilai nominal, nilai jatuh tempo dari obligasi.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "G",
+            "title": "Giro",
+            "full_title": null,
+            "description": "Giro adalah simpanan dalam mata uang rupiah dan valuta asing milik pihak ketiga - bukan bank yang disimpan pada bank umum yang penarikannya dapat dilakukan setiap saat dengan menggunakan cek, surat perintah pembayaran lainnya, atau dengan cara pemindahbukuan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "G",
+            "title": "Go Public",
+            "full_title": null,
+            "description": "Go public adalah proses penjualan saham perusahaan kepada masyarakat umum yang sebelumnya dipegang oleh pemegang saham secara pribadi. Go public sering juga disebut dengan IPO (initial public offering).",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "G",
+            "title": "Go Private",
+            "full_title": null,
+            "description": "Go private adalah proses mengkonversi perusahaan publik atau perusahaan yang sahamnya tercatat di Bursa Efek Indonesia menjadi perusahaan pribadi. Ketika perusahaan go private, maka saham perusahaan tersebut tidak akan lagi dapat ditransaksikan di Bursa Efek.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "G",
+            "title": "Good Till Cancel",
+            "full_title": null,
+            "description": "Good till cancel adalah transaksi dapat dilaksanakan sebelum ada pembatalan dari nasabah yang bersangkutan.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "G",
+            "title": "GTW",
+            "full_title": "Good Through the Week",
+            "description": "Good through the week (GTW) -- Good through the month (GTM) adalah pesanan/order yang harus dilaksanakan dalam jangka waktu yang ditentukan nasabah.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "H",
+            "title": "HMETD",
+            "full_title": "Hak Memesan Efek Terlebih Dahulu",
+            "description": "Hak memesan efek terlebih dahulu (HMETD) atau rights issue adalah hak yang melekat pada saham yang memungkinkan para pemegang saham yang ada untuk membeli efek yang baru, seperti saham, efek yang dapat dikonversikan menjadi saham, dan waran sebelum ditawarkan kepada pihak lain. Pemegang HMETD dapat memilih untuk menggunakan haknya atau tidak menggunakan haknya. Ketika pemegang hak HMETD memilih untuk tidak menggunakan haknya (tidak di-exercise), maka HMETD dapat dialihkan atau haknya akan hilang jika didiamkan.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "H",
+            "title": "Hang Seng",
+            "full_title": null,
+            "description": "Indeks Hang Seng adalah representasi/cerminan harga saham dari 40 emiten terbesar yang sahamnya tercatat di Hong Kong Stock Exchange, Hong Kong. Indeks Hang Seng dihitung oleh salah satu anak usaha, Hang Seng Bank dengan indeks telah dipublikasikan sejak tahun 1969. Anggota dalam indeks Hang Seng mencerminkan 65% kapitalisasi pasar Hong Kong Stock Exchange.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "H",
+            "title": "Holding Period Return",
+            "full_title": null,
+            "description": "Tingkat imbal hasil selama periode tertentu.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "Imbal Hasil",
+            "full_title": null,
+            "description": "Imbal hasil atau return adalah keuntungan yang diciptakan oleh instrumen investasi yang diberikan kepada investor pada periode waktu tertentu. Return dapat mencakup pendapatan dan keuntungan dari kenaikan harga. Umumnya return dinyatakan dalam satuan persentase (%).\n\nDalam reksa dana, imbal hasil dapat dilihat dari perubahan nilai aktiva bersih (NAB) reksa dana. Imbal hasil yang positif menunjukkan NAB reksa dana tersebut naik dibandingkan dengan NAB saat pembelian. Sedangkan imbal hasil yang negatif menunjukkan penurunan NAB.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "IHSG",
+            "full_title": "Indeks Harga Saham Gabungan",
+            "description": "IHSG atau Indeks Harga Saham Gabungan adalah cerminan harga dari seluruh saham yang ada di Bursa Efek Indonesia (BEI, dahulu: Bursa Efek Jakarta). IHSG menjadi indikator atau acuan pergerakan harga saham-saham yang ada di BEI. IHSG diperkenalkan pertama kali oleh BEI pada tanggal 1 April 1983. Indeks ini mencakup pergerakan harga seluruh saham biasa dan saham preferen yang tercatat di BEI.\n\nHari Dasar untuk perhitungan IHSG adalah tanggal 10 Agustus 1982. Pada tanggal tersebut, Indeks ditetapkan dengan nilai dasar 100 dan saham tercatat ketika itu berjumlah 13 saham. IHSG menguat berarti rata-rata saham di BEI menguat. IHSG melemah berarti rata-rata saham di BEI melemah.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "Indeks Sektor",
+            "full_title": null,
+            "description": "Indeks sektor adalah representasi/cerminan harga saham dari emiten-emiten yang berada pada masing-maisng kategori sektor industri. Terdapat 10 sektor menurut pembagian oleh Bursa Efek Indonesia. Kesepuluh sektor adalah sektor pertanian, pertambangan, industri dasar, aneka industri, barang konsumsi, properti, infrastruktur, keuangan, perdangangan dan jasa, dan manufatur.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "Indeks Implisit",
+            "full_title": null,
+            "description": "Indeks implisit adalah rasio antara produk domestik bruto (PDB) menurut harga berlaku dan PDB menurut harga konstan. Deflastor PDB digunakan untuk mengetahui perubahan harga.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "IHK",
+            "full_title": "Indeks Harga Konsumen",
+            "description": "Indeks Harga Konsumen (IHK) adalah indikator ekonomi yang memberikan informasi mengenai harga barang dan jasa yang dibayar oleh konsumen. Perhitungan IHK dilakukan untuk merekam perubahan harga beli ditingkat konsumen (purchasing cost) dari sekelompok tetap barang dan jasa yang umumnya dikonsumsi oleh masyarakat.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "IHPB",
+            "full_title": "Indeks Harga Perdagangan Besar",
+            "description": "Indeks harga perdagangan besar (IHPB) adalah harga transaksi yang terjadi antara penjual/pedagang besar pertama dengan pembeli/pedagang besar berikutnya dalam jumlah besar pada pasar pertama atas suatu komoditas.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "Insider Trading",
+            "full_title": null,
+            "description": "Perdagangan oleh pegawai, direktur, pemegang saham utama, atau pihak lain yang memiliki informasi orang dalam yang digunakan untuk mengeruk keuntungan dari jual beli saham.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "ISSI",
+            "full_title": "Indonesia Sharia Stock Index",
+            "description": "Indonesia Sharia Stock Index (ISSI) merupakan indeks saham yang mencerminkan keseluruhan saham syariah yang tercatat di BEI. Konstituen ISSI adalah keseluruhan saham syariah yang tercatat di BEI dan terdaftar dalam Daftar Efek Syariah (DES) yang direview setiap 6 bulan sekali yakni akhir Mei dan November.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "J",
+            "title": "JII",
+            "full_title": "Jakarta Islamic Index",
+            "description": "Jakarta islamic Index (JII) adalah representasi/cerminan harga saham dari 30 emiten yang masuk dalam kriteria syariah atau Daftar Efek Syariah yang diterbitkan oleh Bapepam-LK dengan mempertimbangkan kapitalisasi pasar dan likuiditas.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "J",
+            "title": "Jatuh Tempo",
+            "full_title": "Maturity",
+            "description": "Jatuh Tempo – maturity adalah tanggal ketika pemegang obligasi akan mendapatkan pembayaran kembali pokok atau nilai nominal obligasi yang dimilikinya. Periode jatuh tempo obligasi bervariasi mulai dari 365 hari sampai dengan diatas 5 tahun.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "J",
+            "title": "JIBOR",
+            "full_title": "Jakarta Interbank Offered Rate",
+            "description": "Jakarta Interbank Offered rate (JIBOR) adalah suku bunga indikasi penawaran dalam traansaksi Pasar uang Antar Bank (PUAB) di Indonesia yang berasal dari bank kontributor JIBOR.",
+            "category": "saham",
             "created_at": "2022-08-23",
             "updated_at": "2022-08-23"
         }
