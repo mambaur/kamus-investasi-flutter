@@ -4577,6 +4577,357 @@
             "category": "saham",
             "created_at": "2022-08-23",
             "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "K",
+            "title": "Kode Saham",
+            "full_title": null,
+            "description": "Kode saham adalah kode yang terdiri dari 4 huruf yang mewakili setiap emiten yang sahamnya tercatat di Bursa Efek Indonesia. Kode saham digunakan untuk transaksi jual beli saham emiten menggunakan sistem perdagangan yang disediakan oleh Bursa Efek Indonesia.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "K",
+            "title": "Kupon",
+            "full_title": null,
+            "description": "Kupon adalah nilai bunga yang diterima pemegang obligasi secara berkala. Umumnya pembayaran kupon obligasi dilakukan setiap 3 atau 6 bulan. Kupon obligasi dinyatakan dalam persentase secara tahunan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "K",
+            "title": "Kurs",
+            "full_title": null,
+            "description": "Kurs adalah nilai tukar suatu mata uang terhadap mata uang lainnya.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "K",
+            "title": "Kurs Jual",
+            "full_title": null,
+            "description": "Kurs jual adalah kurs yang berlaku apabila bank atau lembaga penukaran mata uang menjual mata uang kepada masyarakat.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "L",
+            "title": "LPS",
+            "full_title": "Lembaga Penjamin Simpanan",
+            "description": "Lembaga Penjamin Simpanan (LPS) adalah lembaga yang memiliki fungsi untuk menjamin simpanan masyarakat yang disimpan pada perbankan yang mengalami likuidasi. Jaminan yang dilakukan sejak tahun 2008 hingga saat ini adalah jaminan terbatas (limited guarantee) maksimal senilai Rp 2 miliar. Simpanan yang dijamin oleh LPS berupa giro, deposito, sertifikat deposito, tabungan, dan bentuk yang lain dipersamakan dengan itu.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "L",
+            "title": "Lot",
+            "full_title": null,
+            "description": "Lot adalah lot setara dengan 500 lembar –dalam hal ini saham.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "L",
+            "title": "LF",
+            "full_title": "Lending Facility",
+            "description": "Lending Facility (LF) adalah penyediaan dana rupiah dari Bank Indonesia kepada bank dalam rangka operasi moenter dengan jangka waktu 1 hari kerja.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "L",
+            "title": "Lifting Minyak",
+            "full_title": null,
+            "description": "Lifting minyak adalah minyak hasil produksi yang telah diolah dan siap untuk digunakan. Lifting minyak dapat berbeda dengan produksi minyak. Produksi minyak adalah total produksi minyak dari perut bumi yang tidak seluruhnya dipakai, namun sebagiannya digunakan untuk eksplorasi minyak bumi. Jumlah minyak total produksi dikurangi dengan bagian yang digunakan untuk eksplorasi lagi disebut minyak lifting.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "M",
+            "title": "Manajer Investasi",
+            "full_title": null,
+            "description": "Manajer investasi mengumpulkan dana dari sejumlah nasabah atau investor dan mengelolanya dalam sebuah produk berbentuk reksa dana atau kontrak investasi kolektif. Manajer investasi mengelola dana tersebut dengan cara menginvestasikan dana dari nasabahnya itu ke dalam portofolio (sekumpulan) efek yang sesuai dengan tujuan dari para nasabahnya. Manajer investasi bisa menginvestasikan dana ke saham, obligasi ataupun deposito sesuai dengan tujuan atau karakter dari produk reksa dana itu.\n\nNasabah dari manajer investasi tidak termasuk perusahaan asuransi, dana pensiun, dan bank karena mereka semua dapat melakukan sendiri kegiatan usaha investasinya berdasarkan peraturan perundang-undangan yang berlaku.\n\nManajer investasi adalah tim profesional di bidang investasi dan keuangan yang telah mendapatkan izin/lisensi dan diawasi oleh Otoritas Jasa Keuangan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "M",
+            "title": "MSOP",
+            "full_title": "Management Stock Option Plan",
+            "description": "MSOP – Management Stock Option Plan adalah skema kepemilikan saham perusahaan oleh manajemen perusahaan yang umumnya digunakan sebagai apresiasi terhadap kinerja atau langkah untuk mendorong kinerja manajemen perusahaan. Dalam MSOP, harga saham bagi pegawai ketika merealisasikan opsi kepemilikan saham adalah dapat lebih murah dibanding dengan ketika penawaran umum.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "M",
+            "title": "MSCI",
+            "full_title": null,
+            "description": "Indeks MSCI adalah indeks yang diluncurkan oleh sebuah lembaga riset, MSCI – Morgan Stanley Capital Indonesia untuk mencerminkan pergerakan harga saham pada berbagai kategori yang dibentuk. Indeks MSCI, misalnya MSCI AC World indeks—indeks yang mencerminkan pergerakan harga saham untuk emiten yang ada di negara maju dan negara berkembang. Kemudian, terdapat MSCI Emerging Market Index – indeks yang mencerminkan pergerakan harga saham untuk emiten yang berada di negara-negara berkembang.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "M",
+            "title": "Modified Duration",
+            "full_title": null,
+            "description": "Modified duration adalah pengukuran sensitivitas perubahan harga suatu obligasi jika terjadi perubahan suku bunga. Modified duration dinyatakan dalam satuan tahun. Modified Duration sebesar 4,26 tahun dapat diinterpretasikan bahwa kenaikan suku bunga pasar sebesar 1% sehingga juga menaikkan imbal hasil – dalam hal ini dapat yield to maturity-- yang diharapkan oleh investor dalam besaran yang sama, maka harga obligasi akan menurun sebesar 4,26%. Demikian sebaliknya, jika suku bunga menurun sebesar 1%, maka harga obligasi akan meningkat sebesar 4,26%. Semakin besar Modified Duration suatu obligasi berarti semakin besar juga risiko yang dimiliki oleh obligasi itu.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "M",
+            "title": "Macaulay Duration",
+            "full_title": null,
+            "description": "Macaulay duration adalah jumlah rata-rata tahun seluruh arus kas yang sebenarnya diterima oleh investor dari suatu obligasi, baik itu arus kas berupa kupon yang dibayarkan secara berkala pada periode waktu tertentu hingga jatuh tempo, maupun arus kas dari pelunasan nilai pokok obligasi oleh penerbit kepada investor. Semakin besar angka Macaulay Duration diinterpretasikan sebagai semakin lama periode bahwa kas akan diterima oleh investor dari obligasi yang dipegang. Karena semakin lama periode penerimaan kasnya, berarti semakin besar juga risiko yang melekat pada obligasi.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "M",
+            "title": "Macaulay Duration",
+            "full_title": null,
+            "description": "Macaulay duration adalah jumlah rata-rata tahun seluruh arus kas yang sebenarnya diterima oleh investor dari suatu obligasi, baik itu arus kas berupa kupon yang dibayarkan secara berkala pada periode waktu tertentu hingga jatuh tempo, maupun arus kas dari pelunasan nilai pokok obligasi oleh penerbit kepada investor. Semakin besar angka Macaulay Duration diinterpretasikan sebagai semakin lama periode bahwa kas akan diterima oleh investor dari obligasi yang dipegang. Karena semakin lama periode penerimaan kasnya, berarti semakin besar juga risiko yang melekat pada obligasi.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "M",
+            "title": "Market Risk",
+            "full_title": null,
+            "description": "Market risk atau dalam bahasa Indonesia adalah risiko pasar merupakan kondisi yang dialami oleh suatu perusahaan yang disebabkan oleh perubahan kondisi dan situasi pasar di luar dari kendali perusahaan. Risiko pasar sering disebut juga sebagai risiko yang menyeluruh, karena sifat umumnya adalah bersifat menyeluruh dan di alami oleh seluruh perusahaan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "N",
+            "title": "NAB",
+            "full_title": "Nilai Aktiva Bersih",
+            "description": "Nilai Aktiva Bersih (NAB) adalah harga wajar dari portofolio suatu reksa dana setelah dikurangi biaya operasional Reksa dana. NAB dapat berubah setiap hari karena nilai investasi di pasar selalu berfluktuasi (naik atau turun). Nilai ini dipengaruhi oleh transaksi pembelian dan penjualan reksa dana oleh para investor, harga pasar dari aset reksa dana dan perubahan dana kelolaan (asset under management/AUM).\n\nNAB digunakan sebagai pembagi untuk menentukan jumlah unit penyertaan ketika membeli suatu reksa dana dan digunakan sebagai salah satu alat untuk mengukur kinerja investasi pengelolaan reksa sana. Bila nilai NAB sebuah reksa dana mengalami peningkatan dalam suatu periode, berarti kinerja reksa dana tersebut positif dan dapat memberikan keuntungan kepada investornya.\n\nAkan tetapi, NAB sebuah reksa dana yang sudah mahal atau tinggi belum tentu menggambarkan kinerjanya. Biasanya, NAB yang sudah tinggi tersebut terjadi karena sebuah reksa dana umurnya sudah cukup panjang atau diluncurkan sejak lama. Sementara itu, kinerja reksa dana dipengaruhi oleh kemampuan manajer investasinya dalam memilih portofolio yang menjadi aset dalam reksa dana tersebut. Jika kinerja suatu reksa dana bagus, NAB reksa dana tersebut juga akan meningkat seiring waktu. Artinya, seorang investor lebih baik mengamati pertumbuhan harga NAB ketimbang besaran harga NAB itu sendiri.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "N",
+            "title": "NAB per Unit",
+            "full_title": "Nilai Aktiva Bersih per Unit (NAB per Unit)",
+            "description": "Nilai Aktiva Bersih per Unit (NAB per Unit) adalah harga wajar dari portofolio suatu Reksa dana setelah dikurangi biaya operasional Reksa dana, kemudian dibagi dengan jumlah saham atau unit penyertaan yang beredar atau dimiliki oleh investor pada suatu periode tertentu. Ketika investor melakukan pembelian (subscription) Reksa dana, penjualan (redemption), atau pengalihan (switching), maka NAB per unit menjadi acuan harga atas jumlah dana yang disetorkan, diterima oleh investor, atau menjadi acuan besaran kepemilikan baru atas Reksa dana hasil pengalihan.\n\nPerhitungan NAB Reksa dana menggunakan nilai pasar wajar efek yang ditentukan oleh manajer investasi. NAB Reksa dana awal untuk setiap unit penyertaan adalah ditetapkan sebesar Rp 1.000. Sementara untuk Reksa dana yang menggunakan denominasi mata uang asing, maka NAB awal ditetapkan sebesar US$ 1 atau EUR 1.\n\nUntuk Reksa dana berbentuk kontrak investasi kolektif yang unit penyertaannya diperdagangkan di Bursa Efek, ketentuan mengenai NAB awal untuk setiap unit penyertaan dapat tidak mengikuti ketentuan diatas sepanjang diatur dalam kontrak investasi kolektif dan dicantumkan dalam prospektus Reksa dana. e. Efek yang diperdagangkan dalam denomiinasi mata uang berbeda dengan denominasi mata uang Reksa dana wajib diperhitungkan dengan menggunakan kurs tengah Bank Indonesia yang berlaku.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "N",
+            "title": "NAB per Unit",
+            "full_title": "Nilai Aktiva Bersih per Unit (NAB per Unit)",
+            "description": "Nilai Pasar Wajar adalah atau fair market value adalah nilai wajar untuk efek yang ditransaksikan yang mana penentuannya adalah menggunakan aturan: a. Penentuan nilai asar wajar dari efek yang aktif diperdagangkan di Bursa Efek menggunakan informasi harga perdagangan terakhir efek di Bursa Efek. b. Dalam hal harga perdagangan terakhir di Bursa Efek tidak mencerminkan nilai pasar wjar efek pada saat itu, manajer investasi wajib menentukan nilai pasar wajar dari efek berdasarkan metode yang ditetapkan dalan kontrak investasi kolektif dan prospektus dengan mempertimbangkan:\n\n(i) Surat Utang Negara menggunakan informasi harga yang dikeluarkan oleh penyelenggara perdagangan Surat Utang Negara di luar Bursa Efek.\n\n(ii) Obligasi perusahaan menggunakan informasi harga yang tersedia dalam sistem yang ditetapkan oleh Bapepam LK. c. Penentuan nilai pasar wajar efek yang diperdagangkan di Bursa Efek luar negeri menggunakan informasi harga dari sumber yang dapat dipercaya dan dapat diakses melalui media massa atau fasilitas internet yang tersedia. d. Penentuan nilai pasar wajar efek dari perusahaan yang dinyatakan pailit atau kemungkinan besar pailit – atau gagal membayar pokok utang atau bunga dari efek tersebut, maka wajib dihitung berdasarkan itikad baik dan penuh tanggung jawab dari manajer investasi dengan menggunakan asa konservatif dan diterapkan secara konsisten. Nilai yang diperkirakan tersebut wajib didasarkan perkiraan harga yang paling mungkin terjadi antara penjual dan pembeli yang memiliki fakta material mengenai efek tersebut. Fakta yang wajib dipertimbangkan oleh manajer investasi dalam membuat evaluasi, antara lain:(i) Harga terakhir efek yang diperdagangkan, kecenderungan harga saham, dan tingkat bunga umum sejak perdagangan terakhir. (ii) Informasi material yang diumumkan mengenai efek tersebut sejak perdagangan terakhir.\n\n(iii) Dalam hal saham, perkiraan rasio pendapatan harga atau price earning ratio dibandingkan dengan rasio pendapatan harga untuk efek sejenis.\n\n(iv) Dalam hal efek bersifat utang, tingkat bunga pasar dari efek sejenis pada tahun berjalan dengan peringkat kredit sejenis.\n\n(v) Dalam hal waran, right, atau obligasi konversi, harga pasar terakhir dari efek yang mendasari. f. Nilai pasar wajar efek dalam portofolio Reksa dana wajib ditentukan dan disampaikan oleh manajer investasi kepada bank kustodian selambat-lambatnya pukul 17.00 WIB setiap hari kerja.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "N",
+            "title": "Non HMETD",
+            "full_title": null,
+            "description": "Non HMETD—tanpa hak memesan efek terlebih dahulu adalah penawaran saham yang dilakukan oleh perusahaan tanpa adanya ekskusifitas bagi pemegang saham lama untuk memperoleh saham baru terlebih dahulu. Non HMETD akan mengakibatkan dilusi saham jika perusahaan menjual seluruh saham baru kepada pihak lain selain pemegang saham lama.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "N",
+            "title": "Nilai Intrinsik",
+            "full_title": null,
+            "description": "Nilai intrinsik adalah nilai sebenarnya (intrinsik) suatu perusahaan atau aset atau saham berdasarkan seluruh aspek yang mempengaruhi bisnis perusahaan. Nilai intrinsik dihitung menggunakan berbagai metode analisis fundamental. Metode umum yang digunakan dalam menghitung nilai intrinsik adalah menjumlahkan seluruh laba yang dihasilkan oleh aset perusahaan, kemudian menilaisekarangkannya (present value) menggunakan faktor diskon tertentu. Nilai intrinsik dapat berbeda dengan nilai pasar.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "N",
+            "title": "Nilai Par",
+            "full_title": null,
+            "description": "Nilai par atau nilai nominal atau face value adalah nilai pokok dari suatu obligasi yang akan diterima oleh pemegang obligasi pada saat obligasi tersebut jatuh tempo.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "O",
+            "title": "OJK",
+            "full_title": "Otoritas Jasa Keuangan",
+            "description": "Otoritas Jasa Keuangan (OJK) adalah lembaga independen dan bebas campur tangan pihak lain yang memiliki fungsi menyelenggarakan sistem pengaturan dan pengawasan yang terintegrasi terhadap keseluruhan kegiatan di dalam sektor jasa keuangan. Sektor jasa keuangan di bawah OJK mencakup kegiatan di sektor perbankan, pasar modal, perasuransian, dana pensiun, lembaga pembiayaan, dan lembaga jasa keuangan lainnya.\n\nBerkaitan dengan reksa dana, OJK mengawasi dan memberikan izin atau lisensi bagi manajer investasi, produk reksa dana dan agen penjualnya. OJK juga memberikan perlindungan dan edukasi bagi investor ataupun masyarakat luas terkait layanan jasa keuangan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "O",
+            "title": "Over Subscribed",
+            "full_title": null,
+            "description": "Over subscribed adalah kondisi ketika jumlah pemesanan efek melebihi dari jumlah efek yang ditawarkan oleh penerbit efek.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "O",
+            "title": "Over Value",
+            "full_title": null,
+            "description": "Over value adalah harga saham di pasar lebih tinggi dari nilai intrinsik.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "O",
+            "title": "Oustanding Shares",
+            "full_title": null,
+            "description": "Oustanding shares – jumlah saham beredar adalah jumlah saham yang diterbitkan oleh perusahaan. Saham treasury atau treasury stock tidak lagi termasuk kedalam outstanding shares. Outstanding shares digunakan dalam perhitungan laba bersih per saham, juga perhitungan kapitalisasi pasar saham suatu perusahaan di Bursa Efek.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "O",
+            "title": "OTC",
+            "full_title": "Over The Counter",
+            "description": "Over the counter (OTC) adalah transaksi di luar bursa, yakni misalnya antara perusahaan efek tertentu dengan pihak lain yang tidak diatur oleh Bursa Efek, dan transaksi antar pihak yang bukan merupakan perusahaan efek.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "O",
+            "title": "Odd Lot",
+            "full_title": null,
+            "description": "Odd lot adalah perdagangan dengan volume transaksi kurang dari 1 lot, atau tidak genap pada jumlah setara dengan 500 lembar saham.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "O",
+            "title": "Offer Price",
+            "full_title": null,
+            "description": "Harga acuan ketika investor berniat untuk menjual suatu instrumen investasi. Misalnya untuk saham, ketika seorang investor ingin menjual sahamnya, maka harus memperhatikan harga offer. Tetapi, jika ingin langsung terjual tanpa mengantri, maka investor dapat langsung menginput di harga bid paling atas dalam suatu aplikasi online trading.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "O",
+            "title": "Overbought",
+            "full_title": null,
+            "description": "Keadaan overbought atau jenuh beli menunjukkan periode waktu dimana terjadi suatu pergerakan uptrend yang signifikan dan konsisten. Pada kondisi ini secara teknikal adanya kemungkinan investor melakukan profit taking sehingga harga saham berpeluang turun.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "O",
+            "title": "Oversold",
+            "full_title": null,
+            "description": "Keadaan oversold atau jenuh jual menunjukkan periode waktu dimana terjadi suatu pergerakan downtrend yang signifikan dan konsisten. Pada kondisi ini secara teknikal adanya kemungkinan investor melakukan pembelian sehingga harga saham berpeluang naik.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "P",
+            "title": "Private Placement",
+            "full_title": null,
+            "description": "Private placement adalah pelepasan saham suatu perusahaan oleh pemegang saham tertentu tanpa melalui penawaran umum, tetapi hanya ditujukan kepada sekelompok kecil investor. Investor yang terlibat dalam private placement biasanya adalah bank, Reksa dana, dana pensiun, perusahaan asuransi, atau investor individu.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "P",
+            "title": "PER",
+            "full_title": "Price Earning Ratio",
+            "description": "Price earning ratio (PER) adalah rasio yang digunakan untuk menilai mahal murahnya saham berdasarkan kemampuan perusahaan menghasilkan laba bersih. Laba bersih dalam hal ini adalah laba bersih per saham . Price earning ratio yang tinggi mengindikasikan investor mengharapkan pertumbuhan laba bersih yang tinggi dari perusahaan.\n\nPrice earning ratio yang tinggi pada saham dapat diinterpretasikan sebagai saham yang mahal jika pada periode waktu mendatang perusahaan tidak mampu meraih laba bersih yang lebih tinggi. Tingginya rendahnya price earning ratio ditentukan dengan membandingkannya dengan price earning ratio saham lain atau price earning sektor/pasar yang sesuai untuk dijadikan perbandingan. Perusahaan yang merugi tidak memiliki price earning ratio.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "P",
+            "title": "PBV",
+            "full_title": "Price to Book Value",
+            "description": "Price to book value (PBV) adalah rasio yang digunakan untuk membandingkan harga saham terhadap nilai buku perusahaan. Rasio price to book value yang lebih kecil dari 1 dapat mengindikasikan saham perusahaan adalah murah karena masih lebih rendah dari nilai buku. Tingginya rendahnya price to book value ratio ditentukan dengan membandingkannya dengan price to book value ratio saham lain atau price to book value sektor/pasar yang sesuai untuk dijadikan perbandingan.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "P",
+            "title": "Present Value",
+            "full_title": null,
+            "description": "Present value adalah nilai sekarang dari kas/uang yang akan diterima dimasa depan. Kas/uang yang seharusnya diperoleh dimasa depan didiskon menggunakan suatu tingkat diskon tertentu untuk menghasilkan nilai sekarang. Semakin besar tingkat diskon, maka akan semakin kecil nilai sekarang dari kas/uang.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "P",
+            "title": "PDB",
+            "full_title": "Produk Domestik Bruto",
+            "description": "Produk domestik bruto (PDB) adalah nilai pasar seluruh barang dan jasa yang dihasilkan oleh suatu negara dalam suatu periode waktu tertentu.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "P",
+            "title": "PNB",
+            "full_title": "Produk Nasional Bruto",
+            "description": "Produk nasional bruto adalah produk domestik bruto (PDB) ditambah dengan pendapatan neto dari luar negeri.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "P",
+            "title": "PUAB",
+            "full_title": "Pasar Uang Antar Bank",
+            "description": "Pasar Uang Antar Bank (PUAB) adalah kegiatan pinjam meminjam dalam rupiah dan atau valuta asing antar bank konvensional dengan jangka waktu sampai dengan 1 tahun. PUAB terdiri dari PUAB rupiah pagi, PUAB rupiah sore, dan PUAB valas.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "P",
+            "title": "PUAS",
+            "full_title": "Pasar Uang Antar Bank Syariah",
+            "description": "Pasar Uang Antar Bank Syariah (PUAS) adalah kegiatan transaksi keuangan jangka pendek antar bank berdasarkan prinsip syariah baik dalam rupiah maupun dalam valuta asing.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "Q",
+            "title": "Quick Ratio",
+            "full_title": null,
+            "description": "Quick ratio atau acid-test ratio adalah rasio yang mencerminkan kemampuan perusahaan untuk melunasi kewajiban-kewajiban lancar atau utang jangka pendek menggunakan aset-aset perusahaan yang paling likuid. Perhitungan quick ratio adalah total aset lancar dikurangi dengan persediaan dan uang muka, setelahnya dibagi dengan total kewajiban lancar. Quick ratio dinyatakan dalam satuan kali atau persentase (%).",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
         }
     ]
 }
