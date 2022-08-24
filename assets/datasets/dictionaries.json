@@ -1188,8 +1188,8 @@
         {
             "alphabet": "E",
             "title": "EBITDA",
-            "full_title": null,
-            "description": "EBITDA adalah ukuran kinerja keuangan perusahaan secara keseluruhan dan sering digunakan sama seperti profitabilitas – dan itu merupakan akronim kunci dalam bisnis.",
+            "full_title": "Earning Before Interest Tax, Depreciation, and Amortization",
+            "description": "EBITDA adalah ukuran kinerja keuangan perusahaan secara keseluruhan dan sering digunakan sama seperti profitabilitas – dan itu merupakan akronim kunci dalam bisnis.\n\nEBITDA adalah singkatan dari earning before interest tax, depreciation, and amortization. EBITDA mencerminkan arus kas dari aktivitas operasi perusahaan. Untuk mengukur kinerja laba perusahaan, EBITDA sering digunakan untuk menggantikan laba bersih karena EBITDA menambahkan kembali faktor depresiasi dan amortisasi – beban non kas – yang mengurangi laba bersih perusahaan.\n\nEBITDA sering digunakan pada perusahaan-perusahaan yang jenis bisnisnya adalah capital intensive – bisnis yang membutuhkan investasi/belanja modal yang besar, sehingga nilai depresiasi signifikan mempengaruhi kinerja laba bersih.",
             "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
@@ -1279,7 +1279,7 @@
             "alphabet": "E",
             "title": "ETF",
             "full_title": "Exchange Traded Fund",
-            "description": "Exchange Traded Fund – ETF adalah melacak banyak saham atau sekuritas lain untuk memudahkan kamu berinvestasi di sektor, industri, atau bahkan wilayah, jadi kamu tidak perlu memilih saham individu.",
+            "description": "ETF atau exchange traded fund adalah Reksa dana yang unit penyertaannya dapat diperdagangkan di bursa. Biasanya ETF adalah Reksa dana yang portofolionya menggunakan indeks tertentu sebagai acuan dalam pembentukannya. Imbal hasil/return dan risiko ETF umumnya mengikuti indeks yang dijadikan acuan.",
             "category": "saham",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
@@ -3050,7 +3050,7 @@
         },
         {
             "alphabet": "R",
-            "title": "Dividend Payout Ratio",
+            "title": "Dividen Payout Ratio",
             "full_title": "Rasio Pembayaran Dividen",
             "description": "Rasio pembayaran dividen adalah hubungan antara dividen perusahaan dan laba bersihnya. Rasio pembayaran dividen perusahaan membandingkan jumlah yang dibayarkan perusahaan dalam dividen dengan laba bersihnya. Semakin banyak ia membayar dibandingkan dengan pendapatannya, semakin tinggi rasionya.\n\nPerusahaan dengan rasio pembayaran dividen yang lebih tinggi mengembalikan lebih banyak kepada pemegang saham mereka. Perusahaan dengan rasio yang lebih rendah menyimpan lebih banyak uang tunai untuk investasi, sebagai jaring pengaman, atau untuk tujuan lain.",
             "category": "investasi",
@@ -3187,7 +3187,7 @@
             "alphabet": "R",
             "title": "RoI",
             "full_title": "Return of Investment",
-            "description": "Pengembalian investasi atau Return of Investment adalah memberi tahu KAMU seberapa baik investasi yang dilakukan dengan membandingkan laba KAMU dengan jumlah uang yang KAMU masukkan – dan membantu KAMU membandingkan berbagai peluang.",
+            "description": "Return on Investment atau ROI adalah besar persen profit yang bisa didapat dari total jumlah aset investasi. Dari definisinya, bisa dikatakan juga bahwa ROI adalah perhitungan yang bisa menunjukkan tingkat seberapa efektif seseorang atau perusahaan mempertaruhkan dana dalam tanam modal berupa investasi.",
             "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
@@ -3637,7 +3637,7 @@
             "alphabet": "T",
             "title": "Transaksi Short Selling",
             "full_title": null,
-            "description": "Short selling saham adalah strategi perdagangan tingkat lanjut di mana kamu meminjam saham, menjualnya dengan harga saat ini, dan berharap harganya jatuh sehingga kamu dapat membayar kembali saham yang dipinjam dengan harga lebih rendah.",
+            "description": "Short selling saham adalah transaksi penjualan saham dimana investor tidak memiliki saham untuk melakukan transaksi tersebut. Dalam prakteknya, investor meminjam saham dari pihak lain (perusahaan sekuritas, misalnya) dan biasanya berharap harga saham itu turun.",
             "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
@@ -3938,6 +3938,645 @@
             "category": "investasi",
             "created_at": "2022-06-14",
             "updated_at": "2022-06-14"
+        },
+        {
+            "alphabet": "A",
+            "title": "Abnormal Return",
+            "full_title": null,
+            "description": "Abnormal return adalah selisih antara tingkat keuntungan yang sebenarnya dengan tingkat keuntungan yang diharapkan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "A",
+            "title": "Agency Problem",
+            "full_title": null,
+            "description": "Konflik kepentingan antara pemegang saham, pemegang obligasi, dan para manajer.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "A",
+            "title": "Autorejection",
+            "full_title": null,
+            "description": "Autorejection adalah sistem di Bursa Efek Indonesia yang membatasi harga penawaran tertinggi atau terendah atas saham. Sistem ini akan secara otomatis menolak order atau penawaran jual-beli yang melebihi batasan yang ditetapkan oleh sistem. Keberadaan sistem autorejection oleh Bursa Efek Indonesia ditujukan untuk terlaksananya perdagangan efek yang teratur, wajar, dan efisien.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "A",
+            "title": "Auction Market",
+            "full_title": null,
+            "description": "Sistem perdagangan di mana para pembeli bersaing dengan pembeli lain dan penjual bersaing dengan penjual lain untuk mencapai harga yang paling menguntungkan. Sistem ini digunakan oleh Bursa Efek atau disebut pasar lelang.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "A",
+            "title": "Ask Price",
+            "full_title": null,
+            "description": "Ask price adalah harga investor berniat untuk menjual suatu instrumen investasi.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "A",
+            "title": "Alfa",
+            "full_title": null,
+            "description": "Tingkat imbal hasil abnormal dari suatu surat berharga yang lebih besar daripada yang diprediksi oleh model ekuilibrium seperti CAPM dan APT.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "A",
+            "title": "Akuisisi",
+            "full_title": null,
+            "description": "Akuisisi adalah pengambilalihan atau takeover sebuah perusahaan dengan membeli saham atau aset perusahaan. Berbeda dengan merger yang mana perusahaan yang di-merger akan bubar, perusahaan yang diakuisisi dalam akuisisi akan tetap ada.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "B",
+            "title": "Book Building",
+            "full_title": null,
+            "description": "Book building – penawaran awal adalah ajakan baik secara langsung maupun secara tidak lansgung dengan menggunakan prospektus awal yang bertujuan untuk mengetahui minat calon investor atas efek yang ditawarkan oleh perusahaan. Book building juga akan menciptakan perkiraan harga penawaran efek.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "B",
+            "title": "Best Effort",
+            "full_title": null,
+            "description": "Best effort adalah jenis penjaminan ketika penawaran efek, dimana penjamin emisi efek tidak memberikan jaminan untuk membeli seluruh efek yang tidak terjual dalam hal terjadi under subscribed.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "B",
+            "title": "Back Door Listing",
+            "full_title": null,
+            "description": "Back door listing adalah strategi untuk menjadi perusahaan publik dengan mengakuisisi perusahaan yang sahamnya telah tercatat di Bursa Efek. Back door listing dapat dilakukan oleh perusahaan yang tidak mampu memenuhi kriteria untuk menjadi perusahaan publik secara peraturan yang berlaku.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "B",
+            "title": "Biro Administrasi Efek",
+            "full_title": null,
+            "description": "Biro administrasi efek adalah pihak yang berdasarkan kontrak dengan emiten melaksanakan pencatatan kepemilikan efek/instrumen investasi, seperti saham dan melakukan pembagian hak yang berkaitan dengan efek.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "B",
+            "title": "Buyback",
+            "full_title": null,
+            "description": "Buyback – share repurchase adalah aksi beli saham oleh perusahaan yang menerbitkan saham tersebut. Jumlah saham beredar atau outstanding share perusahaan akan menurun setelah buyback. Buyback berarti perusahaan memutuskan untuk berinvestasi pada perusahaanya sendiri. Buyback biasanya dilakukan ketika harga saham perusahaan dinilai murah atau under valued.\n\nPasar pasar yang efisien, buyback tidak akan mengubah valuasi saham karena sebenarnya kas perusahaan akan berkurang (~aset perusahaan berkurang), meski jumlah saham beredar yang berkurang membuat laba bersih per saham meningkat.\n\nPada pasar yang tidak efisien, valuasi saham perusahaan yang melakukan buyback akan menjadi lebih murah karena jumlah saham berbedar yang lebih sedikit membuat laba bersih per saham meningkat.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bid Price",
+            "full_title": null,
+            "description": "Bid price adalah harga investor berniat untuk membeli suatu instrumen investasi.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bullish",
+            "full_title": null,
+            "description": "Bullish adalah kondisi pasar atau efek tertentu yang penuh dengan keyakinan, dimana harga efek meningkat dan diekspektasikan akan terus meningkat. Bullish adalah kebalikan dari bearish.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bearish",
+            "full_title": null,
+            "description": "Bearish adalah kondisi pasar atau efek tertentu yang penuh dengan kepesimistisan, dimana harga efek menurun dan diharapkan akan terus melemah. Bearish adalah kebalikan dari bullish. Kondisi bearish umumnya terjadi ketika ekonomi mengalami resesi atau perlambatan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "B",
+            "title": "Blok Sale",
+            "full_title": null,
+            "description": "Blok sale adalah perdagangan minimal melibatkan 400 lot atau 200.000 lembar saham.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "B",
+            "title": "BI Rate",
+            "full_title": null,
+            "description": "BI rate adalah suku bunga kebijakan yang mencerminkan sikap kebijakan moneter yang ditetapkan oleh Bank Indonesia. BI rate diumumkan oleh Dewan Gubernur Bank Indonesia setiap Rapat Dewan Gubernur bulanan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "B",
+            "title": "Bond Rating",
+            "full_title": null,
+            "description": "Peringkat obligasi yang diberikan oleh lembaga pemeringkat seperti Standard & Poor, Moody’s di Amerika Serikat atau PEFINDO (Pemeringkat Efek Indonesia) untuk mengetahui tingkat bonafiditas perusahaan dalam melunasi kupon dan pokok utang. Jenis peringkat atau rating menurut urutan terbaik adalah AAA, AA, A, dan BBB, BB, B, dan seterusnya sebagai kode bonafiditas emiten.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "P",
+            "title": "Pialang",
+            "full_title": null,
+            "description": "Seorang yang menangani pesanan publik untuk membeli dan menjual surat berharga, komoditas atau sekuritas lainnya. Pialang mendapatkan komisi untuk layanan tersebut.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "B",
+            "title": "Book Value",
+            "full_title": null,
+            "description": "Nilai perusahaan dihitung dari total aset dikurangi harta tidak terwujud, dikurangi utang dan nilai nominal dari saham preferen.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "C",
+            "title": "Cash Conversion Cycle",
+            "full_title": null,
+            "description": "Cash conversion cycle adalah waktu yang dibutuhkan oleh perusahaan untuk menjual persediaan, menagih piutang usaha kepada pelanggan, dan membayar utang usaha kepada pemasok . Cash conversion cycle dinyatakan dalam satuan hari. Semakin cepat cash conversion cycle semakin baik, hal ini berarti perusahaan dengan lebih efisien dan efektif mengubah hasil produksi menjadi kas untuk perusahaan.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "C",
+            "title": "CAGR",
+            "full_title": "Compounded Annual Growth Rate",
+            "description": "Compounded annual growth rate (CAGR) adalah tingkat pertumbuhan per tahun selama rentang periode waktu tertentu. CAGR tidak menunjukkan pertumbuhan yang sebenarnya, dan CAGR digunakan untuk memuluskan (smootihing) tingkat pertumbuhan per tahun yang berbeda-beda selama periode rentang waktu tertentu. Perhitungan pertumbuhan menggunakan CAGR dapat untuk return investasi, pendapatan dan laba perusahaan, dan lain sebagainya.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "C",
+            "title": "Current Yield",
+            "full_title": null,
+            "description": "Current yield adalah yield atau imbal hasil atau tingkat pengembalian yang dihitung berdasarkan jumlah nilai kupon yang diterima selama satu tahun terhadap harga terakhir obligasi di pasar.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "C",
+            "title": "Cut Loss",
+            "full_title": null,
+            "description": "Aksi menjual saham dalam posisi rugi agar kerugian tidak bertambah besar.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "C",
+            "title": "Cost Averaging",
+            "full_title": null,
+            "description": "Cost averaging adalah suatu strategi melalui pembelian surat berharga atau berinvestasi dalam jumlah tertentu secara rutin atau pada interval waktu tertentu, misalnya setiap bulan sekali atau setiap setahun sekali.\n\nDengan strategi ini, nilai modal berinvestasi akan dihitung berdasarkan rata-rata. Misal, seorang investor reksa dana rutin berinvestasi sebulan sekali dengan jumlah modal yang tetap. Saat harga atau nilai aktiva bersih (NAB) reksa dana turun, semakin banyak jumlah unit yang investor tersebut dapatkan. Saat NAB reksa dana naik, jumlah unit yang didapatkan lebih sedikit. Maka dari itu, nilai modal yang investor tersebut keluarkan akan dirata-ratakan dengan jumlah unit yang ia miliki.\n\nLayaknya menabung atau mencicil, strategi ini cocok untuk investor dengan modal terbatas dan tidak selalu mengamati pergerakan pasar.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "D",
+            "title": "Delisting",
+            "full_title": null,
+            "description": "Delisting adalah penghapusan saham perusahaan di Bursa Efek sehingga saham perusahaan tidak dapat lagi diperdagangkan di Bursa Efek Delisting dapat terjadi jika perusahaan mengumumkan kebangkrutan atau perusahaan ingin menjadi perusahaan tertutup setelah adanya merger dan atau akuisisi. Perusahaan juga dapat melakukan delisting ketika melihat regulasi pelaporan yang kompleks dari otoritas pasar modal.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "D",
+            "title": "Delusi",
+            "full_title": null,
+            "description": "Dilusi adalah penurunan porsi kepemilikan saham pada suatu perusahaan secara persentase.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "D",
+            "title": "Divestasi",
+            "full_title": null,
+            "description": "Divestasi adalah pelepasan atau pengurangan kepemilikan atas suatu perusahaan atau aset. Divestasi adalah kebalikan dari investasi. Misalnya seorang investor atau nasabah melepas atau menjual semua reksa dana yang dimilikinya, berarti dia telah melakukan divestasi terhadap reksa dana tersebut.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "D",
+            "title": "Divestasi",
+            "full_title": null,
+            "description": "Divestasi adalah pelepasan atau pengurangan kepemilikan atas suatu perusahaan atau aset. Divestasi adalah kebalikan dari investasi. Misalnya seorang investor atau nasabah melepas atau menjual semua reksa dana yang dimilikinya, berarti dia telah melakukan divestasi terhadap reksa dana tersebut.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "D",
+            "title": "Dividen Yield",
+            "full_title": null,
+            "description": "Dividen yield adalah besaran (%) imbal hasil yang diperoleh oleh investor karena dividen yang diterimanya dari perusahaan pada harga beli terentu oleh investor.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "D",
+            "title": "Declaration Date",
+            "full_title": null,
+            "description": "Declaration date – tanggal pengumuman adalah tanggal dimana penerbit efek mengumumkan pembagian dividen, hak memesan efek terlebih dahulu atau HMETD, waran, saham bonus, stock split, reverse stock, dan bunga obligasi.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "D",
+            "title": "Dealer",
+            "full_title": null,
+            "description": "Seorang individu atau perusahaan dalam bisnis sekuritas yang membeli dan menjual saham dan obligasi sebagai pelaku dan bukan sebagai agen. Individu atau perusahaan yang sama dapat berfungsi, pada waktu yang berbeda, sebagai pialang(broker) atau dealer.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "D",
+            "title": "DF",
+            "full_title": "Deposit Facility",
+            "description": "Deposit Facility (DF) adalah penempatan dana rupiah oleh bank di Bank Indonesia dalam rangka operasi moneter dengan jangka waktu 1 hari kerja.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "D",
+            "title": "DF",
+            "full_title": "Deposit Facility",
+            "description": "Deposit Facility (DF) adalah penempatan dana rupiah oleh bank di Bank Indonesia dalam rangka operasi moneter dengan jangka waktu 1 hari kerja.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "D",
+            "title": "Dividen Discount Model",
+            "full_title": null,
+            "description": "Rumus yang menyatakan bahwa nilai intrinsik dari suatu perusahaan adalah nilai sekarang dari seluruh dividen yang diharapkan pada masa yang akan datang.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "D",
+            "title": "DEF",
+            "full_title": "Daftar Efek Syariah",
+            "description": "Daftar Efek Syariah (DES) adalah kumpulan efek yang tidak bertentangan dengan prinsip syariah di Pasar Modal, yang ditetapkan oleh Bapepam-LK atau pihak yang disetujui Bapepam-LK.\n\nDES merupakan panduan investasi bagi reksa dana syariah dalam menempatkan dana kelolaannya serta juga dapat dipergunakan oleh investor yang mempunyai keinginan untuk berinvestasi pada portofolio efek syariah. DES diterbitkan secara berkala yaitu pada akhir Mei dan November setiap tahunnya.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Expense Ratio",
+            "full_title": null,
+            "description": "Expense ratio adalah rasio biaya operasional tahunan Reksa dana terhadap nilai aset bersih rata-rata.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Efek",
+            "full_title": null,
+            "description": "Efek adalah aset yang dibeli untuk tujuan investasi. Aset dapat berupa s/urat utang, seperti obligasi; dapat berupa saham; dapat berupa derivatif, seperti kontrak forward, future, option, atau swap; dapat juga berupa aset tetap, seperti tanah, properti, dan lainnya.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Effecient Frontier",
+            "full_title": null,
+            "description": "Efficient frontier adalah sekumpulan portofolio/aset yang menawarkan return tertinggi untuk suatu level risiko terendah yang tersedia. Portofolio/aset yang berada dibawah garis efficient frontier adalah portofolio/aset yang memberikan return yang belum optimal untuk suatu level risiko. Portofolio/aset yang berada di sebalah kanan garis efficient frontier adalah portofolio/aset yang memiliki level risiko yang lebih tinggi untuk return yang terbatas besarannya.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Emiten",
+            "full_title": null,
+            "description": "Emiten adalah perusahaan publik yang sahamnya tercatat di Bursa Efek, setelah melakukan penawaran umum. Emiten memiliki kode saham.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Ex Date",
+            "full_title": null,
+            "description": "Ex date adalah tanggal ketika saham diperdagangkan tanpa hak memperoleh dividen, hak memesan efek terlebih dahulu atau HMETD, dan waran. Pada tanggal ex-date biasanya harga pasar saham turun untuk merefleksikan jumlah dividen, HMETD, dan waran yang dibagikan",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "EV",
+            "full_title": "Enterprise Value",
+            "description": "Enterprise value (EV) adalah nilai sebuah perusahaan. Enterprise value dapat dibayangkan sebagai nilai suatu perusahaan ketika akan diambilalih perusahaan lainnya atau perusahaan akan dilikuidasi. Perhitungan enterprise value adalah = nilai pasar saham atau kapitalisasi pasar saham ditambah dengan nilai pasar dari utang, kemudian dikurangi dengan hak minoritas, dikurang lagi dengan kas dan setara kas yang dimiliki oleh perusahaan. Enterprise value berbeda dengan kapitalisasi pasar saham suatu emiten.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Exchangeable Bond",
+            "full_title": null,
+            "description": "Obligasi yang dapat dipertukarkan (exchangeable bond) adalah obligasi yang memberikan hak kepada pemegang obligasi untuk menukar saham perusahaan ke dalam sejumlah saham perusahaan afiliasi milik penerbitnya",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Excess Return",
+            "full_title": "Extra Imbal Hasil",
+            "description": "Tingkat imbal hasil yang melebihi tingkat imbal hasil bebas resiko.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Exchange Rate",
+            "full_title": "Nilai Tukar",
+            "description": "Harga mata uang dari satu negara terhadap mata uang negara lain.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "E",
+            "title": "Expected Returns",
+            "full_title": "Imbal Hasil yang Diharapkan",
+            "description": "Rata-rata tertimbang dari kemungkinan hasil yang diharapkan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "F",
+            "title": "Forward Per",
+            "full_title": null,
+            "description": "Forward price earning ratio adalah price earning ratio yang dihitung menggunakan laba bersih per saham proyeksi untuk periode waktu tertentu di masa mendatang, misalnya periode 12 bulan kedepan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "F",
+            "title": "Free Float",
+            "full_title": null,
+            "description": "Free float adalah jumlah saham yang dimiliki oleh masyarakat/publik. Free float tidak termasuk jumlah saham yang dipegang oleh pemegang saham pengendali, pemegang saham mayoritas, komisaris, direksi, ataupun pegawai. Free float adalah saham yang benar-benar dipegang oleh investor publik. Biasanya dalam kategori free float adalah saham yang dmiliki oleh masyarakat dengan persentase dibawah 5%.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "F",
+            "title": "Forced Sell",
+            "full_title": null,
+            "description": "Forced sell adalah pelaksanaan penjualan efek secara paksa oleh perantara pedagang efek ketika nasabah memiliki saldo negatif dan tidak menyelesaikan kewajibannya kepada perantara pedagang efek pada hari bursa ke-6 sejak transaksi dilakukan atau 2 hari setelah tanggal penyelesaian disepakati untuk transaksi di luar bursa.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "F",
+            "title": "Future Value",
+            "full_title": null,
+            "description": "Future value adalah nilai masa depan dari kas/uang yang diterima saat ini. Nilai masa depan kas/uang dimasa depan dihitung dengan memfaktorkan kas/uang menggunakan tingkat return tertentu yang bisa dihasilkan oleh kas/uang, bisa juga menggunakan laju inflasi. Semakin besar tingkat return atau laju inflasi, maka semakin besar nilai masa depan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "F",
+            "title": "FASBI",
+            "full_title": "Fasilitas Simpanan Bank Indonesia Syariah",
+            "description": "Fasilitas Simpanan Bank Indonesia Syariah (FASBI) adalah fasilitas simpanan bank umum syariah dan unit usaha syariah di Bank Indonesia dalam rangka operasi moneter syariah dengan jangka waktu 1 hari kerja.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "F",
+            "title": "Face Value",
+            "full_title": null,
+            "description": "Nilai nominal, nilai jatuh tempo dari obligasi.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "G",
+            "title": "Giro",
+            "full_title": null,
+            "description": "Giro adalah simpanan dalam mata uang rupiah dan valuta asing milik pihak ketiga - bukan bank yang disimpan pada bank umum yang penarikannya dapat dilakukan setiap saat dengan menggunakan cek, surat perintah pembayaran lainnya, atau dengan cara pemindahbukuan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "G",
+            "title": "Go Public",
+            "full_title": null,
+            "description": "Go public adalah proses penjualan saham perusahaan kepada masyarakat umum yang sebelumnya dipegang oleh pemegang saham secara pribadi. Go public sering juga disebut dengan IPO (initial public offering).",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "G",
+            "title": "Go Private",
+            "full_title": null,
+            "description": "Go private adalah proses mengkonversi perusahaan publik atau perusahaan yang sahamnya tercatat di Bursa Efek Indonesia menjadi perusahaan pribadi. Ketika perusahaan go private, maka saham perusahaan tersebut tidak akan lagi dapat ditransaksikan di Bursa Efek.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "G",
+            "title": "Good Till Cancel",
+            "full_title": null,
+            "description": "Good till cancel adalah transaksi dapat dilaksanakan sebelum ada pembatalan dari nasabah yang bersangkutan.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "G",
+            "title": "GTW",
+            "full_title": "Good Through the Week",
+            "description": "Good through the week (GTW) -- Good through the month (GTM) adalah pesanan/order yang harus dilaksanakan dalam jangka waktu yang ditentukan nasabah.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "H",
+            "title": "HMETD",
+            "full_title": "Hak Memesan Efek Terlebih Dahulu",
+            "description": "Hak memesan efek terlebih dahulu (HMETD) atau rights issue adalah hak yang melekat pada saham yang memungkinkan para pemegang saham yang ada untuk membeli efek yang baru, seperti saham, efek yang dapat dikonversikan menjadi saham, dan waran sebelum ditawarkan kepada pihak lain. Pemegang HMETD dapat memilih untuk menggunakan haknya atau tidak menggunakan haknya. Ketika pemegang hak HMETD memilih untuk tidak menggunakan haknya (tidak di-exercise), maka HMETD dapat dialihkan atau haknya akan hilang jika didiamkan.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "H",
+            "title": "Hang Seng",
+            "full_title": null,
+            "description": "Indeks Hang Seng adalah representasi/cerminan harga saham dari 40 emiten terbesar yang sahamnya tercatat di Hong Kong Stock Exchange, Hong Kong. Indeks Hang Seng dihitung oleh salah satu anak usaha, Hang Seng Bank dengan indeks telah dipublikasikan sejak tahun 1969. Anggota dalam indeks Hang Seng mencerminkan 65% kapitalisasi pasar Hong Kong Stock Exchange.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "H",
+            "title": "Holding Period Return",
+            "full_title": null,
+            "description": "Tingkat imbal hasil selama periode tertentu.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "Imbal Hasil",
+            "full_title": null,
+            "description": "Imbal hasil atau return adalah keuntungan yang diciptakan oleh instrumen investasi yang diberikan kepada investor pada periode waktu tertentu. Return dapat mencakup pendapatan dan keuntungan dari kenaikan harga. Umumnya return dinyatakan dalam satuan persentase (%).\n\nDalam reksa dana, imbal hasil dapat dilihat dari perubahan nilai aktiva bersih (NAB) reksa dana. Imbal hasil yang positif menunjukkan NAB reksa dana tersebut naik dibandingkan dengan NAB saat pembelian. Sedangkan imbal hasil yang negatif menunjukkan penurunan NAB.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "IHSG",
+            "full_title": "Indeks Harga Saham Gabungan",
+            "description": "IHSG atau Indeks Harga Saham Gabungan adalah cerminan harga dari seluruh saham yang ada di Bursa Efek Indonesia (BEI, dahulu: Bursa Efek Jakarta). IHSG menjadi indikator atau acuan pergerakan harga saham-saham yang ada di BEI. IHSG diperkenalkan pertama kali oleh BEI pada tanggal 1 April 1983. Indeks ini mencakup pergerakan harga seluruh saham biasa dan saham preferen yang tercatat di BEI.\n\nHari Dasar untuk perhitungan IHSG adalah tanggal 10 Agustus 1982. Pada tanggal tersebut, Indeks ditetapkan dengan nilai dasar 100 dan saham tercatat ketika itu berjumlah 13 saham. IHSG menguat berarti rata-rata saham di BEI menguat. IHSG melemah berarti rata-rata saham di BEI melemah.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "Indeks Sektor",
+            "full_title": null,
+            "description": "Indeks sektor adalah representasi/cerminan harga saham dari emiten-emiten yang berada pada masing-maisng kategori sektor industri. Terdapat 10 sektor menurut pembagian oleh Bursa Efek Indonesia. Kesepuluh sektor adalah sektor pertanian, pertambangan, industri dasar, aneka industri, barang konsumsi, properti, infrastruktur, keuangan, perdangangan dan jasa, dan manufatur.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "Indeks Implisit",
+            "full_title": null,
+            "description": "Indeks implisit adalah rasio antara produk domestik bruto (PDB) menurut harga berlaku dan PDB menurut harga konstan. Deflastor PDB digunakan untuk mengetahui perubahan harga.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "IHK",
+            "full_title": "Indeks Harga Konsumen",
+            "description": "Indeks Harga Konsumen (IHK) adalah indikator ekonomi yang memberikan informasi mengenai harga barang dan jasa yang dibayar oleh konsumen. Perhitungan IHK dilakukan untuk merekam perubahan harga beli ditingkat konsumen (purchasing cost) dari sekelompok tetap barang dan jasa yang umumnya dikonsumsi oleh masyarakat.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "IHPB",
+            "full_title": "Indeks Harga Perdagangan Besar",
+            "description": "Indeks harga perdagangan besar (IHPB) adalah harga transaksi yang terjadi antara penjual/pedagang besar pertama dengan pembeli/pedagang besar berikutnya dalam jumlah besar pada pasar pertama atas suatu komoditas.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "Insider Trading",
+            "full_title": null,
+            "description": "Perdagangan oleh pegawai, direktur, pemegang saham utama, atau pihak lain yang memiliki informasi orang dalam yang digunakan untuk mengeruk keuntungan dari jual beli saham.",
+            "category": "trading",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "I",
+            "title": "ISSI",
+            "full_title": "Indonesia Sharia Stock Index",
+            "description": "Indonesia Sharia Stock Index (ISSI) merupakan indeks saham yang mencerminkan keseluruhan saham syariah yang tercatat di BEI. Konstituen ISSI adalah keseluruhan saham syariah yang tercatat di BEI dan terdaftar dalam Daftar Efek Syariah (DES) yang direview setiap 6 bulan sekali yakni akhir Mei dan November.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "J",
+            "title": "JII",
+            "full_title": "Jakarta Islamic Index",
+            "description": "Jakarta islamic Index (JII) adalah representasi/cerminan harga saham dari 30 emiten yang masuk dalam kriteria syariah atau Daftar Efek Syariah yang diterbitkan oleh Bapepam-LK dengan mempertimbangkan kapitalisasi pasar dan likuiditas.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "J",
+            "title": "Jatuh Tempo",
+            "full_title": "Maturity",
+            "description": "Jatuh Tempo – maturity adalah tanggal ketika pemegang obligasi akan mendapatkan pembayaran kembali pokok atau nilai nominal obligasi yang dimilikinya. Periode jatuh tempo obligasi bervariasi mulai dari 365 hari sampai dengan diatas 5 tahun.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "J",
+            "title": "JIBOR",
+            "full_title": "Jakarta Interbank Offered Rate",
+            "description": "Jakarta Interbank Offered rate (JIBOR) adalah suku bunga indikasi penawaran dalam traansaksi Pasar uang Antar Bank (PUAB) di Indonesia yang berasal dari bank kontributor JIBOR.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
         }
     ]
 }

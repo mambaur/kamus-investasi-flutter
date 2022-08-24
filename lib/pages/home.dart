@@ -184,7 +184,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ))
                         .toList(),
                   )
-                : Center(child: Text('Kamus tidak ditemukan!')),
+                : Center(child: Text('Kata tidak ditemukan!')),
             Container(
               color: Color.fromRGBO(65, 83, 181, 1),
               width: size.width,
