@@ -4928,6 +4928,411 @@
             "category": "investasi",
             "created_at": "2022-08-23",
             "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "R",
+            "title": "Reksa Dana",
+            "full_title": null,
+            "description": "Reksa dana adalah wadah untuk menghimpun dana dari para investor yang dikelola oleh manajer investasi pada portofolio (kumpulan) efek di pasar modal dan pasar uang. Portofolio efek ini dapat berupa deposito, saham, dan surat utang.\n\nReksa dana dikelola secara profesional dan transparan oleh manajer investasi yang sudah mendapat izin/lisensi. Dana dan aset investasi reksa dana disimpan dan diadministrasikan oleh bank kustodian yang kedudukannya terpisah, independen dan tidak terafiliasi dari manajer investasi. Karena disimpan oleh bank kustodian sebagai pihak ketiga, keamanan dana dan aset investasi reksa dana dapat terjaga.\n\nPengelolaan, penyimpanan, administrasi dan hal-hal lain yang berkaitan dengan reksa dana dilindungi oleh Undang-Undang Pasar Modal dan Undang-Undang Otoritas Jasa Keuangan (OJK). Maka dari itu, reksa dana dan semua pihak terkait diawasi oleh OJK.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "R",
+            "title": "Risk Premium",
+            "full_title": null,
+            "description": "Risk premium adalah return atau imbal hasil yang diharapkan oleh investor kepada suatu instrumen investasi yang lebih berisiko dibanding investasi pada aset bebas risiko. Investor mengharapkan instrumen investasi yang lebih berisiko memberikan return yang lebih besar dari instrumen investasi atau aset bebas risiko. Risk premium menunjukkan selisih antara return yang diharapkan dari instrumen investasi berisiko dengan aset bebas risiko.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "R",
+            "title": "Risk Free Rate of Return",
+            "full_title": null,
+            "description": "Risk Free Rate of Return adalah return atau imbal hasil atau tingkat bunga yang ditawarkan oleh instrumen investasi yang tidak memiliki risiko. Risk free rate adalah return minimum yang diharapkan oleh investor untuk setiap instrumen investasi ketika melakukan investasi. Risk free rate menjadi acuan bahwa investor tidak akan menerima risiko tambahan jika instrumen investasi tidak memberikan return yang lebih tinggi dari aset risk free rate.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "R",
+            "title": "Relisting",
+            "full_title": null,
+            "description": "Relisting adalah pencatatan kembali saham perusahaan di Bursa Efek, setelah sempat melakukan delisting atau penghapusan saham dari Bursa Efek. Setelah relisting, saham perusahaan secara kembali dapat diperdagangkan di Bursa Efek.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "R",
+            "title": "RUPS",
+            "full_title": "Rapat Umum Pemegang Saham",
+            "description": "Rapat umum pemegang saham (RUPS) adalah pemilik wewenang tertinggi yang tidak diberikan kepada Direksi atau Dewan Komisaris dalam batas yang ditentukan dalam undang-undang dan/atau anggaran dasar. Rapat Umum Pemegang Saham menjadi penentu seluruh kebijakan perusahaan. Meski Rapat Umum Pemegang saham adalah pemilik wewenang tertinggi dalam perusahaan, pemegang saham, komisaris, atau manajemen yang juga menjadi pemegang saham sering sekali dapat mempengaruhi kebijakan yang dibuat untuk perusahaan.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "R",
+            "title": "RUPS Tahunan",
+            "full_title": null,
+            "description": "Rapat umum pemegang saham tahunan adalah pertemuan pemegang saham untuk memutuskan agenda rutin tahunan perusahaan yang juga umumnya diadakan satu tahun sekali. Agenda tahunan mencakup pembahasan dan pengesahan laporan keuangan tahunan perusahaan, gaji dan remunerasi pegawai dan manajemen, operasional perusahaan, hingga aktivitas tanggung jawab sosial perusahaan.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "R",
+            "title": "Reverse Stock",
+            "full_title": null,
+            "description": "Reverse stock adalah pemecahan nilai nominal saham sehingga nilai nominal saham menjadi lebih tinggi yang dampaknya adalah menurunkan jumlah saham beredar suatu perusahaan.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "R",
+            "title": "Record Date",
+            "full_title": null,
+            "description": "Record date – tanggal pencatatan adalah batas akhir tanggal pencantuman dalam daftar pemegang saham atau daftar pemegang obligasi. Pemegang saham atau pemegang obligasi yang tercatat namanya pada daftar pemegang saham atau daftar pemegang obligasi pada tanggal pencatatan akan memperoleh hak atas dividen, hak memesan efek terlebih dahulu atau HMETD, waran, saham bonus, stock split, reverse stock, dan bunga obligasi.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "R",
+            "title": "Rasio Profitabilitas",
+            "full_title": null,
+            "description": "Rasio profitabilitas adalah rasio yang mengukur kemampuan aset dan kendali biaya perusahaan untuk menghasilkan keuntungan. Rasio profitabilitas terdiri dari: a. Marjin kotor , b. Marjin usaha , c. Marjin EBITDA, d. Marjin bersih , e. Return on Equity (ROE) , f. Return on Assets (ROA)",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "R",
+            "title": "ROE",
+            "full_title": "Return on Equity",
+            "description": "Return on Equity (ROE) adalah imbal hasil yang dicetak perusahaan untuk pemegang saham. ROE ditentukan oleh kemampuan perusahaan menghasilkan profitabilitas atau marjin keuntungan, produktivitas aset untuk menghasilkan pendapatan, serta pengelolaan penggunaan utang secara optimal oleh perusahaan. Perhitungan ROE adalah laba bersih dibagi dengan ekuitas rata-rata selama dua periode tertentu. ROE dinyatakan dalam satuan persentase (%).",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "R",
+            "title": "Rasio Likuiditas",
+            "full_title": null,
+            "description": "Rasio likuiditas adalah rasio untuk mengukur kemampuan likuiditas perusahaan untuk memenuhi seluruh utang yang sifatnya jangka pendek. Rasio likuiditas mencakup: a. Rasio lancar , b. Quick ratio atau acid-test ratio , c. Rasio kas.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "R",
+            "title": "Right Issue",
+            "full_title": null,
+            "description": "Right Issue merupakan aksi korporasi suatu perusahaan dalam penerbitan saham baru yang memberikan hak bagi pemegang sahamnya untuk membeli saham baru perusahaan tersebut pada harga tertentu.\n\nDalam Undang-Undang Pasar Modal Indonesia, right issue disebut sebagai Hak Memesan Efek Terlebih Dahulu (HMETD).\n\nAksi ini hanya bisa dilakukan pada perusahaan yang sebelumnya telah melakukan penjualan saham perdana ke publik (initial public offering /IPO).",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "S",
+            "title": "Simpanan Berjangka",
+            "full_title": null,
+            "description": "Simpanan berjangka adalah simpanan pada bank umum dan Bank Perkreditan Rakyat (BPR) dalam rupiah dan valuta asing milik pihak ketiga bukan bank --tidak termasuk milik pemerintah pusat dan bukan penduduk – yang penarikannya dapat dilakukan menurut suatu jangka waktu tertentu sesuai dengan perjanjian. Simpanan berjangka terdiri dari deposito berjangka, deposits on call, dan sertifikat deposito.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "S",
+            "title": "SBI",
+            "full_title": "Sertifikat Bank Indonesia",
+            "description": "Sertifikat Bank Indonesia (SBI) adalah surat-surat berharga dalam mata uang rupiah yang diterbitkan oleh Bank Indonesia sebagai pengakuan utang jangka pendek.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "S",
+            "title": "SBIS",
+            "full_title": "Sertifikat Bank Indonesia Syariah",
+            "description": "Sertifikat Bank Indonesia Syariah (SBIS) adalah surat berharga berdasarkan prinsip syariah berjangka waktu pendek dalam mata uang rupiah yang diterbitkan oleh Bank Indonesia.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "S",
+            "title": "SPN",
+            "full_title": "Surat Perbendaharaan Negara",
+            "description": "Surat Perbendaharaan Negara (SPN) adalah surat berharga berupa surat pengakuan utang dalam mata uang rupiah maupun valuta asing yang dijamin pembayaran dan pokoknya oleh Negara Republik Indonesia berjangka waktu sampai dengan 12 bulan. Pembayaran bunga SPN dilakukan secara diskonto. Jumlah hari bunga (day count) untuk perhitungan bunga berjalan (accrued expense) menggunakan basis jumlah hari bunga sebenarnya (actual per actual).",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "S",
+            "title": "SBSN",
+            "full_title": "Surat Berharga Syariah Negara",
+            "description": "Surat Berharga Syariah Negara (SBSN) adalah disebut juga Sukuk Negara (SBN), yakni surat utang yang diterbitkan berdasarkan prinsip syariah sebagai bukti atas bagian penyertaan terhadap aset Surat Berharga Syariah Negara (SBSN), baik dalam mata uang rupiah maupun valuta asing.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "S",
+            "title": "Sharpe Ratio",
+            "full_title": null,
+            "description": "Sharpe ratio adalah rasio yang menunjukkan besaran return instrumen investasi –setelah dikurangi terlebih dahulu dengan return aset bebas risiko- lalu return instrumen investasi tersebut disesuaikan dengan besaran risiko yang terdapat pada instrumen investasi. Sharpe ratio akan menunjukkan untuk setiap risiko yang melekat pada instrumen investasi, imbal hasil instrumen akan lebih tinggi atau lebih rendah dibanding investasi pada aset bebas risiko.\n\nSama seperti risk adjusted return, indikator risiko yang digunakan dalam Sharpe ratio adalah standar deviasi return instrumen investasi. Sharpe ratio sebesar 0,58 pada suatu instrumen investasi diinterpretasikan sebagai: atas 1% risiko yang melekat pada instrumen investasi, instrumen menawarkan return 0,58% lebih besar dibanding return yang ditawarkan oleh aset bebas risiko.\n\nAngka minus pada Sharpe ratio dapat diinterpretasikan bahwa return yang ditawarkan oleh aset bebas risiko lebih tinggi dibanding return instrumen investasi. Dalam kondisi ini, maka lebih menarik bagi investor untuk berinvestasi pada aset bebas risiko dibanding investasi pada Reksa dana dengan Sharpe ratio negatif.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "S",
+            "title": "Saham Preferen",
+            "full_title": null,
+            "description": "Saham Preferen -- preferred stock adalah surat berharga sebagai bukti kepemilikan atas suatu perusahaan dengan hak yang lebih tinggi atas aset dan laba perusahaan dibanding pemegang saham biasa. Pemegang saham preferen memiliki hak untuk menerima dividen secara tetap dari perusahaan, didahulukan pembayaran dividennya dibanding dividen yang dibayarkan kepada pemegang saham biasa. Pemegang saham preferen juga memiliki hak klaim atas aset yang didahulukan dibandingkan dengan saham biasa ketika perusahaan mengalami likuidasi. Saham preferen umumnya tidak memiliki hak suara dalam Rapat Umum Pemegang Saham (RUPS).",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "S",
+            "title": "Sukuk Korporasi",
+            "full_title": null,
+            "description": "Sukuk korporasi adalah obligasi syariah yang diterbitkan oleh perusahaan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "S",
+            "title": "Secured Bond",
+            "full_title": "Obligasi dengan Jaminan",
+            "description": "Obligasi dengan jaminan (secured bond) adalah obligasi yang dijamin dengan kekayaan tertentu dari penerbitnya atau dengan jaminan lain dari pihak ketiga. Dalam kelompok ini, termasuk didalamnya adalah: a. Guaranteed bond = Obligasi yang pelunasan bunga dan pokoknya dijamin pihak ketiga. b. Mortgage bond = obligasi yang pelunasan bunga dan pokoknya dijamin dengan agunan hipotik atas properti atau aset tetap. c. Collateral trust bond = obligasi yang dijamin dengan efek yang dimiliki penerbit dalam portofolionya, misalnya saham-saham anak perusahaan yang dimiliki.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "S",
+            "title": "Suku Bunga Penjaminan",
+            "full_title": null,
+            "description": "Suku Bunga penjaminan adalah tingkat bunga maksimum yang dinilai wajar dalam rangka penjaminan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "S",
+            "title": "SBDK",
+            "full_title": "Suku Bunga Dasar Kredit",
+            "description": "Suku bunga dasar kredit (SBDK) – prime lending rate adalah suku bunga terendah yang mencerminkan kewajaran biaya yang dikeluarkan oleh bank, termasuk ekspektasi keuntungan yang akan diperoleh. SBDK digunakan sebagai dasar bagi bank dalam menetapkan suku bunga kredit yang akan dikenakan kepada nasabah.\n\nSBDK dihitung secara per tahun dalam bentu persentase (%) dan merupakan SBDK efektif yang perhitungannya dilakukan berdasarkan 3 komponen, yakni: a. Harga pokok dana untuk kredit (HPDK) b. Biaya overhead c. Marjin keuntungan. Penghitungan SBDK berlaku untuk kredit korporasi, kredit ritel, kredit mikro, dan kredit konsumsi—KPR (kredit kepemilikan rumah) dan nonKPR (non kredit kepemilikan rumah). Penghitungan SBDK hanya berlaku untuk kredit yang diberikan dalam mata uang rupiah.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "S",
+            "title": "Settlement",
+            "full_title": null,
+            "description": "Settlement adalah tahapan penyelesaian dari prosedur atau atau tahapan transaksi saham. Transaksi saham di bursa dianggap selesai jika sudah melewati proses settlement, di mana investor jual akan menerima uang sejumlah saham yang dijualnya dan investor beli akan menerima saham yang dibelinya. Jika transaksi dilakukan di pasar reguler maka lama proses settlement-nya T + 3. Artinya, investor beli akan menerima saham pada tiga hari bursa setelah transaksi.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "T",
+            "title": "Treynor Ratio",
+            "full_title": null,
+            "description": "Treynor ratio adalah rasio yang menunjukkan besaran return instrumen investasi –setelah dikurangi terlebih dahulu dengan return aset bebas risiko- lalu return instrumen investasi tersebut disesuaikan dengan besaran risiko yang terdapat pada instrumen investasi. Treynor ratio akan menunjukkan untuk setiap risiko yang melekat pada instrumen investasi, imbal hasil yang ditawarkan oleh instrumen investasi akan lebih tinggi atau lebih rendah dibanding investasi pada aset bebas risiko.\n\nIndikator risiko yang digunakan dalam Treynor ratio adalah adalah beta instrumen investasi. Treynor ratio sebesar 0,58 pada suatu instrumen investasi diinterpretasikan sebagai: atas 1% risiko sistematis yang melekat pada instrumen investasi, instrumen tersebut menawarkan return 0,58% lebih besar dibanding return yang ditawarkan oleh aset bebas risiko.\n\nAngka minus pada Treynor ratio diinterpretasikan sebagai return yang ditawarkan oleh aset bebas risiko lebih tinggi dibanding return instrumen investasi. Dalam kondisi ini, maka lebih menarik bagi investor untuk berinvestasi pada aset bebas risiko dibanding investasi pada instrumen investasi dengan Treynor ratio negatif.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "T",
+            "title": "Tender Offer",
+            "full_title": null,
+            "description": "Tender offer adalah suatu penawaran pembelian saham oleh pihak tertentu kepada pemegang saham suatu perusahaan. Umumnya tender offer terjadi mengikuti adanya akuisisi atas suatu perusahaan. Perusahaan pengakuisisi akan melakukan penawaran pembelian saham yang dimliki oleh pemegang saham lainnya pada perusahaan yang diakuisisi. Tender offer biasanya dilakukan pada harga yang lebih tinggi dari harga pasar.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "T",
+            "title": "Treasury Stock",
+            "full_title": null,
+            "description": "Treasury stock adalah saham yang dibeli kembali melalui aksi buy back oleh perusahaan yang menerbitkannya. Treasury stock mengurangi jumlah saham beredar. Treasury stock tidak akan memiliki hak suara, juga tidak akan menerima pembagian dividen dari perusahaan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "T",
+            "title": "Trailing Price Earning Ratio",
+            "full_title": null,
+            "description": "Trailing price earning ratio adalah price earning ratio yang dihitung dengan laba bersih per saham periode 4 kuartal terakhir atau 12 bulan terakhir.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "T",
+            "title": "Time Value of Money",
+            "full_title": null,
+            "description": "Time value of money adalah nilai uang setelah memperhitungkan pendapatan yang dapat diperoleh dari jumlah uang tersebut, juga memperhitungkan inflasi yang dapat menggerus jumlah uang. Ide dari time value of money adalah bahwa untuk jumlah uang sama, nilainya saat ini adalah lebih tinggi dibandingkan dengan ketika dimasa depan karena kemampuan uang untuk menghasilkan pendapatan, misalnya bunga.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "T",
+            "title": "Transaksi Berjalan",
+            "full_title": null,
+            "description": "Transaksi berjalan adalah catatan yang mencakup ekspor dan impor barang dan jasa, transaksi pendapatan, serta transfer berjalan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "T",
+            "title": "Transaksi Pendapatan",
+            "full_title": null,
+            "description": "Transaksi pendapatan adalah transaksi penerimaan dan pembayaran kompensasi tenaga kerja serta pendapatan investasi dari investasi langsung, investasi portofolio, dan investasi lainnya.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "T",
+            "title": "Transaksi Berjalan",
+            "full_title": null,
+            "description": "Transfer berjalan adalah penerimaan dan pembayaran lainnya sektor penerintah dan sektor lainnya. Transfer berjalan lainnya mencakup juga transfer dari tenaga kerja.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "T",
+            "title": "Transaksi Finansial",
+            "full_title": null,
+            "description": "Transaksi finansial dan modal adalah catatan yang meliputi investasi langsung, investasi portofolio, derivatif finansial, dan investasi lainnya diluar cadangan devisa dan kredit/pinajam dari International Moentary Fund (IMF).",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "U",
+            "title": "Unit Penyertaan",
+            "full_title": null,
+            "description": "Unit Penyertaan adalah satuan ukuran yang menunjukkan bagian kepemilikan investor dalam portofolio investasi kolektif, seperti reksa dana\n\nUnit Penyertaan digunakan sebagai satuan reksa dana, seperti halnya gram untuk mengukur emas. Unit Penyertaan dapat dikonversi ke dalam rupiah, sehingga bisa menjadi ukuran jumlah investasi yang dipegang oleh seorang investor reksa dana.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "U",
+            "title": "Underwriting",
+            "full_title": null,
+            "description": "Underwriting adalah proses penjamin emisi efek atau bankir investasi (investment banker) mengumpulkan dana dari investor atas nama perusahaan atau institusi pemerintah yang menerbitkan efek atau instrumen investasi, seperti saham dan obligasi.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "U",
+            "title": "Under Subscribed",
+            "full_title": null,
+            "description": "Under subscribed adalah kondisi ketika jumlah pemesanan efek lebih rendah dari jumlah efek yang ditawarkan oleh penerbit efek.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "U",
+            "title": "Under Valued",
+            "full_title": null,
+            "description": "Under valued adalah harga saham di pasar lebih rendah dari nilai intrinsik.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "U",
+            "title": "Unsecured Bond",
+            "full_title": "Obligasi Tanpa Jaminan",
+            "description": "Obligasi tanpa jaminan (unsecured bond) adalah obligasi yang tidak dijaminkan dengan kekayaan tertentu tetapi dijamin dengan kekayaan penerbit secara umum.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "V",
+            "title": "Valuasi Saham",
+            "full_title": null,
+            "description": "Valuasi saham adalah proses penilaian terhadap mahal murahnya harga saham di pasar.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "W",
+            "title": "WPPE",
+            "full_title": "Wakil Perantara Pedagang Efek",
+            "description": "Wakil perantara pedagang efek (wppe) adalah orang perorangan yang memiliki izin dari Bapepam LK untuk bertindak sebagai perantara pedagang efek.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "W",
+            "title": "WPEE",
+            "full_title": "Wakil Penjamin Emisi Efek",
+            "description": "Wakil penjamin emisi efek (wpee) adalah orang perorangan yang memiliki izin dari Bapepam LK untuk bertindak sebagai penjamin emisi efek.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "W",
+            "title": "Warran",
+            "full_title": null,
+            "description": "Warran adalah efek yang diterbikan oleh suatu perusahaan yang memberi hak kepada pemegang efek untuk memesan saham dari perusahaan tersebut pada harga tertentu dalam jangka waktu 6 bulan atau lebih sejak diterbitkannya warran. Biasanya penerbitan warran ditujukan untuk memberikan daya tarik (sweetener) agar penawaran saham atau obligasi menjadi lebih menarik bagi investor.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "W",
+            "title": "Wali Amanat",
+            "full_title": null,
+            "description": "Wali Amanat adalah pihak yang mewakili kepentingan pemegang efek bersifat utang, seperti obligasi. Kegiatan usaha wali amanat dapat dilakukan oleh bank atau pihak yang lain yang ditetapkan dengan Peraturan Pemerintah. Kegiatan wali amanat diantaranya mencakup penyusunan kontrak perwaliamanatan dengan emiten, monitoring Emiten atas pemenuhan kewajiban-kewajibannya dan ketentuan lain dalam kontrak perwaliamanatan, penyampaian laporan dan keterbukaan informasi, penyelenggaran Rapat Umum Pemegang Obligasi (RUPO), serta pelaksanaan keputusan RUPO.",
+            "category": "saham",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "Y",
+            "title": "Yield to Call",
+            "full_title": null,
+            "description": "Yield to call adalah yield atau imbal hasil atau tingkat pengembalian yang akan diperoleh investor/pemegang obligasi ketika obligasi dibeli kembali atau di-call oleh penerbit obligasi sebelum obligasi jatuh tempo.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
+        },
+        {
+            "alphabet": "Y",
+            "title": "Yield Curve",
+            "full_title": null,
+            "description": "Yield curve adalah kurva yang menggambarkan yield atau imbal hasil dari satu atau lebih obligasi-obligasi untuk periode jatuh tempo yang berbeda-berbeda. Pada suatu yield curve, bisa terdapat 3 jenis obligasi, misalnya obligasi pemerintah tenor 1 tahun, 5 tahun, dan 10 tahun, sehingga investor dapat dengan mudah membaca dan membandingkan yield dari ketiga obligasi untuk sisa periode waktu jatuh tempo yang berbeda.\n\nYield curve digunakan sebagai acuan dalam pasar surat utang, seperti untuk acuan tingkat bunga pinjaman dari bank. Yield curve juga dapat digunakan untuk memprediksi pertumbuhan ekonomi kedepan.",
+            "category": "investasi",
+            "created_at": "2022-08-23",
+            "updated_at": "2022-08-23"
         }
     ]
 }
