@@ -7,7 +7,7 @@ import 'package:kamus_investasi/pages/feedback.dart';
 import 'package:kamus_investasi/pages/history.dart';
 import 'package:kamus_investasi/pages/home.dart';
 import 'package:kamus_investasi/utils/datasets.dart';
-// import 'package:upgrader/upgrader.dart';
+import 'package:upgrader/upgrader.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,12 +28,12 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      // home: UpgradeAlert(
-      //   upgrader: Upgrader(
-      //       showIgnore: false, showLater: false, showReleaseNotes: false),
-      //   child: const MyHomePage(),
-      // ),
-      home: const MyHomePage(),
+      home: UpgradeAlert(
+        upgrader: Upgrader(
+            showIgnore: false, showLater: false, showReleaseNotes: false),
+        child: const MyHomePage(),
+      ),
+      // home: const MyHomePage(),
     );
   }
 }
