@@ -9,7 +9,8 @@ class FeedbackScreen extends StatefulWidget {
 }
 
 class _FeedbackScreenState extends State<FeedbackScreen> {
-  final Uri _url = Uri.parse('https://forms.gle/hrLXsPeeJwTGJFbY6');
+  final Uri _url = Uri.parse(
+      'https://docs.google.com/forms/d/e/1FAIpQLSchM7UbpcUzVGF_dnMrQkcBgKvcjKIYOqA9WiKI_ooWbsn7pQ/viewform?usp=sf_link');
 
   Future<void> _launchUrl() async {
     if (!await launchUrl(_url)) {

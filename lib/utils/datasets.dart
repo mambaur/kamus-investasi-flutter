@@ -8,7 +8,7 @@ class DataSets {
     int totalDictionary = await _dictionaryRepo.count();
     print("Total dictionary = " + totalDictionary.toString());
     // print(dictionariesJson['data'].length);
-    if (totalDictionary != 438) {
+    if (totalDictionary != 593) {
       await _dictionaryRepo.deleteAll();
 
       Map<String, dynamic> dictionariesJson =
