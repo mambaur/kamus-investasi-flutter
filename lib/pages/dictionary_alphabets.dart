@@ -6,7 +6,7 @@ import 'package:kamus_investasi/pages/dictionary_detail.dart';
 
 class DictionaryAlphabetsScreen extends StatefulWidget {
   final String? alphabet;
-  const DictionaryAlphabetsScreen({Key? key, this.alphabet}) : super(key: key);
+  const DictionaryAlphabetsScreen({super.key, this.alphabet});
 
   @override
   State<DictionaryAlphabetsScreen> createState() =>
@@ -23,7 +23,7 @@ class _DictionaryAlphabetsScreenState extends State<DictionaryAlphabetsScreen> {
         title: Text(widget.alphabet ?? ''),
         centerTitle: true,
         elevation: 0,
-        backgroundColor: Color.fromRGBO(65, 83, 181, 1),
+        backgroundColor: const Color.fromRGBO(65, 83, 181, 1),
       ),
       body: FutureBuilder<List<DictionaryModel>>(
         future: _dictionaryRepo.getAllDictionaryAlphabets(
@@ -36,13 +36,14 @@ class _DictionaryAlphabetsScreenState extends State<DictionaryAlphabetsScreen> {
               for (DictionaryModel item in snapshot.data ?? [])
                 Container(
                   width: size.width,
-                  margin: EdgeInsets.only(left: 15, right: 15, bottom: 15),
+                  margin:
+                      const EdgeInsets.only(left: 15, right: 15, bottom: 15),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Container(
-                        padding:
-                            EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 15, vertical: 10),
                         decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(10)),
@@ -59,10 +60,11 @@ class _DictionaryAlphabetsScreenState extends State<DictionaryAlphabetsScreen> {
                                 }));
                               },
                               contentPadding: EdgeInsets.zero,
-                              leading: Icon(Iconsax.text),
+                              leading: const Icon(Iconsax.text),
                               title: Text(
                                 item.title ?? '',
-                                style: TextStyle(fontWeight: FontWeight.bold),
+                                style: const TextStyle(
+                                    fontWeight: FontWeight.bold),
                               ),
                               subtitle: Text(
                                   item.fullTitle != 'null'
@@ -70,7 +72,7 @@ class _DictionaryAlphabetsScreenState extends State<DictionaryAlphabetsScreen> {
                                       : item.description!,
                                   maxLines: 2,
                                   overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(height: 1.5)),
+                                  style: const TextStyle(height: 1.5)),
                             ),
                           ],
                         ),
@@ -105,7 +107,7 @@ class _DictionaryAlphabetsScreenState extends State<DictionaryAlphabetsScreen> {
             ];
           }
           return SingleChildScrollView(
-            padding: EdgeInsets.only(top: 15),
+            padding: const EdgeInsets.only(top: 15),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: children,

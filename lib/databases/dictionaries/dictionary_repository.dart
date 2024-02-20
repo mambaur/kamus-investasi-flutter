@@ -125,7 +125,6 @@ class DictionaryRepository {
         'SELECT * FROM ${dbInstance.dictionaryTable} ORDER BY ${dbInstance.dictionaryTable}.${dbInstance.dictionaryCreatedAt} DESC LIMIT 1',
         []);
 
-    print(data);
     return data.length;
   }
 

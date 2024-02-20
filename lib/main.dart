@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Kamus Indonesia',
       theme: ThemeData(
+        useMaterial3: false,
         textTheme: GoogleFonts.ralewayTextTheme(
           Theme.of(context).textTheme,
         ),
@@ -92,31 +93,31 @@ class _MyHomePageState extends State<MyHomePage> {
               items: <BottomNavigationBarItem>[
                 BottomNavigationBarItem(
                   icon: Container(
-                      margin: EdgeInsets.only(bottom: 3),
-                      child: Icon(Iconsax.home)),
+                      margin: const EdgeInsets.only(bottom: 3),
+                      child: const Icon(Iconsax.home)),
                   label: 'Home',
                 ),
                 BottomNavigationBarItem(
                   icon: Container(
-                      margin: EdgeInsets.only(bottom: 3),
-                      child: Icon(Iconsax.bookmark)),
+                      margin: const EdgeInsets.only(bottom: 3),
+                      child: const Icon(Iconsax.bookmark)),
                   label: 'Bookmark',
                 ),
                 BottomNavigationBarItem(
                   icon: Container(
-                      margin: EdgeInsets.only(bottom: 3),
-                      child: Icon(Iconsax.repeat_circle)),
+                      margin: const EdgeInsets.only(bottom: 3),
+                      child: const Icon(Iconsax.repeat_circle)),
                   label: 'Riwayat',
                 ),
                 BottomNavigationBarItem(
                   icon: Container(
-                      margin: EdgeInsets.only(bottom: 3),
-                      child: Icon(Iconsax.message)),
+                      margin: const EdgeInsets.only(bottom: 3),
+                      child: const Icon(Iconsax.message)),
                   label: 'Feedback',
                 ),
               ],
               currentIndex: _selectedIndex,
-              selectedItemColor: Color.fromRGBO(65, 83, 181, 1),
+              selectedItemColor: const Color.fromRGBO(65, 83, 181, 1),
               onTap: _onItemTapped,
             ),
           )
@@ -125,10 +126,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                CircularProgressIndicator(
+                const CircularProgressIndicator(
                   color: Color.fromRGBO(65, 83, 181, 1),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Text('Loading 👾',
@@ -136,10 +137,11 @@ class _MyHomePageState extends State<MyHomePage> {
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
                         color: Colors.grey.shade800)),
-                SizedBox(
+                const SizedBox(
                   height: 5,
                 ),
-                Text('Mohon tunggu...', style: TextStyle(color: Colors.grey)),
+                const Text('Mohon tunggu...',
+                    style: TextStyle(color: Colors.grey)),
               ],
             )),
           );

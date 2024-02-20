@@ -6,7 +6,6 @@ class DataSets {
 
   Future<bool> initDictionaries() async {
     int totalDictionary = await _dictionaryRepo.count();
-    print("Total dictionary = " + totalDictionary.toString());
     // print(dictionariesJson['data'].length);
     if (totalDictionary != 593) {
       await _dictionaryRepo.deleteAll();
@@ -15,7 +14,6 @@ class DataSets {
           await JsonConfiguration.parseJsonFromAssets(
               'assets/datasets/dictionaries.json');
       for (var i = 0; i < dictionariesJson['data'].length; i++) {
-        print(i.toString() + " " + dictionariesJson['data'][i]['title']);
         await _dictionaryRepo.insert({
           'alphabet': dictionariesJson['data'][i]['alphabet'],
           'title': dictionariesJson['data'][i]['title'],

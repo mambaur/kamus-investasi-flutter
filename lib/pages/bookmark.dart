@@ -1,13 +1,14 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:infinite_scroll/infinite_scroll.dart';
 import 'package:kamus_investasi/databases/bookmarks/bookmark_repository.dart';
-import 'package:kamus_investasi/databases/dictionaries/dictionary_repository.dart';
 import 'package:kamus_investasi/models/dictionary_model.dart';
 import 'package:kamus_investasi/pages/dictionary_detail.dart';
 
 class BookmarkScreen extends StatefulWidget {
-  const BookmarkScreen({Key? key}) : super(key: key);
+  const BookmarkScreen({super.key});
 
   @override
   State<BookmarkScreen> createState() => _BookmarkScreenState();
@@ -15,7 +16,6 @@ class BookmarkScreen extends StatefulWidget {
 
 class _BookmarkScreenState extends State<BookmarkScreen> {
   final BookmarkRepository _bookmarkRepo = BookmarkRepository();
-  final DictionaryRepository _dictionaryRepo = DictionaryRepository();
 
   int limit = 10;
   int pageList = 0;
@@ -47,7 +47,7 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
       isEmptyDictionary = true;
     }
 
-    if (data.length >= 1 && data.length < limit) {
+    if (data.isNotEmpty && data.length < limit) {
       isLastPage = true;
     }
     setState(() {});
@@ -75,33 +75,33 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
         appBar: AppBar(
-          title: Text('Bookmark'),
+          title: const Text('Bookmark'),
           automaticallyImplyLeading: false,
           centerTitle: true,
           elevation: 0,
-          backgroundColor: Color.fromRGBO(65, 83, 181, 1),
+          backgroundColor: const Color.fromRGBO(65, 83, 181, 1),
           actions: [
             IconButton(
                 onPressed: () {
                   _deleteAllDialog();
                 },
-                icon: Icon(Iconsax.star_15))
+                icon: const Icon(Iconsax.star_15))
           ],
         ),
         backgroundColor: Colors.grey.shade100,
         body: RefreshIndicator(
           backgroundColor: Colors.white,
-          color: Color.fromRGBO(65, 83, 181, 1),
+          color: const Color.fromRGBO(65, 83, 181, 1),
           displacement: 20,
           onRefresh: () => _refresh(),
           child: !isEmptyDictionary
               ? InfiniteScrollList(
                   physics: const AlwaysScrollableScrollPhysics(),
-                  padding: EdgeInsets.only(top: 15),
+                  padding: const EdgeInsets.only(top: 15),
                   shrinkWrap: true,
                   loadingWidget: !isLastPage
-                      ? Center(
-                          child: Container(
+                      ? const Center(
+                          child: SizedBox(
                               width: 30,
                               height: 30,
                               child: CircularProgressIndicator(
@@ -124,13 +124,13 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
                   children: data
                       .map((item) => Container(
                             width: size.width,
-                            margin: EdgeInsets.only(
+                            margin: const EdgeInsets.only(
                                 left: 15, right: 15, bottom: 15),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Container(
-                                  padding: EdgeInsets.symmetric(
+                                  padding: const EdgeInsets.symmetric(
                                       horizontal: 15, vertical: 10),
                                   decoration: BoxDecoration(
                                       color: Colors.white,
@@ -149,10 +149,10 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
                                           }));
                                         },
                                         contentPadding: EdgeInsets.zero,
-                                        leading: Icon(Iconsax.star),
+                                        leading: const Icon(Iconsax.star),
                                         title: Text(
                                           item.title ?? '',
-                                          style: TextStyle(
+                                          style: const TextStyle(
                                               fontWeight: FontWeight.bold),
                                         ),
                                         subtitle: Text(
@@ -161,7 +161,8 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
                                                 : item.description!,
                                             maxLines: 2,
                                             overflow: TextOverflow.ellipsis,
-                                            style: TextStyle(height: 1.5)),
+                                            style:
+                                                const TextStyle(height: 1.5)),
                                       ),
                                     ],
                                   ),
@@ -175,20 +176,20 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Container(
+                    SizedBox(
                         width: size.width * 0.5,
                         child: Image.asset('assets/images/bookmark.png')),
-                    SizedBox(
+                    const SizedBox(
                       height: 15,
                     ),
-                    Text(
+                    const Text(
                       'Upps, maaf!',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
                           color: Colors.grey),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 5,
                     ),
                     Text('Bookmark masih kosong.',

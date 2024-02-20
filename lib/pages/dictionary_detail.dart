@@ -18,8 +18,7 @@ enum StatusAd { initial, loaded }
 class DictionaryDetailScreen extends StatefulWidget {
   final int? id;
   final bool? isSetHistory;
-  const DictionaryDetailScreen({Key? key, this.id, this.isSetHistory})
-      : super(key: key);
+  const DictionaryDetailScreen({super.key, this.id, this.isSetHistory});
 
   @override
   State<DictionaryDetailScreen> createState() => _DictionaryDetailScreenState();
@@ -29,6 +28,7 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
   final DictionaryRepository _dictionaryRepo = DictionaryRepository();
   final BookmarkRepository _bookmarkRepo = BookmarkRepository();
   final HistoryRepository _historyRepo = HistoryRepository();
+  InterstitialAd? _interstitialAd;
 
   BannerAd? myBanner;
 
@@ -73,7 +73,7 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
     setState(() {});
   }
 
-  Future<List<DictionaryModel>?> getRelated() async {
+  Future<void> getRelated() async {
     List<DictionaryModel>? data =
         await _dictionaryRepo.related(dictionaryModel?.category ?? '');
     if (data != null) {
@@ -120,6 +120,24 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
     );
     myBanner!.load();
 
+    InterstitialAd.load(
+        adUnitId: kDebugMode
+            ? 'ca-app-pub-3940256099942544/1033173712'
+            : 'ca-app-pub-2465007971338713/6674449865',
+        request: const AdRequest(),
+        adLoadCallback: InterstitialAdLoadCallback(
+          // Called when an ad is successfully received.
+          onAdLoaded: (ad) {
+            debugPrint('$ad loaded.');
+            // Keep a reference to the ad so you can show it later.
+            _interstitialAd = ad;
+          },
+          // Called when an ad request failed.
+          onAdFailedToLoad: (LoadAdError error) {
+            debugPrint('InterstitialAd failed to load: $error');
+          },
+        ));
+
     super.initState();
   }
 
@@ -136,14 +154,10 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
         title: Text(dictionaryModel != null ? dictionaryModel!.title! : ''),
         centerTitle: true,
         elevation: 0,
-        actions: [
-          // IconButton(onPressed: () {}, icon: Icon(Iconsax.share)),
-          // IconButton(onPressed: () {}, icon: Icon(Iconsax.sound))
-        ],
-        backgroundColor: Color.fromRGBO(65, 83, 181, 1),
+        backgroundColor: const Color.fromRGBO(65, 83, 181, 1),
       ),
       body: SingleChildScrollView(
-        padding: EdgeInsets.symmetric(vertical: 15, horizontal: 15),
+        padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 15),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -159,6 +173,10 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                 ),
                 IconButton(
                   onPressed: () async {
+                    if (_interstitialAd != null) {
+                      await _interstitialAd!.show();
+                    }
+
                     if (isBookmark) {
                       await deleteBookmark();
                     } else {
@@ -173,7 +191,11 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                   ),
                 ),
                 IconButton(
-                  onPressed: () {
+                  onPressed: () async {
+                    if (_interstitialAd != null) {
+                      await _interstitialAd!.show();
+                    }
+
                     Share.share(
                         '${dictionaryModel?.title} \n\n${dictionaryModel?.description}\n\nDownload aplikasi Kamus Investasi Sekarang!\nhttps://bit.ly/kamus-investasi',
                         subject: dictionaryModel?.title ?? '');
@@ -191,18 +213,19 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                         fontWeight: FontWeight.bold,
                         // fontSize: 40,
                         color: Colors.grey.shade800))
-                : Container(),
+                : const SizedBox(),
             Container(
-              margin: EdgeInsets.only(top: 15),
+              margin: const EdgeInsets.only(top: 15),
               child: Row(
                 children: [
                   Container(
-                    padding: EdgeInsets.symmetric(vertical: 3, horizontal: 5),
+                    padding:
+                        const EdgeInsets.symmetric(vertical: 3, horizontal: 5),
                     decoration: BoxDecoration(
                         color: dictionaryModel?.category == 'investasi'
-                            ? Color.fromRGBO(65, 83, 181, 1)
+                            ? const Color.fromRGBO(65, 83, 181, 1)
                             : Colors.white,
-                        borderRadius: BorderRadius.only(
+                        borderRadius: const BorderRadius.only(
                           topLeft: Radius.circular(10),
                           bottomLeft: Radius.circular(10),
                         ),
@@ -215,10 +238,11 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                         )),
                   ),
                   Container(
-                    padding: EdgeInsets.symmetric(vertical: 3, horizontal: 5),
+                    padding:
+                        const EdgeInsets.symmetric(vertical: 3, horizontal: 5),
                     decoration: BoxDecoration(
                         color: dictionaryModel?.category == 'trading'
-                            ? Color.fromRGBO(65, 83, 181, 1)
+                            ? const Color.fromRGBO(65, 83, 181, 1)
                             : Colors.white,
                         border: Border.all(color: Colors.grey.shade200)),
                     child: Text('Trading',
@@ -229,10 +253,11 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                         )),
                   ),
                   Container(
-                    padding: EdgeInsets.symmetric(vertical: 3, horizontal: 5),
+                    padding:
+                        const EdgeInsets.symmetric(vertical: 3, horizontal: 5),
                     decoration: BoxDecoration(
                         color: dictionaryModel?.category == 'kripto'
-                            ? Color.fromRGBO(65, 83, 181, 1)
+                            ? const Color.fromRGBO(65, 83, 181, 1)
                             : Colors.white,
                         border: Border.all(color: Colors.grey.shade200)),
                     child: Text('Kripto',
@@ -243,12 +268,13 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                         )),
                   ),
                   Container(
-                    padding: EdgeInsets.symmetric(vertical: 3, horizontal: 5),
+                    padding:
+                        const EdgeInsets.symmetric(vertical: 3, horizontal: 5),
                     decoration: BoxDecoration(
                         color: dictionaryModel?.category == 'saham'
-                            ? Color.fromRGBO(65, 83, 181, 1)
+                            ? const Color.fromRGBO(65, 83, 181, 1)
                             : Colors.white,
-                        borderRadius: BorderRadius.only(
+                        borderRadius: const BorderRadius.only(
                           topRight: Radius.circular(10),
                           bottomRight: Radius.circular(10),
                         ),
@@ -268,14 +294,14 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
             // ),
             statusAd == StatusAd.loaded
                 ? Container(
-                    margin: EdgeInsets.only(top: 15, left: 15, right: 15),
+                    margin: const EdgeInsets.only(top: 15, left: 15, right: 15),
                     alignment: Alignment.center,
-                    child: AdWidget(ad: myBanner!),
                     width: myBanner!.size.width.toDouble(),
                     height: myBanner!.size.height.toDouble(),
+                    child: AdWidget(ad: myBanner!),
                   )
-                : Container(),
-            SizedBox(
+                : const SizedBox(),
+            const SizedBox(
               height: 15,
             ),
             Row(
@@ -285,7 +311,7 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                         fontWeight: FontWeight.bold,
                         fontSize: 16,
                         color: Colors.grey.shade800)),
-                SizedBox(
+                const SizedBox(
                   width: 8,
                 ),
                 GestureDetector(
@@ -295,15 +321,15 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                         Fluttertoast.showToast(msg: 'Deskripsi telah disalin');
                       });
                     },
-                    child: Icon(Iconsax.copy, color: Colors.grey))
+                    child: const Icon(Iconsax.copy, color: Colors.grey))
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
             dictionaryModel?.description != null
                 ? Container(
-                    margin: EdgeInsets.only(bottom: 15),
+                    margin: const EdgeInsets.only(bottom: 15),
                     child: Text(dictionaryModel!.description ?? '',
                         style: TextStyle(
                             // fontWeight: FontWeight.bold,
@@ -311,13 +337,13 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                             height: 1.5,
                             color: Colors.grey.shade800)),
                   )
-                : Container(),
+                : const SizedBox(),
             Text('Kata Terkait',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 16,
                     color: Colors.grey.shade800)),
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
             Wrap(
@@ -333,8 +359,9 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                       }));
                     },
                     child: Container(
-                      padding: EdgeInsets.symmetric(vertical: 3, horizontal: 8),
-                      margin: EdgeInsets.only(right: 8, bottom: 8),
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 3, horizontal: 8),
+                      margin: const EdgeInsets.only(right: 8, bottom: 8),
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(color: Colors.grey.shade200)),

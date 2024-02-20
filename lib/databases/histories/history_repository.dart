@@ -94,6 +94,7 @@ class HistoryRepository {
     final data = await db.rawQuery(
         'SELECT ${dbInstance.historyTable}.*  FROM ${dbInstance.historyTable}',
         []);
-    print(data);
+
+    return data;
   }
 }

@@ -1,14 +1,15 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:infinite_scroll/infinite_scroll.dart';
-import 'package:kamus_investasi/databases/dictionaries/dictionary_repository.dart';
 import 'package:kamus_investasi/databases/histories/history_repository.dart';
 import 'package:kamus_investasi/models/dictionary_model.dart';
 import 'package:kamus_investasi/pages/dictionary_detail.dart';
 import 'package:kamus_investasi/utils/date_instance.dart';
 
 class HistoryScreen extends StatefulWidget {
-  const HistoryScreen({Key? key}) : super(key: key);
+  const HistoryScreen({super.key});
 
   @override
   State<HistoryScreen> createState() => _HistoryScreenState();
@@ -47,7 +48,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
       isEmptyDictionary = true;
     }
 
-    if (data.length >= 1 && data.length < limit) {
+    if (data.isNotEmpty && data.length < limit) {
       isLastPage = true;
     }
     setState(() {});
@@ -81,8 +82,8 @@ class _HistoryScreenState extends State<HistoryScreen> {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
-        title: Text('Riwayat'),
-        backgroundColor: Color.fromRGBO(65, 83, 181, 1),
+        title: const Text('Riwayat'),
+        backgroundColor: const Color.fromRGBO(65, 83, 181, 1),
         centerTitle: true,
         elevation: 0,
         actions: [
@@ -90,7 +91,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
               onPressed: () {
                 _deleteAllDialog();
               },
-              icon: Icon(Iconsax.trash))
+              icon: const Icon(Iconsax.trash))
         ],
       ),
       backgroundColor: Colors.grey.shade100,
@@ -113,23 +114,23 @@ class _HistoryScreenState extends State<HistoryScreen> {
           Expanded(
             child: RefreshIndicator(
               backgroundColor: Colors.white,
-              color: Color.fromRGBO(65, 83, 181, 1),
+              color: const Color.fromRGBO(65, 83, 181, 1),
               displacement: 20,
               onRefresh: () => _refresh(),
               child: !isEmptyDictionary
                   ? InfiniteScrollList(
                       physics: const AlwaysScrollableScrollPhysics(),
-                      padding: EdgeInsets.only(top: 10),
+                      padding: const EdgeInsets.only(top: 10),
                       shrinkWrap: true,
                       loadingWidget: !isLastPage
-                          ? Center(
-                              child: Container(
+                          ? const Center(
+                              child: SizedBox(
                                   width: 30,
                                   height: 30,
                                   child: CircularProgressIndicator(
                                       color: Color.fromRGBO(65, 83, 181, 1))),
                             )
-                          : Container(),
+                          : const SizedBox(),
                       onLoadingStart: (page) async {
                         pageList++;
                         List<DictionaryByDate> newData =
@@ -146,22 +147,22 @@ class _HistoryScreenState extends State<HistoryScreen> {
                       children: data
                           .map((item) => Container(
                                 width: size.width,
-                                margin: EdgeInsets.only(
+                                margin: const EdgeInsets.only(
                                     left: 15, right: 15, bottom: 15),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Container(
-                                      margin: EdgeInsets.only(left: 5),
+                                      margin: const EdgeInsets.only(left: 5),
                                       child: Text(
                                         DateInstance.id(item.date ?? ''),
-                                        style: TextStyle(
+                                        style: const TextStyle(
                                             color: Colors.grey, fontSize: 12),
                                       ),
                                     ),
-                                    SizedBox(height: 5),
+                                    const SizedBox(height: 5),
                                     Container(
-                                      padding: EdgeInsets.symmetric(
+                                      padding: const EdgeInsets.symmetric(
                                           horizontal: 15, vertical: 10),
                                       decoration: BoxDecoration(
                                           color: Colors.white,
@@ -172,8 +173,8 @@ class _HistoryScreenState extends State<HistoryScreen> {
                                           for (DictionaryModel row
                                               in item.listDictionaries ?? [])
                                             Container(
-                                              margin:
-                                                  EdgeInsets.only(bottom: 5),
+                                              margin: const EdgeInsets.only(
+                                                  bottom: 5),
                                               child: ListTile(
                                                 onTap: () {
                                                   Navigator.push(context,
@@ -187,11 +188,11 @@ class _HistoryScreenState extends State<HistoryScreen> {
                                                 },
                                                 contentPadding: EdgeInsets.zero,
                                                 title: Container(
-                                                  margin: EdgeInsets.only(
+                                                  margin: const EdgeInsets.only(
                                                       bottom: 5),
                                                   child: Text(
                                                     row.title ?? '',
-                                                    style: TextStyle(
+                                                    style: const TextStyle(
                                                         fontWeight:
                                                             FontWeight.bold),
                                                   ),
@@ -201,8 +202,8 @@ class _HistoryScreenState extends State<HistoryScreen> {
                                                         ? row.fullTitle!
                                                         : row.description!,
                                                     maxLines: 2,
-                                                    style:
-                                                        TextStyle(height: 1.5),
+                                                    style: const TextStyle(
+                                                        height: 1.5),
                                                     overflow:
                                                         TextOverflow.ellipsis),
                                                 trailing: GestureDetector(
@@ -229,20 +230,20 @@ class _HistoryScreenState extends State<HistoryScreen> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Container(
+                        SizedBox(
                             width: size.width * 0.43,
                             child: Image.asset('assets/images/history.png')),
-                        SizedBox(
+                        const SizedBox(
                           height: 20,
                         ),
-                        Text(
+                        const Text(
                           'Upps, maaf!',
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 18,
                               color: Colors.grey),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 5,
                         ),
                         Text('Riwayat masih kosong.',

@@ -69,6 +69,6 @@ class BookmarkRepository {
     final data = await db.rawQuery(
         'SELECT ${dbInstance.bookmarkTable}.*  FROM ${dbInstance.bookmarkTable}',
         []);
-    print(data);
+    return data;
   }
 }
