@@ -196,9 +196,10 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                       await _interstitialAd!.show();
                     }
 
-                    Share.share(
-                        '${dictionaryModel?.title} \n\n${dictionaryModel?.description}\n\nDownload aplikasi Kamus Investasi Sekarang!\nhttps://bit.ly/kamus-investasi',
-                        subject: dictionaryModel?.title ?? '');
+                    SharePlus.instance.share(ShareParams(
+                        text:
+                            '${dictionaryModel?.title} \n\n${dictionaryModel?.description}\n\nDownload aplikasi Kamus Investasi Sekarang!\nhttps://bit.ly/kamus-investasi',
+                        subject: dictionaryModel?.title ?? ''));
                   },
                   icon: Icon(
                     Icons.share,
