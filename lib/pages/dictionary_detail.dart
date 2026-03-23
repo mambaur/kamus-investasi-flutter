@@ -10,6 +10,7 @@ import 'package:kamus_investasi/databases/histories/history_repository.dart';
 import 'package:kamus_investasi/models/bookmark_model.dart';
 import 'package:kamus_investasi/models/dictionary_model.dart';
 import 'package:kamus_investasi/models/history_model.dart';
+import 'package:kamus_investasi/shared/widgets/banner_ad_widget.dart';
 import 'package:kamus_investasi/utils/date_instance.dart';
 import 'package:share_plus/share_plus.dart';
 
@@ -29,22 +30,6 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
   final BookmarkRepository _bookmarkRepo = BookmarkRepository();
   final HistoryRepository _historyRepo = HistoryRepository();
   InterstitialAd? _interstitialAd;
-
-  BannerAd? myBanner;
-
-  StatusAd statusAd = StatusAd.initial;
-
-  BannerAdListener listener() => BannerAdListener(
-        // Called when an ad is successfully received.
-        onAdLoaded: (Ad ad) {
-          if (kDebugMode) {
-            print('Ad Loaded.');
-          }
-          setState(() {
-            statusAd = StatusAd.loaded;
-          });
-        },
-      );
 
   DictionaryModel? dictionaryModel;
   bool isBookmark = false;
@@ -109,17 +94,6 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
     getDictionary();
     addHistory();
 
-    myBanner = BannerAd(
-      // test banner
-      // adUnitId: 'ca-app-pub-3940256099942544/6300978111',
-      //
-      adUnitId: 'ca-app-pub-2465007971338713/1073462187',
-      size: AdSize.banner,
-      request: const AdRequest(),
-      listener: listener(),
-    );
-    myBanner!.load();
-
     InterstitialAd.load(
         adUnitId: kDebugMode
             ? 'ca-app-pub-3940256099942544/1033173712'
@@ -139,12 +113,6 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
         ));
 
     super.initState();
-  }
-
-  @override
-  void dispose() {
-    myBanner!.dispose();
-    super.dispose();
   }
 
   @override
@@ -293,15 +261,11 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
             // Divider(
             //   color: Color.fromRGBO(65, 83, 181, 1),
             // ),
-            statusAd == StatusAd.loaded
-                ? Container(
-                    margin: const EdgeInsets.only(top: 15, left: 15, right: 15),
-                    alignment: Alignment.center,
-                    width: myBanner!.size.width.toDouble(),
-                    height: myBanner!.size.height.toDouble(),
-                    child: AdWidget(ad: myBanner!),
-                  )
-                : const SizedBox(),
+            Center(
+              child: BannerAdWidget(
+                placement: BannerPlacement.detailDictionary,
+              ),
+            ),
             const SizedBox(
               height: 15,
             ),

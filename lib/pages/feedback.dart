@@ -9,8 +9,7 @@ class FeedbackScreen extends StatefulWidget {
 }
 
 class _FeedbackScreenState extends State<FeedbackScreen> {
-  final Uri _url = Uri.parse(
-      'https://docs.google.com/forms/d/e/1FAIpQLSchM7UbpcUzVGF_dnMrQkcBgKvcjKIYOqA9WiKI_ooWbsn7pQ/viewform?usp=sf_link');
+  final Uri _url = Uri.parse('https://nexadream.id');
 
   Future<void> _launchUrl() async {
     if (!await launchUrl(_url)) {
@@ -34,7 +33,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
               height: 20,
             ),
             const Text(
-              'Feedback',
+              'Hubungi Kami',
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 30,
@@ -43,7 +42,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
             const Padding(
               padding: EdgeInsets.all(15.0),
               child: Text(
-                'Apabila ada kata atau definisi yang kurang tepat, silahkan isi form dibawah ini. Kontribusi anda sangat membantu proses pengembangan aplikasi.',
+                'Apabila ada kata atau definisi yang kurang tepat, silahkan hubungi kami. Kontribusi anda sangat membantu proses pengembangan aplikasi.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white,
@@ -51,17 +50,37 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                 ),
               ),
             ),
-            ElevatedButton(
-                onPressed: () => _launchUrl(),
-                style: ElevatedButton.styleFrom(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20.0),
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: 44),
+              width: double.infinity,
+              child: FilledButton(
+                  onPressed: () => _launchUrl(),
+                  style: FilledButton.styleFrom(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
                   ),
-                ),
-                child: const Text(
-                  'Form Feedback',
-                  style: TextStyle(fontWeight: FontWeight.bold),
-                ))
+                  child: const Text(
+                    'HUBUNGI KAMI',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  )),
+            ),
+            SizedBox(
+              height: 6,
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: 44),
+              width: double.infinity,
+              child: TextButton(
+                  onPressed: () => Navigator.pop(context),
+                  style: TextButton.styleFrom(
+                    foregroundColor: Colors.white,
+                  ),
+                  child: const Text(
+                    'KEMBALI',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  )),
+            ),
           ],
         ),
       ),

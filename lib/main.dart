@@ -3,7 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:kamus_investasi/pages/bookmark.dart';
-import 'package:kamus_investasi/pages/feedback.dart';
 import 'package:kamus_investasi/pages/history.dart';
 import 'package:kamus_investasi/pages/home.dart';
 import 'package:kamus_investasi/utils/datasets.dart';
@@ -70,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
     HomeScreen(),
     BookmarkScreen(),
     HistoryScreen(),
-    FeedbackScreen(),
+    // FeedbackScreen(),
   ];
 
   @override
@@ -89,32 +88,33 @@ class _MyHomePageState extends State<MyHomePage> {
               // showUnselectedLabels: false,
               backgroundColor: Colors.white,
               selectedFontSize: 12,
+              selectedLabelStyle: TextStyle(fontWeight: FontWeight.bold),
               type: BottomNavigationBarType.fixed,
               items: <BottomNavigationBarItem>[
                 BottomNavigationBarItem(
                   icon: Container(
-                      margin: const EdgeInsets.only(bottom: 3),
+                      margin: const EdgeInsets.only(bottom: 3, top: 10),
                       child: const Icon(Iconsax.home)),
                   label: 'Home',
                 ),
                 BottomNavigationBarItem(
                   icon: Container(
-                      margin: const EdgeInsets.only(bottom: 3),
+                      margin: const EdgeInsets.only(bottom: 3, top: 10),
                       child: const Icon(Iconsax.bookmark)),
                   label: 'Bookmark',
                 ),
                 BottomNavigationBarItem(
                   icon: Container(
-                      margin: const EdgeInsets.only(bottom: 3),
+                      margin: const EdgeInsets.only(bottom: 3, top: 10),
                       child: const Icon(Iconsax.repeat_circle)),
                   label: 'Riwayat',
                 ),
-                BottomNavigationBarItem(
-                  icon: Container(
-                      margin: const EdgeInsets.only(bottom: 3),
-                      child: const Icon(Iconsax.message)),
-                  label: 'Feedback',
-                ),
+                // BottomNavigationBarItem(
+                //   icon: Container(
+                //       margin: const EdgeInsets.only(bottom: 3),
+                //       child: const Icon(Iconsax.message)),
+                //   label: 'Feedback',
+                // ),
               ],
               currentIndex: _selectedIndex,
               selectedItemColor: const Color.fromRGBO(65, 83, 181, 1),
