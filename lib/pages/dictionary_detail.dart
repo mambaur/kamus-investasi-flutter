@@ -1,8 +1,6 @@
 import 'package:clipboard/clipboard.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:kamus_investasi/databases/bookmarks/bookmark_repository.dart';
 import 'package:kamus_investasi/databases/dictionaries/dictionary_repository.dart';
@@ -29,7 +27,6 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
   final DictionaryRepository _dictionaryRepo = DictionaryRepository();
   final BookmarkRepository _bookmarkRepo = BookmarkRepository();
   final HistoryRepository _historyRepo = HistoryRepository();
-  InterstitialAd? _interstitialAd;
 
   DictionaryModel? dictionaryModel;
   bool isBookmark = false;
@@ -93,25 +90,6 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
   void initState() {
     getDictionary();
     addHistory();
-
-    InterstitialAd.load(
-        adUnitId: kDebugMode
-            ? 'ca-app-pub-3940256099942544/1033173712'
-            : 'ca-app-pub-2465007971338713/6674449865',
-        request: const AdRequest(),
-        adLoadCallback: InterstitialAdLoadCallback(
-          // Called when an ad is successfully received.
-          onAdLoaded: (ad) {
-            debugPrint('$ad loaded.');
-            // Keep a reference to the ad so you can show it later.
-            _interstitialAd = ad;
-          },
-          // Called when an ad request failed.
-          onAdFailedToLoad: (LoadAdError error) {
-            debugPrint('InterstitialAd failed to load: $error');
-          },
-        ));
-
     super.initState();
   }
 
@@ -141,10 +119,6 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                 ),
                 IconButton(
                   onPressed: () async {
-                    if (_interstitialAd != null) {
-                      await _interstitialAd!.show();
-                    }
-
                     if (isBookmark) {
                       await deleteBookmark();
                     } else {
@@ -160,10 +134,6 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                 ),
                 IconButton(
                   onPressed: () async {
-                    if (_interstitialAd != null) {
-                      await _interstitialAd!.show();
-                    }
-
                     SharePlus.instance.share(ShareParams(
                         text:
                             '${dictionaryModel?.title} \n\n${dictionaryModel?.description}\n\nDownload aplikasi Kamus Investasi Sekarang!\nhttps://bit.ly/kamus-investasi',
