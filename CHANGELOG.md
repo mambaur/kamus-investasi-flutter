@@ -1,4 +1,4 @@
-## 1.0.7 (8)
+## 1.0.7 (9)
 
 * Memperbaiki issue admob: Modified ad code: Resizing Ad Frames
 

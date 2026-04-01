@@ -14,7 +14,12 @@ enum BannerPlacement {
 class BannerAdWidget extends StatefulWidget {
   final BannerPlacement? placement;
   final EdgeInsetsGeometry? margin;
-  const BannerAdWidget({super.key, this.placement, this.margin});
+
+  const BannerAdWidget({
+    super.key,
+    this.placement,
+    this.margin,
+  });
 
   @override
   State<BannerAdWidget> createState() => _BannerAdWidgetState();
@@ -32,66 +37,67 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
           statusAd = StatusAd.loaded;
         });
       },
+      onAdFailedToLoad: (Ad ad, LoadAdError error) {
+        if (kDebugMode) print('Ad Failed: $error');
+        ad.dispose();
+      },
     );
   }
 
-  // Future<void> initBanner() async {
-  //   myBanner = BannerAd(
-  //     adUnitId: getAddUnitId(),
-  //     size: AdSize.banner,
-  //     request: const AdRequest(),
-  //     listener: listener(),
-  //   );
-  //   myBanner!.load();
-  // }
-
   Future<void> initBanner() async {
-    // 1. Get the screen width
-    final size = MediaQuery.of(context).size;
-    final int adWidth = size.width.truncate();
+    final size = await AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(
+      MediaQuery.of(context).size.width.toInt(),
+    );
 
-    // 2. Fetch the adaptive size
-    final AdSize? adaptiveSize =
-        await AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(adWidth);
-
-    // 3. Fallback to standard Banner if adaptiveSize is null
-    // We use the '??' operator to ensure the type is AdSize, not AdSize?
-    final AdSize finalSize = adaptiveSize ?? AdSize.banner;
-
-    if (!mounted) return;
+    if (size == null) return;
 
     myBanner = BannerAd(
-      adUnitId: getAddUnitId(),
-      size: finalSize,
+      adUnitId: getAdUnitId(),
+      size: size,
       request: const AdRequest(),
       listener: listener(),
     );
 
-    await myBanner!.load();
+    myBanner!.load();
   }
 
   @override
   void initState() {
-    initBanner();
     super.initState();
+
+    // Delay to ensure context is ready for MediaQuery
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      initBanner();
+    });
+  }
+
+  @override
+  void dispose() {
+    myBanner?.dispose();
+    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    return statusAd == StatusAd.loaded
-        ? Container(
-            margin: widget.margin ??
-                const EdgeInsets.only(left: 15, right: 15, top: 15),
-            alignment: Alignment.center,
-            width: myBanner!.size.width.toDouble(),
-            height: myBanner!.size.height.toDouble(),
-            child: AdWidget(ad: myBanner!),
-          )
-        : const SizedBox();
+    if (statusAd != StatusAd.loaded || myBanner == null) {
+      return const SizedBox();
+    }
+
+    return Padding(
+      padding: widget.margin ?? const EdgeInsets.only(top: 15),
+      child: Center(
+        child: SizedBox(
+          width: myBanner!.size.width.toDouble(),
+          height: myBanner!.size.height.toDouble(),
+          child: AdWidget(ad: myBanner!),
+        ),
+      ),
+    );
   }
 
-  String getAddUnitId() {
-    String debugUnitID = 'ca-app-pub-3940256099942544/6300978111';
+  String getAdUnitId() {
+    const debugUnitID = 'ca-app-pub-3940256099942544/6300978111';
+
     if (kDebugMode) return debugUnitID;
 
     switch (widget.placement) {
