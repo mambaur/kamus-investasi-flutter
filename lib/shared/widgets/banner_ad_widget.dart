@@ -35,14 +35,39 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
     );
   }
 
+  // Future<void> initBanner() async {
+  //   myBanner = BannerAd(
+  //     adUnitId: getAddUnitId(),
+  //     size: AdSize.banner,
+  //     request: const AdRequest(),
+  //     listener: listener(),
+  //   );
+  //   myBanner!.load();
+  // }
+
   Future<void> initBanner() async {
+    // 1. Get the screen width
+    final size = MediaQuery.of(context).size;
+    final int adWidth = size.width.truncate();
+
+    // 2. Fetch the adaptive size
+    final AdSize? adaptiveSize =
+        await AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(adWidth);
+
+    // 3. Fallback to standard Banner if adaptiveSize is null
+    // We use the '??' operator to ensure the type is AdSize, not AdSize?
+    final AdSize finalSize = adaptiveSize ?? AdSize.banner;
+
+    if (!mounted) return;
+
     myBanner = BannerAd(
       adUnitId: getAddUnitId(),
-      size: AdSize.banner,
+      size: finalSize,
       request: const AdRequest(),
       listener: listener(),
     );
-    myBanner!.load();
+
+    await myBanner!.load();
   }
 
   @override
@@ -60,9 +85,7 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
             alignment: Alignment.center,
             width: myBanner!.size.width.toDouble(),
             height: myBanner!.size.height.toDouble(),
-            child: ClipRRect(
-                borderRadius: BorderRadius.circular(10),
-                child: AdWidget(ad: myBanner!)),
+            child: AdWidget(ad: myBanner!),
           )
         : const SizedBox();
   }
