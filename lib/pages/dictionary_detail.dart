@@ -102,211 +102,218 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
         elevation: 0,
         backgroundColor: const Color.fromRGBO(65, 83, 181, 1),
       ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 15),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
+      body: Stack(
+        children: [
+          SingleChildScrollView(
+            padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 15),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Expanded(
-                  child: Text(
-                      dictionaryModel != null ? dictionaryModel!.title! : '',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 40,
-                          color: Colors.grey.shade800)),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                          dictionaryModel != null
+                              ? dictionaryModel!.title!
+                              : '',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 40,
+                              color: Colors.grey.shade800)),
+                    ),
+                    IconButton(
+                      onPressed: () async {
+                        if (isBookmark) {
+                          await deleteBookmark();
+                        } else {
+                          await addBookmark();
+                        }
+                      },
+                      icon: Icon(
+                        Icons.star,
+                        color: isBookmark
+                            ? Colors.yellow.shade700
+                            : Colors.grey.shade400,
+                      ),
+                    ),
+                    IconButton(
+                      onPressed: () async {
+                        SharePlus.instance.share(ShareParams(
+                            text:
+                                '${dictionaryModel?.title} \n\n${dictionaryModel?.description}\n\nDownload aplikasi Kamus Investasi Sekarang!\nhttps://bit.ly/kamus-investasi',
+                            subject: dictionaryModel?.title ?? ''));
+                      },
+                      icon: Icon(
+                        Icons.share,
+                        color: Colors.grey.shade400,
+                      ),
+                    )
+                  ],
                 ),
-                IconButton(
-                  onPressed: () async {
-                    if (isBookmark) {
-                      await deleteBookmark();
-                    } else {
-                      await addBookmark();
-                    }
-                  },
-                  icon: Icon(
-                    Icons.star,
-                    color: isBookmark
-                        ? Colors.yellow.shade700
-                        : Colors.grey.shade400,
+                dictionaryModel?.fullTitle != null
+                    ? Text(dictionaryModel!.fullTitle ?? '',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            // fontSize: 40,
+                            color: Colors.grey.shade800))
+                    : const SizedBox(),
+                Container(
+                  margin: const EdgeInsets.only(top: 15),
+                  child: Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 3, horizontal: 5),
+                        decoration: BoxDecoration(
+                            color: dictionaryModel?.category == 'investasi'
+                                ? const Color.fromRGBO(65, 83, 181, 1)
+                                : Colors.white,
+                            borderRadius: const BorderRadius.only(
+                              topLeft: Radius.circular(10),
+                              bottomLeft: Radius.circular(10),
+                            ),
+                            border: Border.all(color: Colors.grey.shade200)),
+                        child: Text('Investasi',
+                            style: TextStyle(
+                              color: dictionaryModel?.category == 'investasi'
+                                  ? Colors.white
+                                  : Colors.grey.shade800,
+                            )),
+                      ),
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 3, horizontal: 5),
+                        decoration: BoxDecoration(
+                            color: dictionaryModel?.category == 'trading'
+                                ? const Color.fromRGBO(65, 83, 181, 1)
+                                : Colors.white,
+                            border: Border.all(color: Colors.grey.shade200)),
+                        child: Text('Trading',
+                            style: TextStyle(
+                              color: dictionaryModel?.category == 'trading'
+                                  ? Colors.white
+                                  : Colors.grey.shade800,
+                            )),
+                      ),
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 3, horizontal: 5),
+                        decoration: BoxDecoration(
+                            color: dictionaryModel?.category == 'kripto'
+                                ? const Color.fromRGBO(65, 83, 181, 1)
+                                : Colors.white,
+                            border: Border.all(color: Colors.grey.shade200)),
+                        child: Text('Kripto',
+                            style: TextStyle(
+                              color: dictionaryModel?.category == 'kripto'
+                                  ? Colors.white
+                                  : Colors.grey.shade800,
+                            )),
+                      ),
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 3, horizontal: 5),
+                        decoration: BoxDecoration(
+                            color: dictionaryModel?.category == 'saham'
+                                ? const Color.fromRGBO(65, 83, 181, 1)
+                                : Colors.white,
+                            borderRadius: const BorderRadius.only(
+                              topRight: Radius.circular(10),
+                              bottomRight: Radius.circular(10),
+                            ),
+                            border: Border.all(color: Colors.grey.shade200)),
+                        child: Text('Saham',
+                            style: TextStyle(
+                              color: dictionaryModel?.category == 'saham'
+                                  ? Colors.white
+                                  : Colors.grey.shade800,
+                            )),
+                      ),
+                    ],
                   ),
                 ),
-                IconButton(
-                  onPressed: () async {
-                    SharePlus.instance.share(ShareParams(
-                        text:
-                            '${dictionaryModel?.title} \n\n${dictionaryModel?.description}\n\nDownload aplikasi Kamus Investasi Sekarang!\nhttps://bit.ly/kamus-investasi',
-                        subject: dictionaryModel?.title ?? ''));
-                  },
-                  icon: Icon(
-                    Icons.share,
-                    color: Colors.grey.shade400,
-                  ),
-                )
-              ],
-            ),
-            dictionaryModel?.fullTitle != null
-                ? Text(dictionaryModel!.fullTitle ?? '',
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        // fontSize: 40,
-                        color: Colors.grey.shade800))
-                : const SizedBox(),
-            Container(
-              margin: const EdgeInsets.only(top: 15),
-              child: Row(
-                children: [
-                  Container(
-                    padding:
-                        const EdgeInsets.symmetric(vertical: 3, horizontal: 5),
-                    decoration: BoxDecoration(
-                        color: dictionaryModel?.category == 'investasi'
-                            ? const Color.fromRGBO(65, 83, 181, 1)
-                            : Colors.white,
-                        borderRadius: const BorderRadius.only(
-                          topLeft: Radius.circular(10),
-                          bottomLeft: Radius.circular(10),
-                        ),
-                        border: Border.all(color: Colors.grey.shade200)),
-                    child: Text('Investasi',
+                const SizedBox(
+                  height: 15,
+                ),
+                Row(
+                  children: [
+                    Text('Deskripsi',
                         style: TextStyle(
-                          color: dictionaryModel?.category == 'investasi'
-                              ? Colors.white
-                              : Colors.grey.shade800,
-                        )),
-                  ),
-                  Container(
-                    padding:
-                        const EdgeInsets.symmetric(vertical: 3, horizontal: 5),
-                    decoration: BoxDecoration(
-                        color: dictionaryModel?.category == 'trading'
-                            ? const Color.fromRGBO(65, 83, 181, 1)
-                            : Colors.white,
-                        border: Border.all(color: Colors.grey.shade200)),
-                    child: Text('Trading',
-                        style: TextStyle(
-                          color: dictionaryModel?.category == 'trading'
-                              ? Colors.white
-                              : Colors.grey.shade800,
-                        )),
-                  ),
-                  Container(
-                    padding:
-                        const EdgeInsets.symmetric(vertical: 3, horizontal: 5),
-                    decoration: BoxDecoration(
-                        color: dictionaryModel?.category == 'kripto'
-                            ? const Color.fromRGBO(65, 83, 181, 1)
-                            : Colors.white,
-                        border: Border.all(color: Colors.grey.shade200)),
-                    child: Text('Kripto',
-                        style: TextStyle(
-                          color: dictionaryModel?.category == 'kripto'
-                              ? Colors.white
-                              : Colors.grey.shade800,
-                        )),
-                  ),
-                  Container(
-                    padding:
-                        const EdgeInsets.symmetric(vertical: 3, horizontal: 5),
-                    decoration: BoxDecoration(
-                        color: dictionaryModel?.category == 'saham'
-                            ? const Color.fromRGBO(65, 83, 181, 1)
-                            : Colors.white,
-                        borderRadius: const BorderRadius.only(
-                          topRight: Radius.circular(10),
-                          bottomRight: Radius.circular(10),
-                        ),
-                        border: Border.all(color: Colors.grey.shade200)),
-                    child: Text('Saham',
-                        style: TextStyle(
-                          color: dictionaryModel?.category == 'saham'
-                              ? Colors.white
-                              : Colors.grey.shade800,
-                        )),
-                  ),
-                ],
-              ),
-            ),
-            // Divider(
-            //   color: Color.fromRGBO(65, 83, 181, 1),
-            // ),
-            Center(
-              child: BannerAdWidget(
-                placement: BannerPlacement.detailDictionary,
-              ),
-            ),
-            const SizedBox(
-              height: 15,
-            ),
-            Row(
-              children: [
-                Text('Deskripsi',
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                            color: Colors.grey.shade800)),
+                    const SizedBox(
+                      width: 8,
+                    ),
+                    GestureDetector(
+                        onTap: () {
+                          FlutterClipboard.copy(
+                                  dictionaryModel?.description ?? '')
+                              .then((value) {
+                            Fluttertoast.showToast(
+                                msg: 'Deskripsi telah disalin');
+                          });
+                        },
+                        child: const Icon(Iconsax.copy, color: Colors.grey))
+                  ],
+                ),
+                const SizedBox(
+                  height: 15,
+                ),
+                dictionaryModel?.description != null
+                    ? Container(
+                        margin: const EdgeInsets.only(bottom: 15),
+                        child: Text(dictionaryModel!.description ?? '',
+                            style: TextStyle(
+                                // fontWeight: FontWeight.bold,
+                                // fontSize: 16,
+                                height: 1.5,
+                                color: Colors.grey.shade800)),
+                      )
+                    : const SizedBox(),
+                Text('Kata Terkait',
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 16,
                         color: Colors.grey.shade800)),
                 const SizedBox(
-                  width: 8,
+                  height: 15,
                 ),
-                GestureDetector(
-                    onTap: () {
-                      FlutterClipboard.copy(dictionaryModel?.description ?? '')
-                          .then((value) {
-                        Fluttertoast.showToast(msg: 'Deskripsi telah disalin');
-                      });
-                    },
-                    child: const Icon(Iconsax.copy, color: Colors.grey))
+                Wrap(
+                  children: [
+                    for (DictionaryModel item in listRelated)
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (builder) {
+                            return DictionaryDetailScreen(
+                              id: item.id,
+                            );
+                          }));
+                        },
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: 3, horizontal: 8),
+                          margin: const EdgeInsets.only(right: 8, bottom: 8),
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              border: Border.all(color: Colors.grey.shade200)),
+                          child: Text(item.title ?? ''),
+                        ),
+                      ),
+                  ],
+                )
               ],
             ),
-            const SizedBox(
-              height: 15,
+          ),
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: BannerAdWidget(
+              margin: EdgeInsets.zero,
+              placement: BannerPlacement.detailDictionary,
             ),
-            dictionaryModel?.description != null
-                ? Container(
-                    margin: const EdgeInsets.only(bottom: 15),
-                    child: Text(dictionaryModel!.description ?? '',
-                        style: TextStyle(
-                            // fontWeight: FontWeight.bold,
-                            // fontSize: 16,
-                            height: 1.5,
-                            color: Colors.grey.shade800)),
-                  )
-                : const SizedBox(),
-            Text('Kata Terkait',
-                style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 16,
-                    color: Colors.grey.shade800)),
-            const SizedBox(
-              height: 15,
-            ),
-            Wrap(
-              children: [
-                for (DictionaryModel item in listRelated)
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (builder) {
-                        return DictionaryDetailScreen(
-                          id: item.id,
-                        );
-                      }));
-                    },
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(
-                          vertical: 3, horizontal: 8),
-                      margin: const EdgeInsets.only(right: 8, bottom: 8),
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(color: Colors.grey.shade200)),
-                      child: Text(item.title ?? ''),
-                    ),
-                  ),
-              ],
-            )
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

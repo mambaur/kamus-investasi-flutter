@@ -1,3 +1,7 @@
+## 1.0.8 (10)
+
+* Memperbaiki issue admob: Modified ad code: Resizing Ad Frames
+
 ## 1.0.7 (9)
 
 * Memperbaiki issue admob: Modified ad code: Resizing Ad Frames

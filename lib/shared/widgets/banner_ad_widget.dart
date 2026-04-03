@@ -83,14 +83,12 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
       return const SizedBox();
     }
 
-    return Padding(
-      padding: widget.margin ?? const EdgeInsets.only(top: 15),
-      child: Center(
-        child: SizedBox(
-          width: myBanner!.size.width.toDouble(),
-          height: myBanner!.size.height.toDouble(),
-          child: AdWidget(ad: myBanner!),
-        ),
+    return Container(
+      margin: widget.margin ?? const EdgeInsets.only(top: 15),
+      child: SizedBox(
+        width: myBanner!.size.width.toDouble(),
+        height: myBanner!.size.height.toDouble(),
+        child: AdWidget(ad: myBanner!),
       ),
     );
   }
