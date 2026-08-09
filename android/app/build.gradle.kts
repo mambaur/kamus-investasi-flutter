@@ -16,7 +16,10 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace = "com.caraguna.kamus.investasi"
-    compileSdk = flutter.compileSdkVersion
+    // Never below 36 (needed by targetSdk 36), but follow the Flutter SDK upward so the
+    // app is never compiled against an older API than the plugins it depends on —
+    // plugins use `flutter.compileSdkVersion`, and a mismatch fails checkReleaseAarMetadata.
+    compileSdk = maxOf(flutter.compileSdkVersion, 36)
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -34,7 +37,7 @@ android {
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        targetSdk = 36
         versionCode = flutter.versionCode
         versionName = flutter.versionName
         multiDexEnabled = true

@@ -1,5 +1,5 @@
-import 'package:clipboard/clipboard.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:kamus_investasi/databases/bookmarks/bookmark_repository.dart';
@@ -247,8 +247,8 @@ class _DictionaryDetailScreenState extends State<DictionaryDetailScreen> {
                     ),
                     GestureDetector(
                         onTap: () {
-                          FlutterClipboard.copy(
-                                  dictionaryModel?.description ?? '')
+                          Clipboard.setData(ClipboardData(
+                                  text: dictionaryModel?.description ?? ''))
                               .then((value) {
                             Fluttertoast.showToast(
                                 msg: 'Deskripsi telah disalin');
